@@ -1,0 +1,846 @@
+no match for pitches [58] at indices [6] (bar 2; onset 1/2)
+pitches in tab chord : [58]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[3]]
+
+no match for pitches [58] at indices [13] (bar 2; onset 7/4)
+pitches in tab chord : [55, 58]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[2], [3]]
+
+no match for pitches [57] at indices [15] (bar 3; onset 0/32)
+pitches in tab chord : [53, 57]
+cheapest mapping (total cost 1):
+  voice 3 for pitch 57 (at cost 1) --> other
+voices for chord: [[2], [3]]
+
+no match for pitches [50] at indices [16] (bar 3; onset 1/2)
+pitches in tab chord : [50, 58]
+cheapest mapping (total cost 4):
+  voice 3 for pitch 50 (at cost 4) --> other
+voices for chord: [[3], [2]]
+
+no match for pitches [58] at indices [21] (bar 3; onset 3/2)
+pitches in tab chord : [58]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[2]]
+
+no match for pitches [60] at indices [28] (bar 4; onset 1/4)
+pitches in tab chord : [60]
+cheapest mapping (total cost 2):
+  voice 2 for pitch 60 (at cost 2) --> other
+voices for chord: [[2]]
+
+no match for pitches [62] at indices [29] (bar 4; onset 1/2)
+pitches in tab chord : [62]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[1]]
+
+no match for pitches [58] at indices [30] (bar 4; onset 3/4)
+pitches in tab chord : [58]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[2]]
+
+no match for pitches [57] at indices [32] (bar 4; onset 1/1)
+pitches in tab chord : [53, 57, 60]
+cheapest mapping (total cost 1):
+  voice 2 for pitch 57 (at cost 1) --> other
+voices for chord: [[3], [2], [1]]
+
+no match for pitches [64] at indices [35] (bar 4; onset 3/2)
+pitches in tab chord : [64]
+cheapest mapping (total cost 4):
+  voice 1 for pitch 64 (at cost 4) --> other
+voices for chord: [[1]]
+
+no match for pitches [48, 55] at indices [37, 38] (bar 5; onset 0/32)
+pitches in tab chord : [48, 55, 67]
+cheapest mapping (total cost 4):
+  voice 3 for pitch 48 (at cost 2) --> other
+  voice 2 for pitch 55 (at cost 2) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [67] at indices [41] (bar 5; onset 1/2)
+pitches in tab chord : [67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[0]]
+
+no match for pitches [64] at indices [42] (bar 5; onset 3/4)
+pitches in tab chord : [64]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 64 (at cost 0) --> repetition
+voices for chord: [[1]]
+
+no match for pitches [53] at indices [43] (bar 5; onset 1/1)
+pitches in tab chord : [53, 57, 65]
+cheapest mapping (total cost 5):
+  voice 3 for pitch 53 (at cost 5) --> other
+voices for chord: [[3], [2], [1, 0]]
+
+no match for pitches [55] at indices [46] (bar 5; onset 3/2)
+pitches in tab chord : [55, 58, 70]
+cheapest mapping (total cost 5):
+  voice 3 for pitch 55 (at cost 5) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [69] at indices [51] (bar 6; onset 0/32)
+pitches in tab chord : [53, 60, 69]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 69 (at cost 1) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [53, 60, 70] at indices [53, 54, 55] (bar 6; onset 1/2)
+pitches in tab chord : [53, 60, 70]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 53 (at cost 0) --> repetition
+  voice 2 for pitch 60 (at cost 0) --> repetition
+  voice 0 for pitch 70 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [46, 58] at indices [62, 63] (bar 7; onset 0/32)
+pitches in tab chord : [46, 58, 65]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 46 (at cost 0) --> repetition
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[3], [2], [1]]
+
+no match for pitches [63] at indices [66] (bar 7; onset 3/4)
+pitches in tab chord : [63]
+cheapest mapping (total cost 2):
+  voice 1 for pitch 63 (at cost 2) --> ficta
+voices for chord: [[1]]
+
+no match for pitches [58, 62] at indices [69, 70] (bar 7; onset 3/2)
+pitches in tab chord : [58, 62]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 58 (at cost 0) --> repetition
+  voice 1 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [1]]
+
+no match for pitches [60] at indices [72] (bar 7; onset 7/4)
+pitches in tab chord : [57, 60]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 60 (at cost 0) --> repetition
+voices for chord: [[3], [1]]
+
+no match for pitches [58] at indices [73] (bar 8; onset 0/32)
+pitches in tab chord : [58, 62]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[2], [1]]
+
+no match for pitches [57] at indices [76] (bar 8; onset 1/2)
+pitches in tab chord : [57, 65]
+cheapest mapping (total cost 1):
+  voice 2 for pitch 57 (at cost 1) --> other
+voices for chord: [[2], [1]]
+
+no match for pitches [58, 67] at indices [88, 89] (bar 9; onset 1/2)
+pitches in tab chord : [55, 58, 67]
+cheapest mapping (total cost 3):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+  voice 0 for pitch 67 (at cost 3) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [58] at indices [91] (bar 9; onset 1/1)
+pitches in tab chord : [55, 58, 70]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[1], [2], [0]]
+
+no match for pitches [53, 60] at indices [93, 94] (bar 9; onset 7/4)
+pitches in tab chord : [53, 60, 69]
+cheapest mapping (total cost 4):
+  voice 3 for pitch 53 (at cost 2) --> other
+  voice 2 for pitch 60 (at cost 2) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [55] at indices [96] (bar 10; onset 0/32)
+pitches in tab chord : [55, 58, 67]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 55 (at cost 0) --> repetition
+voices for chord: [[3], [1], [0]]
+
+no match for pitches [57, 66] at indices [100, 101] (bar 10; onset 1/2)
+pitches in tab chord : [50, 57, 66]
+cheapest mapping (total cost 2):
+  voice 2 for pitch 57 (at cost 1) --> other
+  voice 0 for pitch 66 (at cost 1) --> ficta
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [55, 58] at indices [102, 103] (bar 10; onset 1/1)
+pitches in tab chord : [55, 58, 67]
+cheapest mapping (total cost 5):
+  voice 3 for pitch 55 (at cost 5) --> other
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [58] at indices [107] (bar 10; onset 3/2)
+pitches in tab chord : [55, 58, 70]
+cheapest mapping (total cost 7):
+  voice 3 for pitch 58 (at cost 7) --> other
+voices for chord: [[2, 1], [3], [0]]
+
+no match for pitches [60] at indices [111] (bar 11; onset 0/32)
+pitches in tab chord : [53, 60, 69]
+cheapest mapping (total cost 5):
+  voice 1 for pitch 60 (at cost 5) --> other
+voices for chord: [[2], [1], [0]]
+
+no match for pitches [66] at indices [115] (bar 11; onset 1/2)
+pitches in tab chord : [55, 66]
+cheapest mapping (total cost 3):
+  voice 0 for pitch 66 (at cost 3) --> ficta
+voices for chord: [[2], [0]]
+
+no match for pitches [64] at indices [116] (bar 11; onset 3/4)
+pitches in tab chord : [64]
+cheapest mapping (total cost 3):
+  voice 0 for pitch 64 (at cost 3) --> other
+voices for chord: [[0]]
+
+no match for pitches [57, 67] at indices [118, 119] (bar 11; onset 1/1)
+pitches in tab chord : [50, 57, 67]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 57 (at cost 0) --> repetition
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [66] at indices [120] (bar 11; onset 5/4)
+pitches in tab chord : [66]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 66 (at cost 1) --> other
+voices for chord: [[0]]
+
+no match for pitches [67] at indices [121] (bar 11; onset 3/2)
+pitches in tab chord : [67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[0]]
+
+no match for pitches [58] at indices [126] (bar 12; onset 0/32)
+pitches in tab chord : [55, 58, 67]
+cheapest mapping (total cost 4):
+  voice 1 for pitch 58 (at cost 4) --> other
+voices for chord: [[2], [1], [0]]
+
+no match for pitches [55] at indices [129] (bar 12; onset 1/2)
+pitches in tab chord : [55]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 55 (at cost 0) --> repetition
+voices for chord: [[2]]
+
+no match for pitches [58, 62] at indices [131, 132] (bar 12; onset 1/1)
+pitches in tab chord : [58, 62]
+cheapest mapping (total cost 5):
+  voice 1 for pitch 58 (at cost 0) --> repetition
+  voice 0 for pitch 62 (at cost 5) --> other
+voices for chord: [[1], [0]]
+
+no match for pitches [58] at indices [134] (bar 12; onset 3/2)
+pitches in tab chord : [58, 62]
+cheapest mapping (total cost 3):
+  voice 3 for pitch 58 (at cost 3) --> other
+voices for chord: [[3], [1]]
+
+no match for pitches [57] at indices [137] (bar 13; onset 0/32)
+pitches in tab chord : [57, 65]
+cheapest mapping (total cost 2):
+  voice 3 for pitch 57 (at cost 2) --> other
+voices for chord: [[3], [1]]
+
+no match for pitches [62] at indices [142] (bar 13; onset 1/1)
+pitches in tab chord : [58, 62]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [1]]
+
+no match for pitches [60] at indices [144] (bar 13; onset 3/2)
+pitches in tab chord : [57, 60]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 60 (at cost 0) --> repetition
+voices for chord: [[3], [1]]
+
+no match for pitches [58] at indices [148] (bar 14; onset 3/4)
+pitches in tab chord : [55, 58]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[2], [3]]
+
+no match for pitches [57] at indices [150] (bar 14; onset 1/1)
+pitches in tab chord : [53, 57]
+cheapest mapping (total cost 1):
+  voice 3 for pitch 57 (at cost 1) --> other
+voices for chord: [[2], [3]]
+
+no match for pitches [50] at indices [151] (bar 14; onset 3/2)
+pitches in tab chord : [50, 58]
+cheapest mapping (total cost 4):
+  voice 3 for pitch 50 (at cost 4) --> other
+voices for chord: [[3], [2]]
+
+no match for pitches [58] at indices [156] (bar 15; onset 1/2)
+pitches in tab chord : [58]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[2]]
+
+no match for pitches [60] at indices [163] (bar 15; onset 5/4)
+pitches in tab chord : [60]
+cheapest mapping (total cost 2):
+  voice 2 for pitch 60 (at cost 2) --> other
+voices for chord: [[2]]
+
+no match for pitches [62] at indices [164] (bar 15; onset 3/2)
+pitches in tab chord : [62]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[1]]
+
+no match for pitches [58] at indices [165] (bar 15; onset 7/4)
+pitches in tab chord : [58]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[2]]
+
+no match for pitches [57] at indices [167] (bar 16; onset 0/32)
+pitches in tab chord : [53, 57, 60]
+cheapest mapping (total cost 1):
+  voice 2 for pitch 57 (at cost 1) --> other
+voices for chord: [[3], [2], [1]]
+
+no match for pitches [64] at indices [170] (bar 16; onset 1/2)
+pitches in tab chord : [64]
+cheapest mapping (total cost 3):
+  voice 0 for pitch 64 (at cost 3) --> other
+voices for chord: [[0]]
+
+no match for pitches [48, 55] at indices [172, 173] (bar 16; onset 1/1)
+pitches in tab chord : [48, 55, 67]
+cheapest mapping (total cost 4):
+  voice 3 for pitch 48 (at cost 2) --> other
+  voice 2 for pitch 55 (at cost 2) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [67] at indices [176] (bar 16; onset 3/2)
+pitches in tab chord : [67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[0]]
+
+no match for pitches [64] at indices [177] (bar 16; onset 7/4)
+pitches in tab chord : [64]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 64 (at cost 0) --> repetition
+voices for chord: [[1]]
+
+no match for pitches [53, 60] at indices [178, 180] (bar 17; onset 0/32)
+pitches in tab chord : [53, 57, 60, 65]
+cheapest mapping (total cost 9):
+  voice 3 for pitch 53 (at cost 5) --> other
+  voice 1 for pitch 60 (at cost 4) --> other
+voices for chord: [[3], [2], [1], [0]]
+
+no match for pitches [55] at indices [182] (bar 17; onset 1/2)
+pitches in tab chord : [55, 58, 70]
+cheapest mapping (total cost 5):
+  voice 3 for pitch 55 (at cost 5) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [69] at indices [187] (bar 17; onset 1/1)
+pitches in tab chord : [53, 60, 69]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 69 (at cost 1) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [53, 60, 70] at indices [189, 190, 191] (bar 17; onset 3/2)
+pitches in tab chord : [53, 60, 70]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 53 (at cost 0) --> repetition
+  voice 2 for pitch 60 (at cost 0) --> repetition
+  voice 0 for pitch 70 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [46, 58] at indices [198, 199] (bar 18; onset 1/1)
+pitches in tab chord : [46, 58, 65]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 46 (at cost 0) --> repetition
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[3], [2], [1]]
+
+no match for pitches [63] at indices [202] (bar 18; onset 7/4)
+pitches in tab chord : [63]
+cheapest mapping (total cost 2):
+  voice 1 for pitch 63 (at cost 2) --> ficta
+voices for chord: [[1]]
+
+no match for pitches [58, 62] at indices [205, 206] (bar 19; onset 1/2)
+pitches in tab chord : [58, 62]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 58 (at cost 0) --> repetition
+  voice 1 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [1]]
+
+no match for pitches [60] at indices [208] (bar 19; onset 3/4)
+pitches in tab chord : [57, 60]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 60 (at cost 0) --> repetition
+voices for chord: [[3], [1]]
+
+no match for pitches [58] at indices [209] (bar 19; onset 1/1)
+pitches in tab chord : [58, 62]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[2], [1]]
+
+no match for pitches [57] at indices [212] (bar 19; onset 3/2)
+pitches in tab chord : [57, 65]
+cheapest mapping (total cost 1):
+  voice 2 for pitch 57 (at cost 1) --> other
+voices for chord: [[2], [1]]
+
+no match for pitches [58, 67] at indices [224, 225] (bar 20; onset 3/2)
+pitches in tab chord : [55, 58, 67]
+cheapest mapping (total cost 3):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+  voice 0 for pitch 67 (at cost 3) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [58] at indices [227] (bar 21; onset 0/32)
+pitches in tab chord : [55, 58, 70]
+cheapest mapping (total cost 0):
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[1], [2], [0]]
+
+no match for pitches [53, 60] at indices [229, 230] (bar 21; onset 3/4)
+pitches in tab chord : [53, 60, 69]
+cheapest mapping (total cost 4):
+  voice 3 for pitch 53 (at cost 2) --> other
+  voice 2 for pitch 60 (at cost 2) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [55, 58] at indices [232, 233] (bar 21; onset 1/1)
+pitches in tab chord : [55, 58, 67]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 55 (at cost 0) --> repetition
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [50, 57, 66] at indices [235, 236, 237] (bar 21; onset 3/2)
+pitches in tab chord : [50, 57, 66]
+cheapest mapping (total cost 7):
+  voice 3 for pitch 50 (at cost 5) --> other
+  voice 2 for pitch 57 (at cost 1) --> other
+  voice 0 for pitch 66 (at cost 1) --> ficta
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [55] at indices [238] (bar 22; onset 0/32)
+pitches in tab chord : [55, 58, 67]
+cheapest mapping (total cost 3):
+  voice 2 for pitch 55 (at cost 3) --> other
+voices for chord: [[2], [3], [0]]
+
+no match for pitches [58] at indices [243] (bar 22; onset 1/2)
+pitches in tab chord : [55, 58, 70]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[1], [3], [0]]
+
+no match for pitches [60] at indices [247] (bar 22; onset 1/1)
+pitches in tab chord : [53, 60, 69]
+cheapest mapping (total cost 2):
+  voice 3 for pitch 60 (at cost 2) --> other
+voices for chord: [[1], [3], [0]]
+
+no match for pitches [53, 65] at indices [250, 251] (bar 22; onset 3/2)
+pitches in tab chord : [53, 65]
+cheapest mapping (total cost 4):
+  voice 1 for pitch 53 (at cost 0) --> repetition
+  voice 0 for pitch 65 (at cost 4) --> other
+voices for chord: [[1], [0]]
+
+no match for pitches [55, 62] at indices [253, 255] (bar 23; onset 0/32)
+pitches in tab chord : [55, 58, 62]
+cheapest mapping (total cost 3):
+  voice 3 for pitch 55 (at cost 3) --> other
+  voice 0 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [62] at indices [257] (bar 23; onset 1/4)
+pitches in tab chord : [62]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[0]]
+
+no match for pitches [69] at indices [261] (bar 23; onset 3/4)
+pitches in tab chord : [69]
+cheapest mapping (total cost 4):
+  voice 0 for pitch 69 (at cost 4) --> other
+voices for chord: [[0]]
+
+no match for pitches [53, 60, 69] at indices [263, 264, 265] (bar 24; onset 0/32)
+pitches in tab chord : [53, 60, 69]
+cheapest mapping (total cost 2):
+  voice 2 for pitch 53 (at cost 0) --> repetition
+  voice 1 for pitch 60 (at cost 2) --> other
+  voice 0 for pitch 69 (at cost 0) --> repetition
+voices for chord: [[2], [1], [0]]
+
+no match for pitches [67] at indices [266] (bar 24; onset 1/4)
+pitches in tab chord : [67]
+cheapest mapping (total cost 2):
+  voice 0 for pitch 67 (at cost 2) --> other
+voices for chord: [[0]]
+
+no match for pitches [55, 66] at indices [267, 268] (bar 24; onset 1/2)
+pitches in tab chord : [55, 66]
+cheapest mapping (total cost 5):
+  voice 2 for pitch 55 (at cost 2) --> other
+  voice 0 for pitch 66 (at cost 3) --> ficta
+voices for chord: [[2], [0]]
+
+no match for pitches [64] at indices [269] (bar 24; onset 3/4)
+pitches in tab chord : [64]
+cheapest mapping (total cost 3):
+  voice 0 for pitch 64 (at cost 3) --> other
+voices for chord: [[0]]
+
+no match for pitches [67] at indices [272] (bar 24; onset 1/1)
+pitches in tab chord : [50, 57, 67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [67] at indices [274] (bar 24; onset 3/2)
+pitches in tab chord : [67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[0]]
+
+no match for pitches [63] at indices [285] (bar 25; onset 1/1)
+pitches in tab chord : [63]
+cheapest mapping (total cost 1):
+  voice 1 for pitch 63 (at cost 1) --> other
+voices for chord: [[1]]
+
+no match for pitches [57] at indices [291] (bar 25; onset 7/4)
+pitches in tab chord : [57]
+cheapest mapping (total cost 2):
+  voice 3 for pitch 57 (at cost 2) --> other
+voices for chord: [[3]]
+
+no match for pitches [60] at indices [295] (bar 26; onset 0/32)
+pitches in tab chord : [53, 57, 60]
+cheapest mapping (total cost 5):
+  voice 2 for pitch 60 (at cost 5) --> other
+voices for chord: [[3], [1], [2]]
+
+no match for pitches [62] at indices [297] (bar 26; onset 1/2)
+pitches in tab chord : [62]
+cheapest mapping (total cost 5):
+  voice 1 for pitch 62 (at cost 5) --> other
+voices for chord: [[1]]
+
+no match for pitches [52] at indices [298] (bar 26; onset 1/1)
+pitches in tab chord : [52, 55]
+cheapest mapping (total cost 5):
+  voice 1 for pitch 52 (at cost 5) --> other
+voices for chord: [[1], [3, 2]]
+
+no match for pitches [62] at indices [301] (bar 26; onset 3/2)
+pitches in tab chord : [62]
+cheapest mapping (total cost 5):
+  voice 1 for pitch 62 (at cost 5) --> other
+voices for chord: [[1]]
+
+no match for pitches [57, 62] at indices [306, 307] (bar 27; onset 0/32)
+pitches in tab chord : [50, 57, 62]
+cheapest mapping (total cost 5):
+  voice 1 for pitch 57 (at cost 0) --> repetition
+  voice 0 for pitch 62 (at cost 5) --> other
+voices for chord: [[3], [1], [0]]
+
+no match for pitches [62] at indices [309] (bar 31; onset 0/32)
+pitches in tab chord : [55, 62, 67]
+cheapest mapping (total cost 5):
+  voice 1 for pitch 62 (at cost 5) --> other
+voices for chord: [[2], [1], [0]]
+
+no match for pitches [55, 62, 67] at indices [311, 312, 313] (bar 31; onset 3/4)
+pitches in tab chord : [55, 62, 67]
+cheapest mapping (total cost 5):
+  voice 2 for pitch 55 (at cost 0) --> repetition
+  voice 1 for pitch 62 (at cost 5) --> other
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[2], [1], [0]]
+
+no match for pitches [66] at indices [315] (bar 31; onset 1/1)
+pitches in tab chord : [62, 66]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 66 (at cost 1) --> ficta
+voices for chord: [[1], [0]]
+
+no match for pitches [66] at indices [317] (bar 31; onset 3/2)
+pitches in tab chord : [62, 66]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 66 (at cost 1) --> ficta
+voices for chord: [[1], [0]]
+
+no match for pitches [55, 62] at indices [318, 319] (bar 32; onset 0/32)
+pitches in tab chord : [55, 62, 67]
+cheapest mapping (total cost 5):
+  voice 3 for pitch 55 (at cost 5) --> other
+  voice 1 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [1], [0]]
+
+no match for pitches [69] at indices [323] (bar 32; onset 1/2)
+pitches in tab chord : [69]
+cheapest mapping (total cost 2):
+  voice 0 for pitch 69 (at cost 2) --> other
+voices for chord: [[0]]
+
+no match for pitches [58] at indices [329] (bar 32; onset 3/2)
+pitches in tab chord : [55, 58, 62]
+cheapest mapping (total cost 4):
+  voice 0 for pitch 58 (at cost 4) --> other
+voices for chord: [[3], [0], [1]]
+
+no match for pitches [54, 62] at indices [331, 333] (bar 33; onset 0/32)
+pitches in tab chord : [54, 57, 62]
+cheapest mapping (total cost 1):
+  voice 3 for pitch 54 (at cost 1) --> ficta
+  voice 0 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [1], [0]]
+
+no match for pitches [54, 57, 62] at indices [334, 335, 336] (bar 33; onset 3/4)
+pitches in tab chord : [54, 57, 62]
+cheapest mapping (total cost 1):
+  voice 3 for pitch 54 (at cost 1) --> other
+  voice 1 for pitch 57 (at cost 0) --> repetition
+  voice 0 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [1], [0]]
+
+no match for pitches [62] at indices [339] (bar 33; onset 1/1)
+pitches in tab chord : [55, 58, 62]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [1], [0]]
+
+no match for pitches [58, 62] at indices [341, 342] (bar 33; onset 3/2)
+pitches in tab chord : [55, 58, 62]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 58 (at cost 0) --> repetition
+  voice 0 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [1], [0]]
+
+no match for pitches [57, 62] at indices [344, 345] (bar 34; onset 0/32)
+pitches in tab chord : [50, 57, 62]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 57 (at cost 0) --> repetition
+  voice 0 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[3], [1], [0]]
+
+no match for pitches [58] at indices [353] (bar 34; onset 1/1)
+pitches in tab chord : [46, 58, 70]
+cheapest mapping (total cost 5):
+  voice 1 for pitch 58 (at cost 5) --> other
+voices for chord: [[3], [1], [0]]
+
+no match for pitches [58] at indices [356] (bar 34; onset 7/4)
+pitches in tab chord : [46, 58, 70]
+cheapest mapping (total cost 4):
+  voice 2 for pitch 58 (at cost 4) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [58] at indices [359] (bar 35; onset 0/32)
+pitches in tab chord : [46, 58, 70]
+cheapest mapping (total cost 4):
+  voice 2 for pitch 58 (at cost 4) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [58] at indices [362] (bar 35; onset 1/2)
+pitches in tab chord : [46, 58, 70]
+cheapest mapping (total cost 4):
+  voice 2 for pitch 58 (at cost 4) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [48, 60] at indices [367, 368] (bar 35; onset 3/2)
+pitches in tab chord : [48, 60, 67]
+cheapest mapping (total cost 5):
+  voice 3 for pitch 48 (at cost 5) --> other
+  voice 2 for pitch 60 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [58] at indices [378] (bar 36; onset 7/4)
+pitches in tab chord : [58, 67]
+cheapest mapping (total cost 1):
+  voice 2 for pitch 58 (at cost 1) --> other
+voices for chord: [[2], [0]]
+
+no match for pitches [55] at indices [382] (bar 37; onset 1/4)
+pitches in tab chord : [55, 70]
+cheapest mapping (total cost 2):
+  voice 3 for pitch 55 (at cost 2) --> other
+voices for chord: [[3], [0]]
+
+no match for pitches [58] at indices [386] (bar 37; onset 3/4)
+pitches in tab chord : [58, 67]
+cheapest mapping (total cost 1):
+  voice 2 for pitch 58 (at cost 1) --> other
+voices for chord: [[2], [0]]
+
+no match for pitches [55] at indices [390] (bar 37; onset 5/4)
+pitches in tab chord : [55, 67]
+cheapest mapping (total cost 2):
+  voice 3 for pitch 55 (at cost 2) --> other
+voices for chord: [[3], [0]]
+
+no match for pitches [57] at indices [396] (bar 38; onset 0/32)
+pitches in tab chord : [57, 69]
+cheapest mapping (total cost 2):
+  voice 3 for pitch 57 (at cost 2) --> other
+voices for chord: [[3], [0]]
+
+no match for pitches [46, 58] at indices [401, 402] (bar 38; onset 1/1)
+pitches in tab chord : [46, 58, 70]
+cheapest mapping (total cost 6):
+  voice 3 for pitch 46 (at cost 3) --> other
+  voice 2 for pitch 58 (at cost 3) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [46, 58] at indices [404, 405] (bar 38; onset 7/4)
+pitches in tab chord : [46, 58, 70]
+cheapest mapping (total cost 13):
+  voice 3 for pitch 46 (at cost 9) --> other
+  voice 2 for pitch 58 (at cost 4) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [46, 58] at indices [407, 408] (bar 39; onset 0/32)
+pitches in tab chord : [46, 58, 70]
+cheapest mapping (total cost 13):
+  voice 3 for pitch 46 (at cost 9) --> other
+  voice 2 for pitch 58 (at cost 4) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [46] at indices [410] (bar 39; onset 1/2)
+pitches in tab chord : [46, 58, 70]
+cheapest mapping (total cost 16):
+  voice 2 for pitch 46 (at cost 16) --> other
+voices for chord: [[2], [3], [0]]
+
+no match for pitches [48, 60] at indices [416, 417] (bar 39; onset 3/2)
+pitches in tab chord : [48, 60, 67]
+cheapest mapping (total cost 5):
+  voice 3 for pitch 48 (at cost 5) --> other
+  voice 2 for pitch 60 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [53, 57, 72] at indices [424, 425, 426] (bar 40; onset 1/2)
+pitches in tab chord : [53, 57, 72]
+cheapest mapping (total cost 6):
+  voice 3 for pitch 53 (at cost 0) --> repetition
+  voice 2 for pitch 57 (at cost 3) --> other
+  voice 0 for pitch 72 (at cost 3) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [53, 69] at indices [428, 430] (bar 40; onset 1/1)
+pitches in tab chord : [53, 60, 69]
+cheapest mapping (total cost 0):
+  voice 3 for pitch 53 (at cost 0) --> repetition
+  voice 0 for pitch 69 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [67] at indices [431] (bar 40; onset 5/4)
+pitches in tab chord : [67]
+cheapest mapping (total cost 3):
+  voice 1 for pitch 67 (at cost 3) --> other
+voices for chord: [[1]]
+
+no match for pitches [53, 57, 65] at indices [432, 433, 434] (bar 40; onset 3/2)
+pitches in tab chord : [53, 57, 65]
+cheapest mapping (total cost 9):
+  voice 3 for pitch 53 (at cost 5) --> other
+  voice 2 for pitch 57 (at cost 3) --> other
+  voice 1 for pitch 65 (at cost 1) --> other
+voices for chord: [[3], [2], [1]]
+
+no match for pitches [55, 58] at indices [436, 437] (bar 41; onset 0/32)
+pitches in tab chord : [55, 58, 62]
+cheapest mapping (total cost 7):
+  voice 3 for pitch 55 (at cost 7) --> other
+  voice 2 for pitch 58 (at cost 0) --> repetition
+voices for chord: [[3], [2], [1]]
+
+no match for pitches [64] at indices [441] (bar 41; onset 1/2)
+pitches in tab chord : [60, 64]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 64 (at cost 1) --> other
+voices for chord: [[1], [0]]
+
+no match for pitches [67] at indices [447] (bar 41; onset 3/2)
+pitches in tab chord : [50, 57, 67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [52] at indices [449] (bar 42; onset 0/32)
+pitches in tab chord : [52, 55, 67]
+cheapest mapping (total cost 2):
+  voice 3 for pitch 52 (at cost 2) --> other
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [50, 65] at indices [453, 454] (bar 42; onset 1/2)
+pitches in tab chord : [50, 65, 69]
+cheapest mapping (total cost 8):
+  voice 2 for pitch 50 (at cost 5) --> other
+  voice 1 for pitch 65 (at cost 3) --> other
+voices for chord: [[2], [1], [0]]
+
+no match for pitches [64] at indices [458] (bar 42; onset 1/1)
+pitches in tab chord : [48, 64, 72]
+cheapest mapping (total cost 4):
+  voice 2 for pitch 64 (at cost 4) --> ficta
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [71] at indices [460] (bar 42; onset 5/4)
+pitches in tab chord : [71]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 71 (at cost 1) --> ficta
+voices for chord: [[0]]
+
+no match for pitches [52, 64] at indices [461, 462] (bar 42; onset 3/2)
+pitches in tab chord : [52, 64, 69]
+cheapest mapping (total cost 5):
+  voice 2 for pitch 64 (at cost 2) --> other
+  voice 1 for pitch 52 (at cost 3) --> other
+voices for chord: [[1], [2], [0]]
+
+no match for pitches [66] at indices [467] (bar 43; onset 0/32)
+pitches in tab chord : [50, 57, 66]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 66 (at cost 1) --> ficta
+voices for chord: [[3], [2], [0]]
+
+no match for pitches [50, 62, 69] at indices [469, 470, 471] (bar 43; onset 1/2)
+pitches in tab chord : [50, 62, 69]
+cheapest mapping (total cost 4):
+  voice 3 for pitch 50 (at cost 0) --> repetition
+  voice 1 for pitch 62 (at cost 0) --> repetition
+  voice 0 for pitch 69 (at cost 4) --> other
+voices for chord: [[3], [1], [0]]
+
+number of notes in tab:    400
+number of mismatches:      182, of which 
+                           75 repetitions
+                           0 ornamentations
+                           12 ficta
+                           95 other
+percentage of matches:     0.5449999999999999 (only full matches)
+                           0.7625 (including repetitions and ficta)
+                           0.7625 (including ornamentations, repetitions, ficta)

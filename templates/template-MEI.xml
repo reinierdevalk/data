@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href='mei-cmn.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<mei xmlns='http://www.music-encoding.org/ns/mei'>
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>title_placeholder</title>
+            </titleStmt>
+        </fileDesc>
+        <workDesc>
+            <work>
+            </work>
+        </workDesc>    
+    </meiHead>
+    <music>
+       <body>
+            <mdiv>
+                <score>
+                    <scoreDef scoreDef_placeholder>
+                        <staffGrp staffGrp_placeholder>
+                            staffGrp_content_placeholder
+                        </staffGrp>
+                    </scoreDef>
+                    <section>
+                        section_content_placeholder
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>

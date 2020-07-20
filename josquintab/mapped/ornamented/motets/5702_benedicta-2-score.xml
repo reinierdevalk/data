@@ -1,0 +1,735 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href='mei-cmn.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<mei xmlns='http://www.music-encoding.org/ns/mei'>
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>5702_benedicta-2</title>
+            </titleStmt>
+        </fileDesc>
+    </meiHead>
+    <music>
+       <body>
+            <mdiv>
+                <score>
+                    <scoreDef key.sig='0s' meter.count='2' meter.unit='1'>
+                        <staffGrp symbol='brace' barthru='true'>
+                            <staffDef n='1' xml:id='s1' lines='5' clef.shape='G' clef.line='2'/>
+                            <staffDef n='2' xml:id='s2' lines='5' clef.shape='F' clef.line='4'/>   
+                        </staffGrp>
+                    </scoreDef>
+                    <section> 
+                        <measure n='1'>
+                            <staff n='1'>
+                                <layer n='1'>
+<rest dur='1' xml:id='0.1.0.r.0/1'/>
+<note pname='a' oct='4' dur='2' xml:id='0.1.1.a4.1/1.2.2'/>
+<rest dur='2' xml:id='0.1.2.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='d' oct='4' dur='1' xml:id='1.1.0.d4.0/1024.0.0'/>
+<note pname='f' oct='4' dur='2' xml:id='1.1.1.f4.1/1.1.1'/>
+<note pname='f' oct='4' dur='2' xml:id='1.1.2.f4.3/2.3.3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='2'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='c' oct='5' dur='2' xml:id='0.2.0.c5.0/1.5.5'/>
+<note pname='c' oct='5' dur='2' xml:id='0.2.1.c5.1/2.6.6'/>
+<note pname='c' oct='5' dur='4' xml:id='0.2.2.c5.1/1.8.8'/>
+<rest dur='2' dots='1' xml:id='0.2.3.r.5/4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='f' oct='4' dur='2' xml:id='1.2.0.f4.0/1.4.4'/>
+<rest dur='2' xml:id='1.2.1.r.1/2'/>
+<note pname='e' oct='4' dur='4' xml:id='1.2.2.e4.1/1.7.7'/>
+<note pname='d' oct='4' dur='4' xml:id='1.2.3.d4.5/4.9.9' color='blue'/>
+<note pname='c' oct='4' dur='4' xml:id='1.2.4.c4.3/2.10.10'/>
+<note pname='d' oct='4' dur='4' xml:id='1.2.5.d4.7/4.11.11'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='3'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='c' oct='5' dur='4' xml:id='0.3.0.c5.0/1.13.13' color='lime'/>
+<rest dur='4' xml:id='0.3.1.r.1/4'/>
+<note pname='g' oct='4' dur='2' xml:id='0.3.2.g4.1/2.16.16'/>
+<note pname='a' oct='4' dur='4' xml:id='0.3.3.a4.1/1.17.17'/>
+<rest dur='2' dots='1' xml:id='0.3.4.r.5/4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='e' oct='4' dur='4' xml:id='1.3.0.e4.0/1.12.12'/>
+<note pname='f' oct='4' accid='s' dur='4' xml:id='1.3.1.f4.1/4.14.14' color='orange'/>
+<note pname='g' oct='4' dur='2' xml:id='1.3.2.g4.1/2.15.15'/>
+<rest dur='4' xml:id='1.3.3.r.1/1'/>
+<note pname='g' oct='4' dur='4' xml:id='1.3.4.g4.5/4.18.18' color='lime'/>
+<note pname='g' oct='4' accid='f' dur='4' xml:id='1.3.5.g4.3/2.19.19'/>
+<note pname='e' oct='4' dur='4' xml:id='1.3.6.e4.7/4.20.20'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='4'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='g' oct='4' dur='4' xml:id='0.4.0.g4.0/1.22.22'/>
+<note pname='a' oct='4' dur='4' xml:id='0.4.1.a4.1/4.23.23'/>
+<note pname='b' oct='4' dur='4' xml:id='0.4.2.b4.1/2.25.25'/>
+<note pname='c' oct='5' dur='4' xml:id='0.4.3.c5.3/4.27.27'/>
+<note pname='d' oct='5' dur='4' xml:id='0.4.4.d5.1/1.29.29'/>
+<rest dur='2' xml:id='0.4.5.r.5/4'/>
+<note pname='c' oct='5' dur='4' xml:id='0.4.6.c5.7/4.33.33'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='g' oct='4' dur='4' xml:id='1.4.0.g4.0/1.21.21'/>
+<rest dur='4' xml:id='1.4.1.r.1/4'/>
+<note pname='g' oct='3' dur='4' xml:id='1.4.2.g3.1/2.24.24'/>
+<note pname='a' oct='3' dur='4' xml:id='1.4.3.a3.3/4.26.26'/>
+<note pname='b' oct='3' dur='4' xml:id='1.4.4.b3.1/1.28.28'/>
+<note pname='c' oct='4' dur='4' xml:id='1.4.5.c4.5/4.30.30'/>
+<note pname='d' oct='4' dur='4' xml:id='1.4.6.d4.3/2.31.31'/>
+<note pname='e' oct='4' dur='4' xml:id='1.4.7.e4.7/4.32.32'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='5'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='a' oct='4' dur='2' xml:id='0.5.0.a4.0/1.35.35'/>
+<note pname='g' oct='4' dur='2' xml:id='0.5.1.g4.1/2.37.37'/>
+<note pname='a' oct='4' dur='8' xml:id='0.5.2.a4.1/1.38.38'/>
+<rest dur='2' dots='2' xml:id='0.5.3.r.9/8'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='f' oct='4' accid='s' dur='2' xml:id='1.5.0.f4.0/1.34.34' color='orange'/>
+<note pname='g' oct='4' dur='2' xml:id='1.5.1.g4.1/2.36.36'/>
+<rest dur='8' xml:id='1.5.2.r.1/1'/>
+<note pname='g' oct='4' dur='8' xml:id='1.5.3.g4.9/8.39.39' color='blue'/>
+<note pname='g' oct='4' accid='f' dur='8' xml:id='1.5.4.g4.5/4.40.40'/>
+<note pname='e' oct='4' dur='8' xml:id='1.5.5.e4.11/8.41.41' color='blue'/>
+<note pname='g' oct='4' dur='8' xml:id='1.5.6.g4.3/2.42.42' color='red'/>
+<note pname='f' oct='4' dur='8' xml:id='1.5.7.f4.13/8.43.43' color='blue'/>
+<note pname='g' oct='4' dur='16' xml:id='1.5.8.g4.7/4.44.44' color='red'/>
+<note pname='g' oct='4' dur='16' xml:id='1.5.9.g4.29/16.45.45' color='blue'/>
+<note pname='e' oct='4' dur='16' xml:id='1.5.10.e4.15/8.46.46' color='blue'/>
+<note pname='f' oct='4' dur='16' xml:id='1.5.11.f4.31/16.47.47' color='blue'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='6'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='g' oct='4' dur='4' xml:id='0.6.0.g4.0/1.49.49'/>
+<rest dur='1' xml:id='0.6.1.r.1/4'/>
+<rest dur='4' xml:id='0.6.2.r.5/4'/>
+<rest dur='8' xml:id='0.6.3.r.3/2'/>
+<note pname='b' oct='4' dur='8' xml:id='0.6.4.b4.13/8.61.61' color='blue'/>
+<note pname='c' oct='5' dur='16' xml:id='0.6.5.c5.7/4.62.62' color='blue'/>
+<note pname='b' oct='4' dur='16' xml:id='0.6.6.b4.29/16.63.63' color='blue'/>
+<note pname='a' oct='4' dur='16' xml:id='0.6.7.a4.15/8.64.64' color='blue'/>
+<note pname='g' oct='4' dur='16' xml:id='0.6.8.g4.31/16.65.65' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='g' oct='4' dur='4' xml:id='1.6.0.g4.0/1.48.48'/>
+<note pname='g' oct='4' accid='f' dur='8' xml:id='1.6.1.g4.1/4.50.50' color='blue'/>
+<note pname='e' oct='4' dur='8' xml:id='1.6.2.e4.3/8.51.51' color='blue'/>
+<note pname='d' oct='4' dur='8' xml:id='1.6.3.d4.1/2.52.52' color='blue'/>
+<note pname='c' oct='4' dur='8' xml:id='1.6.4.c4.5/8.53.53' color='blue'/>
+<note pname='b' oct='3' dur='8' xml:id='1.6.5.b3.3/4.54.54' color='blue'/>
+<note pname='a' oct='3' dur='8' xml:id='1.6.6.a3.7/8.55.55' color='blue'/>
+<note pname='g' oct='3' dur='8' xml:id='1.6.7.g3.1/1.56.56' color='blue'/>
+<note pname='g' oct='4' dur='8' xml:id='1.6.8.g4.9/8.57.57' color='blue'/>
+<note pname='a' oct='4' dur='8' xml:id='1.6.9.a4.5/4.58.58' color='blue'/>
+<note pname='b' oct='4' dur='8' xml:id='1.6.10.b4.11/8.59.59' color='blue'/>
+<note pname='c' oct='5' dur='8' xml:id='1.6.11.c5.3/2.60.60' color='red'/>
+<rest dur='4' dots='1' xml:id='1.6.12.r.13/8'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='7'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='a' oct='4' dur='8' xml:id='0.7.0.a4.0/1.66.66'/>
+<note pname='f' oct='4' accid='s' dur='8' xml:id='0.7.1.f4.1/8.67.67' color='blue'/>
+<note pname='g' oct='4' dur='8' xml:id='0.7.2.g4.1/4.68.68' color='blue'/>
+<note pname='a' oct='4' dur='8' xml:id='0.7.3.a4.3/8.69.69' color='blue'/>
+<note pname='b' oct='4' dur='8' xml:id='0.7.4.b4.1/2.71.71'/>
+<note pname='g' oct='4' dur='8' xml:id='0.7.5.g4.5/8.72.72' color='blue'/>
+<note pname='a' oct='4' dur='8' xml:id='0.7.6.a4.3/4.73.73' color='blue'/>
+<note pname='b' oct='4' dur='8' xml:id='0.7.7.b4.7/8.74.74' color='blue'/>
+<note pname='c' oct='5' dur='4' xml:id='0.7.8.c5.1/1.76.76'/>
+<rest dur='2' xml:id='0.7.9.r.5/4'/>
+<note pname='b' oct='4' dur='8' xml:id='0.7.10.b4.7/4.79.79'/>
+<note pname='a' oct='4' dur='8' xml:id='0.7.11.a4.15/8.80.80' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<rest dur='2' xml:id='1.7.0.r.0/1'/>
+<note pname='g' oct='3' dur='8' xml:id='1.7.1.g3.1/2.70.70'/>
+<rest dur='4' dots='1' xml:id='1.7.2.r.5/8'/>
+<note pname='a' oct='3' dur='4' xml:id='1.7.3.a3.1/1.75.75'/>
+<note pname='e' oct='4' dur='4' xml:id='1.7.4.e4.5/4.77.77' color='blue'/>
+<note pname='b' oct='3' dur='4' xml:id='1.7.5.b3.3/2.78.78'/>
+<rest dur='4' xml:id='1.7.6.r.7/4'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='8'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='g' oct='4' dur='4' xml:id='0.8.0.g4.0/1.82.82'/>
+<note pname='b' oct='4' accid='f' dur='8' xml:id='0.8.1.b4.1/4.83.83' color='blue'/>
+<note pname='a' oct='4' dur='8' xml:id='0.8.2.a4.3/8.84.84' color='blue'/>
+<note pname='g' oct='4' dur='8' xml:id='0.8.3.g4.1/2.85.85' color='lime'/>
+<rest dur='2' dots='2' xml:id='0.8.4.r.5/8'/>
+<note pname='b' oct='4' dur='4' xml:id='0.8.5.b4.3/2.94.94'/>
+<rest dur='4' xml:id='0.8.6.r.7/4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='c' oct='4' dur='4' xml:id='1.8.0.c4.0/1.81.81'/>
+<rest dur='4' dots='1' xml:id='1.8.1.r.1/4'/>
+<note pname='f' oct='4' dur='8' xml:id='1.8.2.f4.5/8.86.86' color='blue'/>
+<note pname='e' oct='4' dur='8' xml:id='1.8.3.e4.3/4.87.87' color='blue'/>
+<note pname='d' oct='4' dur='8' xml:id='1.8.4.d4.7/8.88.88' color='blue'/>
+<note pname='c' oct='4' dur='8' xml:id='1.8.5.c4.1/1.89.89' color='blue'/>
+<note pname='a' oct='3' dur='8' xml:id='1.8.6.a3.9/8.90.90' color='blue'/>
+<note pname='b' oct='3' dur='8' xml:id='1.8.7.b3.5/4.91.91' color='blue'/>
+<note pname='c' oct='4' dur='8' xml:id='1.8.8.c4.11/8.92.92' color='blue'/>
+<note pname='b' oct='3' dur='4' xml:id='1.8.9.b3.3/2.93.93'/>
+<note pname='a' oct='3' dur='4' xml:id='1.8.10.a3.7/4.95.95' color='blue'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='9'>
+                            <staff n='1'>
+                                <layer n='1'>
+<rest dur='4' xml:id='0.9.0.r.0/1'/>
+<note pname='a' oct='4' dur='4' xml:id='0.9.1.a4.1/4.97.97'/>
+<note pname='g' oct='4' dur='4' xml:id='0.9.2.g4.1/2.98.98'/>
+<rest dur='2' xml:id='0.9.3.r.3/4'/>
+<note pname='f' oct='4' accid='s' dur='4' xml:id='0.9.4.f4.5/4.101.101'/>
+<note pname='g' oct='4' dur='8' xml:id='0.9.5.g4.3/2.102.102' color='red'/>
+<note pname='g' oct='4' accid='f' dur='8' xml:id='0.9.6.g4.13/8.103.103' color='blue'/>
+<note pname='e' oct='4' dur='8' xml:id='0.9.7.e4.7/4.104.104'/>
+<note pname='f' oct='4' dur='8' xml:id='0.9.8.f4.15/8.105.105' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='g' oct='3' dur='4' xml:id='1.9.0.g3.0/1.96.96'/>
+<rest dur='2' xml:id='1.9.1.r.1/4'/>
+<note pname='b' oct='3' dur='4' xml:id='1.9.2.b3.3/4.99.99'/>
+<note pname='a' oct='3' dur='4' xml:id='1.9.3.a3.1/1.100.100'/>
+<rest dur='2' dots='1' xml:id='1.9.4.r.5/4'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='10'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='g' oct='4' dur='4' xml:id='0.10.0.g4.0/1.106.106'/>
+<rest dur='4' xml:id='0.10.1.r.1/4'/>
+<rest dur='4' xml:id='0.10.3.r.1/4'/>
+<chord>
+<note pname='d' oct='4' dur='4' xml:id='0.10.2.d4.1/2.109.109' color='red'/>
+<note pname='g' oct='4' dur='4' xml:id='0.10.4.g4.1/2.110.110' color='lime'/>
+<rest dur='4' xml:id='0.10.5.r.3/4'/>
+<rest dur='4' xml:id='0.10.7.r.3/4'/>
+</chord>
+<chord>
+<note pname='d' oct='4' dur='2' xml:id='0.10.6.d4.1/1.114.114' color='red'/>
+<note pname='g' oct='4' dur='2' xml:id='0.10.8.g4.1/1.115.115' color='lime'/>
+<rest dur='2' xml:id='0.10.9.r.3/2'/>
+</chord>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<rest dur='4' xml:id='1.10.0.r.0/1'/>
+<note pname='g' oct='2' dur='4' xml:id='1.10.1.g2.1/4.107.107' color='blue'/>
+<note pname='b' oct='3' dur='4' xml:id='1.10.2.b3.1/2.108.108' color='red'/>
+<note pname='g' oct='3' dur='4' xml:id='1.10.3.g3.3/4.111.111' color='blue'/>
+<chord>
+<note pname='g' oct='2' dur='2' xml:id='1.10.4.g2.1/1.112.112' color='red'/>
+<note pname='b' oct='3' dur='2' xml:id='1.10.5.b3.1/1.113.113' color='red'/>
+</chord>
+<note pname='g' oct='2' dur='2' xml:id='1.10.6.g2.3/2.116.116' color='red'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='11'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='a' oct='4' dur='4' xml:id='0.11.0.a4.0/1.117.117'/>
+<note pname='g' oct='4' dur='8' xml:id='0.11.1.g4.1/4.118.118' color='blue'/>
+<note pname='a' oct='4' dur='8' xml:id='0.11.2.a4.3/8.119.119' color='blue'/>
+<note pname='b' oct='4' dur='8' xml:id='0.11.3.b4.1/2.120.120' color='blue'/>
+<note pname='a' oct='4' dur='8' xml:id='0.11.4.a4.5/8.121.121' color='blue'/>
+<note pname='b' oct='4' dur='16' xml:id='0.11.5.b4.3/4.122.122' color='blue'/>
+<note pname='a' oct='4' dur='16' xml:id='0.11.6.a4.13/16.123.123' color='blue'/>
+<note pname='g' oct='4' dur='16' xml:id='0.11.7.g4.7/8.124.124' color='blue'/>
+<note pname='a' oct='4' dur='16' xml:id='0.11.8.a4.15/16.125.125' color='blue'/>
+<note pname='b' oct='4' dur='4' xml:id='0.11.9.b4.1/1.127.127'/>
+<note pname='a' oct='4' dur='4' xml:id='0.11.10.a4.5/4.128.128' color='blue'/>
+<note pname='b' oct='4' dur='4' xml:id='0.11.11.b4.3/2.129.129' color='blue'/>
+<note pname='c' oct='5' dur='4' xml:id='0.11.12.c5.7/4.130.130' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<rest dur='1' xml:id='1.11.0.r.0/1'/>
+<note pname='d' oct='4' dur='4' xml:id='1.11.1.d4.1/1.126.126'/>
+<rest dur='2' dots='1' xml:id='1.11.2.r.5/4'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='12'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='b' oct='4' dur='4' xml:id='0.12.0.b4.0/1.132.132' color='lime'/>
+<note pname='a' oct='4' dur='8' xml:id='0.12.1.a4.1/4.133.133' color='blue'/>
+<note pname='b' oct='4' dur='8' xml:id='0.12.2.b4.3/8.134.134' color='blue'/>
+<note pname='a' oct='4' dur='4' xml:id='0.12.3.a4.1/2.135.135' color='red'/>
+<note pname='g' oct='4' dur='4' xml:id='0.12.4.g4.3/4.136.136' color='blue'/>
+<note pname='f' oct='4' accid='s' dur='8' xml:id='0.12.5.f4.1/1.137.137' color='red'/>
+<note pname='g' oct='4' dur='8' xml:id='0.12.6.g4.9/8.138.138' color='blue'/>
+<note pname='a' oct='4' dur='8' xml:id='0.12.7.a4.5/4.139.139' color='blue'/>
+<note pname='b' oct='4' dur='8' xml:id='0.12.8.b4.11/8.140.140' color='blue'/>
+<note pname='c' oct='5' dur='4' xml:id='0.12.9.c5.3/2.142.142'/>
+<rest dur='4' xml:id='0.12.10.r.7/4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='e' oct='4' dur='4' xml:id='1.12.0.e4.0/1.131.131'/>
+<rest dur='1' xml:id='1.12.1.r.1/4'/>
+<rest dur='4' xml:id='1.12.2.r.5/4'/>
+<note pname='c' oct='4' dur='4' xml:id='1.12.3.c4.3/2.141.141'/>
+<note pname='b' oct='3' dur='4' xml:id='1.12.4.b3.7/4.143.143' color='blue'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='13'>
+                            <staff n='1'>
+                                <layer n='1'>
+<rest dur='2' xml:id='0.13.0.r.0/1'/>
+<note pname='b' oct='4' dur='4' xml:id='0.13.1.b4.1/2.149.149'/>
+<note pname='c' oct='5' dur='4' xml:id='0.13.2.c5.3/4.150.150' color='blue'/>
+<note pname='a' oct='4' dur='2' xml:id='0.13.3.a4.1/1.152.152'/>
+<note pname='g' oct='4' dur='4' xml:id='0.13.4.g4.3/2.154.154'/>
+<note pname='a' oct='4' dur='4' xml:id='0.13.5.a4.7/4.155.155' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='c' oct='4' dur='8' xml:id='1.13.0.c4.0/1.144.144'/>
+<note pname='d' oct='4' dur='8' xml:id='1.13.1.d4.1/8.145.145' color='blue'/>
+<note pname='e' oct='4' dur='8' xml:id='1.13.2.e4.1/4.146.146' color='blue'/>
+<note pname='f' oct='4' accid='s' dur='8' xml:id='1.13.3.f4.3/8.147.147' color='blue'/>
+<note pname='g' oct='4' dur='4' xml:id='1.13.4.g4.1/2.148.148'/>
+<rest dur='4' xml:id='1.13.5.r.3/4'/>
+<note pname='f' oct='4' dur='2' xml:id='1.13.6.f4.1/1.151.151'/>
+<note pname='e' oct='4' dur='4' xml:id='1.13.7.e4.3/2.153.153'/>
+<rest dur='4' xml:id='1.13.8.r.7/4'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='14'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='b' oct='4' accid='f' dur='4' xml:id='0.14.0.b4.0/1.156.156' color='red'/>
+<note pname='a' oct='4' dur='4' xml:id='0.14.1.a4.1/4.157.157' color='red'/>
+<note pname='g' oct='4' dur='4' xml:id='0.14.2.g4.1/2.159.159' color='red'/>
+<note pname='f' oct='4' dur='4' xml:id='0.14.3.f4.3/4.160.160' color='blue'/>
+<note pname='e' oct='4' dur='4' xml:id='0.14.4.e4.1/1.161.161'/>
+<rest dur='4' xml:id='0.14.5.r.5/4'/>
+<note pname='e' oct='4' dur='2' xml:id='0.14.6.e4.3/2.164.164' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<rest dur='2' xml:id='1.14.0.r.0/1'/>
+<note pname='d' oct='4' dur='4' xml:id='1.14.1.d4.1/2.158.158'/>
+<rest dur='2' xml:id='1.14.2.r.3/4'/>
+<note pname='d' oct='4' dur='4' xml:id='1.14.3.d4.5/4.162.162' color='lime'/>
+<note pname='c' oct='4' accid='s' dur='2' xml:id='1.14.4.c4.3/2.163.163'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='15'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='d' oct='4' dur='2' xml:id='0.15.0.d4.0/1.166.166'/>
+<rest dur='1' dots='1' xml:id='0.15.1.r.1/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='d' oct='4' dur='2' xml:id='1.15.0.d4.0/1.165.165'/>
+<note pname='d' oct='4' dur='2' xml:id='1.15.1.d4.1/2.167.167' color='lime'/>
+<note pname='d' oct='4' dur='2' xml:id='1.15.2.d4.1/1.168.168' color='lime'/>
+<note pname='d' oct='4' dur='2' xml:id='1.15.3.d4.3/2.169.169'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='16'>
+                            <staff n='1'>
+                                <layer n='1'>
+<rest dur='2' xml:id='0.16.0.r.0/1'/>
+<note pname='d' oct='4' dur='4' xml:id='0.16.1.d4.1/2.171.171'/>
+<rest dur='4' xml:id='0.16.2.r.3/4'/>
+<note pname='f' oct='4' dur='2' xml:id='0.16.3.f4.1/1.173.173'/>
+<note pname='f' oct='4' dur='4' xml:id='0.16.4.f4.3/2.176.176' color='lime'/>
+<note pname='g' oct='4' dur='4' xml:id='0.16.5.g4.7/4.177.177'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='f' oct='4' dur='2' xml:id='1.16.0.f4.0/1.170.170'/>
+<rest dur='4' xml:id='1.16.1.r.1/2'/>
+<note pname='g' oct='4' dur='4' xml:id='1.16.2.g4.3/4.172.172'/>
+<note pname='a' oct='4' dur='2' xml:id='1.16.3.a4.1/1.174.174'/>
+<note pname='d' oct='4' dur='4' xml:id='1.16.4.d4.3/2.175.175'/>
+<rest dur='4' xml:id='1.16.5.r.7/4'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='17'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='a' oct='4' dur='2' xml:id='0.17.0.a4.0/1.179.179'/>
+<chord>
+<note pname='d' oct='4' dur='4' xml:id='0.17.1.d4.1/2.180.180'/>
+<note pname='d' oct='4' dur='4' xml:id='0.17.2.d4.1/2.181.181'/>
+</chord>
+<note pname='e' oct='4' dur='4' xml:id='0.17.3.e4.3/4.183.182'/>
+<note pname='f' oct='4' dur='4' xml:id='0.17.4.f4.1/1.185.184'/>
+<note pname='g' oct='4' dur='4' xml:id='0.17.5.g4.5/4.187.186'/>
+<note pname='a' oct='4' dur='2' xml:id='0.17.6.a4.3/2.189.188'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='f' oct='4' dur='2' xml:id='1.17.0.f4.0/1.178.178'/>
+<rest dur='4' xml:id='1.17.1.r.1/2'/>
+<note pname='e' oct='4' dur='4' xml:id='1.17.2.e4.3/4.182.182'/>
+<note pname='d' oct='4' dur='4' xml:id='1.17.3.d4.1/1.184.183'/>
+<note pname='e' oct='4' dur='4' xml:id='1.17.4.e4.5/4.186.185' color='red'/>
+<note pname='c' oct='4' dur='2' xml:id='1.17.5.c4.3/2.188.187'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='18'>
+                            <staff n='1'>
+                                <layer n='1'>
+<rest dur='4' xml:id='0.18.0.r.0/1'/>
+<note pname='g' oct='4' dur='4' xml:id='0.18.1.g4.1/4.191.190'/>
+<note pname='g' oct='4' dur='4' xml:id='0.18.2.g4.1/2.193.192'/>
+<rest dur='2' xml:id='0.18.3.r.3/4'/>
+<note pname='g' oct='4' accid='f' dur='8' xml:id='0.18.4.g4.5/4.196.195' color='blue'/>
+<note pname='e' oct='4' dur='8' xml:id='0.18.5.e4.11/8.197.196' color='blue'/>
+<note pname='g' oct='4' dur='8' xml:id='0.18.6.g4.3/2.198.197' color='lime'/>
+<note pname='f' oct='4' accid='s' dur='8' xml:id='0.18.7.f4.13/8.199.198' color='blue'/>
+<note pname='g' oct='4' dur='16' xml:id='0.18.8.g4.7/4.200.199' color='blue'/>
+<note pname='g' oct='4' dur='16' xml:id='0.18.9.g4.29/16.201.200' color='blue'/>
+<note pname='e' oct='4' dur='16' xml:id='0.18.10.e4.15/8.202.201' color='blue'/>
+<note pname='f' oct='4' dur='16' xml:id='0.18.11.f4.31/16.203.202' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='b' oct='3' dur='4' xml:id='1.18.0.b3.0/1.190.189'/>
+<rest dur='4' xml:id='1.18.1.r.1/4'/>
+<note pname='a' oct='3' dur='4' xml:id='1.18.2.a3.1/2.192.191' color='red'/>
+<note pname='g' oct='3' dur='4' xml:id='1.18.3.g3.3/4.194.193' color='blue'/>
+<note pname='a' oct='3' dur='4' xml:id='1.18.4.a3.1/1.195.194'/>
+<rest dur='2' dots='1' xml:id='1.18.5.r.5/4'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='19'>
+                            <staff n='1'>
+                                <layer n='1'>
+<chord>
+<note pname='g' oct='4' dur='4' xml:id='0.19.0.g4.0/1.204.203'/>
+<note pname='g' oct='4' dur='4' xml:id='0.19.1.g4.0/1.205.204'/>
+</chord>
+<note pname='g' oct='3' dur='4' xml:id='0.19.2.g3.1/4.206.205' color='blue'/>
+<note pname='d' oct='4' dur='2' xml:id='0.19.3.d4.1/2.207.206'/>
+<note pname='f' oct='4' dur='2' xml:id='0.19.4.f4.1/1.208.207'/>
+<rest dur='4' xml:id='0.19.5.r.3/2'/>
+<note pname='g' oct='4' dur='4' xml:id='0.19.6.g4.7/4.210.209'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<rest dur='1' dots='1' xml:id='1.19.0.r.0/1'/>
+<note pname='d' oct='4' dur='4' xml:id='1.19.1.d4.3/2.209.208'/>
+<rest dur='4' xml:id='1.19.2.r.7/4'/>
+<rest dur='4' xml:id='1.19.1.r.7/4'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='20'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='a' oct='4' dur='2' xml:id='0.20.0.a4.0/1.213.212'/>
+<chord>
+<note pname='d' oct='4' dur='4' xml:id='0.20.1.d4.1/2.214.213'/>
+<note pname='d' oct='4' dur='4' xml:id='0.20.2.d4.1/2.215.214'/>
+</chord>
+<note pname='e' oct='4' dur='4' xml:id='0.20.3.e4.3/4.217.215'/>
+<note pname='f' oct='4' dur='4' xml:id='0.20.4.f4.1/1.218.216'/>
+<note pname='g' oct='4' dur='4' xml:id='0.20.5.g4.5/4.219.217'/>
+<note pname='a' oct='4' dur='2' xml:id='0.20.6.a4.3/2.221.219'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<chord>
+<note pname='d' oct='4' dur='2' xml:id='1.20.0.d4.0/1.211.210' color='lime'/>
+<note pname='f' oct='4' dur='2' xml:id='1.20.2.f4.0/1.212.211'/>
+<rest dur='4' xml:id='1.20.3.r.1/2'/>
+</chord>
+<note pname='e' oct='4' dur='4' xml:id='1.20.4.e4.3/4.216.215'/>
+<rest dur='2' xml:id='1.20.5.r.1/1'/>
+<note pname='c' oct='4' dur='2' xml:id='1.20.6.c4.3/2.220.218'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='21'>
+                            <staff n='1'>
+                                <layer n='1'>
+<rest dur='4' xml:id='0.21.0.r.0/1'/>
+<note pname='g' oct='4' dur='4' xml:id='0.21.1.g4.1/4.223.221'/>
+<note pname='g' oct='4' dur='4' xml:id='0.21.2.g4.1/2.225.223'/>
+<rest dur='2' dots='1' xml:id='0.21.3.r.3/4'/>
+<note pname='f' oct='4' accid='s' dur='2' xml:id='0.21.4.f4.3/2.228.226'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='b' oct='3' dur='4' xml:id='1.21.0.b3.0/1.222.220'/>
+<rest dur='4' xml:id='1.21.1.r.1/4'/>
+<note pname='a' oct='3' dur='4' xml:id='1.21.2.a3.1/2.224.222' color='red'/>
+<note pname='g' oct='3' dur='4' xml:id='1.21.3.g3.3/4.226.224' color='blue'/>
+<note pname='a' oct='3' dur='2' xml:id='1.21.4.a3.1/1.227.225'/>
+<rest dur='2' xml:id='1.21.5.r.3/2'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='22'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='g' oct='4' dur='4' xml:id='0.22.0.g4.0/1.230.228'/>
+<rest dur='4' xml:id='0.22.1.r.1/4'/>
+<note pname='d' oct='4' dur='4' xml:id='0.22.2.d4.1/2.233.231'/>
+<note pname='e' oct='4' dur='4' xml:id='0.22.3.e4.3/4.235.233'/>
+<note pname='f' oct='4' dur='4' xml:id='0.22.4.f4.1/1.237.235'/>
+<note pname='g' oct='4' dur='4' xml:id='0.22.5.g4.5/4.239.237'/>
+<note pname='a' oct='4' dur='4' xml:id='0.22.6.a4.3/2.241.239'/>
+<rest dur='4' xml:id='0.22.7.r.7/4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='g' oct='3' dur='4' xml:id='1.22.0.g3.0/1.229.227'/>
+<note pname='a' oct='3' dur='4' xml:id='1.22.1.a3.1/4.231.229'/>
+<note pname='b' oct='3' dur='4' xml:id='1.22.2.b3.1/2.232.230'/>
+<note pname='c' oct='4' dur='4' xml:id='1.22.3.c4.3/4.234.232'/>
+<note pname='d' oct='4' dur='4' xml:id='1.22.4.d4.1/1.236.234'/>
+<note pname='e' oct='4' dur='4' xml:id='1.22.5.e4.5/4.238.236'/>
+<note pname='f' oct='4' dur='4' xml:id='1.22.6.f4.3/2.240.238'/>
+<note pname='g' oct='4' dur='4' xml:id='1.22.7.g4.7/4.242.240'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='23'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='d' oct='4' dur='2' xml:id='0.23.0.d4.0/1.243.241'/>
+<note pname='d' oct='5' dur='4' xml:id='0.23.1.d5.1/2.246.244'/>
+<note pname='c' oct='5' dur='4' xml:id='0.23.2.c5.3/4.247.245'/>
+<note pname='b' oct='4' dur='4' xml:id='0.23.3.b4.1/1.249.247'/>
+<note pname='a' oct='4' dur='4' xml:id='0.23.4.a4.5/4.251.249'/>
+<note pname='g' oct='4' dur='4' xml:id='0.23.5.g4.3/2.253.251'/>
+<rest dur='4' xml:id='0.23.6.r.7/4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='a' oct='4' dur='2' xml:id='1.23.0.a4.0/1.244.242'/>
+<note pname='g' oct='4' dur='4' xml:id='1.23.1.g4.1/2.245.243' color='red'/>
+<rest dur='4' xml:id='1.23.2.r.3/4'/>
+<note pname='g' oct='4' dur='4' xml:id='1.23.3.g4.1/1.248.246'/>
+<note pname='f' oct='4' dur='4' xml:id='1.23.4.f4.5/4.250.248'/>
+<note pname='e' oct='4' dur='4' xml:id='1.23.5.e4.3/2.252.250'/>
+<note pname='d' oct='4' dur='4' xml:id='1.23.6.d4.7/4.254.252'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='24'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='c' oct='5' dur='4' xml:id='0.24.0.c5.0/1.256.254'/>
+<note pname='b' oct='4' dur='4' xml:id='0.24.1.b4.1/4.257.255'/>
+<note pname='a' oct='4' dur='4' xml:id='0.24.2.a4.1/2.259.257'/>
+<note pname='g' oct='4' dur='4' xml:id='0.24.3.g4.3/4.261.259'/>
+<note pname='f' oct='4' dur='4' xml:id='0.24.4.f4.1/1.263.261'/>
+<note pname='e' oct='4' dur='4' xml:id='0.24.5.e4.5/4.265.263'/>
+<note pname='d' oct='4' dur='4' xml:id='0.24.6.d4.3/2.267.265'/>
+<rest dur='4' xml:id='0.24.7.r.7/4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='c' oct='4' dur='4' xml:id='1.24.0.c4.0/1.255.253'/>
+<rest dur='4' xml:id='1.24.1.r.1/4'/>
+<note pname='f' oct='4' dur='4' xml:id='1.24.2.f4.1/2.258.256'/>
+<note pname='e' oct='4' dur='4' xml:id='1.24.3.e4.3/4.260.258'/>
+<note pname='d' oct='4' dur='4' xml:id='1.24.4.d4.1/1.262.260'/>
+<note pname='c' oct='4' dur='4' xml:id='1.24.5.c4.5/4.264.262'/>
+<note pname='b' oct='3' dur='4' xml:id='1.24.6.b3.3/2.266.264'/>
+<note pname='a' oct='3' dur='4' xml:id='1.24.7.a3.7/4.268.266'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='25'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='d' oct='5' dur='4' xml:id='0.25.0.d5.0/1.270.268'/>
+<note pname='c' oct='5' dur='4' xml:id='0.25.1.c5.1/4.271.269'/>
+<note pname='b' oct='4' dur='4' xml:id='0.25.2.b4.1/2.273.271'/>
+<note pname='a' oct='4' dur='4' xml:id='0.25.3.a4.3/4.275.273'/>
+<note pname='g' oct='4' dur='4' xml:id='0.25.4.g4.1/1.277.275'/>
+<note pname='f' oct='4' dur='4' xml:id='0.25.5.f4.5/4.279.277'/>
+<note pname='e' oct='4' dur='4' xml:id='0.25.6.e4.3/2.281.279'/>
+<note pname='d' oct='4' dur='4' xml:id='0.25.7.d4.7/4.283.281'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='g' oct='3' dur='4' xml:id='1.25.0.g3.0/1.269.267'/>
+<rest dur='4' xml:id='1.25.1.r.1/4'/>
+<note pname='g' oct='4' dur='4' xml:id='1.25.2.g4.1/2.272.270'/>
+<note pname='f' oct='4' dur='4' xml:id='1.25.3.f4.3/4.274.272'/>
+<note pname='e' oct='4' dur='4' xml:id='1.25.4.e4.1/1.276.274'/>
+<note pname='d' oct='4' dur='4' xml:id='1.25.5.d4.5/4.278.276'/>
+<note pname='c' oct='4' dur='4' xml:id='1.25.6.c4.3/2.280.278'/>
+<note pname='b' oct='3' dur='4' xml:id='1.25.7.b3.7/4.282.280'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='26'>
+                            <staff n='1'>
+                                <layer n='1'>
+<note pname='f' oct='4' accid='s' dur='4' xml:id='0.26.0.f4.0/1.285.283' color='orange'/>
+<note pname='g' oct='4' dur='4' xml:id='0.26.1.g4.1/4.287.285'/>
+<note pname='a' oct='4' dur='4' xml:id='0.26.2.a4.1/2.289.287'/>
+<note pname='b' oct='4' dur='4' xml:id='0.26.3.b4.3/4.290.288'/>
+<note pname='c' oct='5' dur='4' xml:id='0.26.4.c5.1/1.291.289'/>
+<rest dur='2' xml:id='0.26.5.r.5/4'/>
+<note pname='b' oct='4' dur='4' xml:id='0.26.6.b4.7/4.295.293'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='a' oct='3' dur='4' xml:id='1.26.0.a3.0/1.284.282'/>
+<note pname='g' oct='3' dur='4' xml:id='1.26.1.g3.1/4.286.284'/>
+<note pname='c' oct='4' dur='4' xml:id='1.26.2.c4.1/2.288.286'/>
+<rest dur='2' xml:id='1.26.3.r.3/4'/>
+<note pname='b' oct='3' dur='4' xml:id='1.26.4.b3.5/4.292.290'/>
+<note pname='a' oct='3' dur='4' xml:id='1.26.5.a3.3/2.293.291'/>
+<note pname='g' oct='3' dur='4' xml:id='1.26.6.g3.7/4.294.292'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='27'>
+                            <staff n='1'>
+                                <layer n='1'>
+<chord>
+<note pname='d' oct='4' dur='4' xml:id='0.27.0.d4.0/1.298.296' color='red'/>
+<note pname='a' oct='4' dur='4' xml:id='0.27.1.a4.0/1.299.297'/>
+</chord>
+<note pname='g' oct='4' dur='4' xml:id='0.27.2.g4.1/4.300.298'/>
+<note pname='a' oct='4' dur='4' xml:id='0.27.3.a4.1/2.302.300' color='red'/>
+<note pname='g' oct='4' dur='4' xml:id='0.27.4.g4.3/4.303.301' color='blue'/>
+<note pname='g' oct='4' accid='f' dur='4' xml:id='0.27.5.g4.1/1.306.304' color='red'/>
+<note pname='e' oct='4' dur='4' xml:id='0.27.6.e4.5/4.307.305' color='red'/>
+<note pname='g' oct='4' dur='4' xml:id='0.27.7.g4.3/2.308.306' color='red'/>
+<note pname='g' oct='4' dur='4' xml:id='0.27.8.g4.7/4.309.307' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<chord>
+<note pname='f' oct='3' accid='s' dur='4' xml:id='1.27.0.f3.0/1.296.294' color='orange'/>
+<note pname='a' oct='3' dur='4' xml:id='1.27.1.a3.0/1.297.295' color='red'/>
+<rest dur='4' xml:id='1.27.2.r.1/4'/>
+</chord>
+<note pname='g' oct='3' dur='4' xml:id='1.27.3.g3.1/2.301.299'/>
+<rest dur='4' xml:id='1.27.4.r.3/4'/>
+<rest dur='4' xml:id='1.27.6.r.3/4'/>
+<chord>
+<note pname='d' oct='3' dur='4' xml:id='1.27.5.d3.1/1.304.302' color='red'/>
+<note pname='a' oct='3' dur='4' xml:id='1.27.7.a3.1/1.305.303'/>
+<rest dur='2' dots='1' xml:id='1.27.8.r.5/4'/>
+</chord>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='28' right='end'>
+                            <staff n='1'>
+                                <layer n='1'>
+<rest dur='4' xml:id='0.28.0.r.0/1'/>
+<rest dur='4' xml:id='0.28.2.r.0/1'/>
+<chord>
+<note pname='d' oct='4' dur='4' xml:id='0.28.1.d4.1/4.312.310' color='red'/>
+<note pname='g' oct='4' dur='4' xml:id='0.28.3.g4.1/4.313.311' color='lime'/>
+<rest dur='2' xml:id='0.28.4.r.1/2'/>
+<rest dur='2' xml:id='0.28.6.r.1/2'/>
+</chord>
+<chord>
+<note pname='d' oct='4' dur='1' xml:id='0.28.5.d4.1/1.319.317' color='red'/>
+<note pname='g' oct='4' dur='1' xml:id='0.28.7.g4.1/1.320.318' color='lime'/>
+</chord>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+<note pname='g' oct='2' dur='4' xml:id='1.28.0.g2.0/1.310.308' color='red'/>
+<note pname='b' oct='3' dur='4' xml:id='1.28.1.b3.1/4.311.309' color='red'/>
+<note pname='g' oct='3' dur='4' xml:id='1.28.2.g3.1/2.314.312' color='blue'/>
+<note pname='c' oct='4' dur='4' xml:id='1.28.3.c4.3/4.315.313' color='blue'/>
+<chord>
+<note pname='g' oct='2' dur='1' xml:id='1.28.4.g2.1/1.316.314' color='red'/>
+<chord>
+<note pname='g' oct='3' dur='1' xml:id='1.28.5.g3.1/1.317.315' color='lime'/>
+<note pname='b' oct='3' dur='1' xml:id='1.28.6.b3.1/1.318.316' color='red'/>
+</chord>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body> 
+    </music>
+</mei> 
