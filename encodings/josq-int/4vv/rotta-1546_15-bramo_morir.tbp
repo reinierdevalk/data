@@ -16,7 +16,7 @@ mi.>.36.54.53.32.>.36.54.53.32.>.36.54.53.32.>.|.
 {m. 5}
 fu.35.13.12.01.>.21.>.31.>.21.>.01.>.32.>.12.>.02.>.mi.35.13.12.01.>.36.54.53.32.>.|.
 /
-sm.05.24.33.12.>.fu.11.>.01.>.32.>.12.>.02.>.33.>.mi.06.23.02.>{@sm.06.23.02 in source}.sm.24.>{@No rhythm symbol in source}.33.>.|.
+sm.05.24.33.12.>.fu.11.>.01.>.32.>.12.>.02.>.33.>.mi.06.23.02{@sm.06.23.02 in source}.>.sm.24{@No rhythm symbol in source}.>.33.>.|.
 mi.06.24.23.02.>.sb.06.24.23.02.>.mi.06.24.23.02.>.|.
 sm.06.24.23.02.>.32.>.12.>.02.>.05.24.33.12.>.32.>.01.>.12.>.|.
 36.54.53.32.>.33.>.54.>.44.>.35.24.13.01.>.21.>.31.>.21.>.|.
@@ -28,8 +28,8 @@ fu.35.24.33.01.>.13.>.03.>.13.>.33.>.03.>.13.>.33.>.sb.25.44.53.42.>.|.
 mi.25.53.42.>.44.>.25.>.13.>.|.
 35.24.>.05.03.>.25.21.>.25.02.>.|.
 {m. 15}
-mi.06.31.>.24.12.01.>.sm.33.21.>.04.>.mi.25.04.02.>{@Rhythm symbol one position to the right in source}.{@No barline in source}
-24.02.>{@mi.24.02 in source}.13.02.>.24.13.01.>.04.>.|.
+mi.06.31.>.24.12.01.>.sm.33.21.>.04.>.mi.25.04.02{@Rhythm symbol one position to the right in source}.>.{@No barline in source}
+24.02{@mi.24.02 in source}.>.13.02.>.24.13.01.>.04.>.|.
 /
 {page 2}
 35.24.13.01.>.33.01.>.25.44.53.32.>.53.>.|.
@@ -50,13 +50,13 @@ mi.06.24.02.31.>.06.24.02.31.>.{@Place barline here}sm.06.24.02.31.>.26.>.36.>.0
 mi*.25.04.02.21.>.sm.24.>.{@Place barline here}mi.25.44.53.42.>.54.>.|.{@Misplaced barline in source}
 sm.35.13.01.>.03.>.24.>.04.>.{@Place barline here}mi.35.24.13.01.>.33.>.|.{@Misplaced barline in source}
 mi*.25.44.53.32.>.sm.05.>.{@Place barline here}sm.36.54.53.32.>.44.>.54.>.33.>.|.{@Misplaced barline in source}
-mi.36.54.53.32.>.05.24.33.12.>{@sm.05.24.33.12 in source}.{@Place barline here}sm.25.03.02.>{@Rhythm symbol one position to the left in source}.24.>.03.02.>.14.>.|.{@Misplaced barline in source}
+mi.36.54.53.32.>.05.24.33.12{@sm.05.24.33.12 in source}.>.{@Place barline here}sm.25.03.02{@Rhythm symbol one position to the left in source}.>.24.>.03.02.>.14.>.|.{@Misplaced barline in source}
 /
 sb.06.24.23.02.>.{@Place barline here}mi.>.sb.06.25.24.23.>.|.{@Misplaced barline in source}
 mi.06.25.24.23.>.{@Place barline here}06.25.24.23.>.06.25.24.23.>.|.{@Misplaced barline in source}
 56.35.24.33.>.36.04.13.02.>.{Place barline here}35.24.13.12.>.36.54.53.32.>.|.{@Misplaced barline in source}
 35.13.12.01.>.05.33.12.21.>.{@Place barline here}mi*.36.53.32.31.>.fu.21.>.52.31.>.|.{@Misplaced barline in source}
-sm.05.33.12.21.>{@No rhythm symbol in source}.01.>.01.>.13.>.{@Place barline here}25.03.02.>.24.>.mi.03.42.>.|.{@Misplaced barline in source}
+sm.05.33.12.21{@No rhythm symbol in source}.>.01.>.01.>.13.>.{@Place barline here}25.03.02.>.24.>.mi.03.42.>.|.{@Misplaced barline in source}
 24.01.>.06.24.23.02.>.{@Place barline here}06.24.23.02.>.06.24.23.02.>.|.{@Misplaced barline in source}
 05.24.33.12.>.06.24.23.02.>.{@Place barline here}sm.05.24.33.12.>.02.>.32.>.12.>.|.{@Misplaced barline in source}
 /
@@ -79,7 +79,7 @@ sm.24.13.12.>.01.>.05.33.01.>.13.>.{@Place barline here}mi.25.44.53.>.42.>.|.{@M
 mi.25.44.53.>.42.>.{@Place barline here}24.13.01.>.sm.05.24.33.>.32.>.|.{@Misplaced barline in source}
 12.>.02.>.mi.05.24.33.12.>.{@Place barline here}35.24.>.36.04.13.02.>.|.{@Misplaced barline in source}
 mi.35.24.>.33.>.{@Place barline here}sb.06.25.24.02.>.|.{@Misplaced barline in source}
-mi.25.02.>{@mi.02.>.25 in source}.06.24.13.>.{@Place barline here}02.>.06.24.13.>.|.{@Misplaced barline in source}
+mi.25.02{@mi.02.>.25 in source}.>.06.24.13.>.{@Place barline here}02.>.06.24.13.>.|.{@Misplaced barline in source}
 mi.36.24.13.02.>.04.03.>.{@Place barline here}sb.06.24.13.02.>.|.{@Misplaced barline in source}
 co1.25.14.03.02.>.||.{@||| in source}
 //
