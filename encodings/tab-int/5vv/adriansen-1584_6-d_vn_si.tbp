@@ -43,9 +43,9 @@ sm.e4.e3.c2.>.f4.a2.>.e4.e3.c2.>.e3.>.e3.>.f3.>.e4.e3.c2.>.f3.d2.>.|{@no barline
 c2.>.c5.f3.d2.>.fu.c6.e5.e4.e3.c2.>.sf.f3.>.e3.>.f3.>.e3.>.c3.>.e3.>.fu.c5.a4.a3.a2.>.e5.c4.>.f5.e4.>.e5.c4.>.sm.c5.a4.a3.>.fu.f6.e5.>.e6.c5.>.|.
 sm.c6.e5.e4.d3.>.a6.c4.c3.a2.>.c6.e5.e4.d3.c2.>.c6.e4.>.fu.a7.e4.d3.d2.>.c3.a1.>.d3.c1.>.c3.a1.>.sm.a7.e4.d3.d2.>.fu.a6.c4.c2.>.a4.a2.>.|.
 sm.c6.e5.e4.e3.>.d6.c5.c4.a2.>.c6.e4.e3.>.e4.e3.>.c6.e5.e3.>.c5.a4.a3.a2.>.e5.a3.c2.>.c5.a4.d2.>.|.
-b5.a3.c2.>.c5.a4.a2.>.fu.c6.e5.e4.e3.>.sf.f3.>.e3.>.f3.>.e3.>.c3.>.e3.>.mi.c5.a3.a2.>.sm.e2.>.sm.c1{@'mi.c1.' in source}.>.|{@no barline in source}.
+b5.a3.c2.>.c5.a4.a2.>.fu.c6.e5.e4.e3.>.sf.f3.>.e3.>.f3.>.e3.>.c3.>.e3.>.mi.c5.a3.a2.>.sm.e2.>.c1{@'mi.c1.' in source}.>.|{@no barline in source}.
 {m. 25}
-sm{@not in source}.>.sm.c4.f2.d1.>.
+sm{@'sm.c4.f2.d1.' in source}.>.c4.f2.d1{@}.>.
 /
 d1.>.f3.d2{@misplaced barline in source}.>.c1.>.d3.c2.>.a1.>.c3.a2.>.|{@no barline in source}.
 mi.e4.c2.c1.>.sm.e4.e3.>.c2{@misplaced barline in source}.>.c1.>.c5.f3.d2.>.d2.>.e4.d3.>.|{@no barline in souce}.
@@ -64,5 +64,5 @@ sm.e4.>.fu.e3.c2.>.c3.a2.>.sm.e4.c2.>.e3.>.|{@no barline in source}.
 c5.a2.>.c4.>.a4.h1.>.h2{@misplaced barline in source}.>.e5.f1.>.f2.e1.>.c5.f3.>.d2.c1.>.|{@no barline in source}.
 {m. 35}
 e5.d3.>.fu.c2.a1.>.d2.>.mi.e5.c3.c2.a1{@misplaced barline in source}.>.sm.c6.e4.d3.c2.c1.>.f3.>.c6.c2.>.e3.c2.>.|{@no barline in source}.
-fu.c5.f3.d2.c1.>.sf.c2.>.d2.>.f2.>.d2.>.f2.>.d2.>.f2.>.d2.>.c2.>.f3.>.c2.>.f3.>.e3.>.c3{@misplaced barline in source}.>.sb.c6.e4.e3.c2.c1{@'co.c6.e5.e4.e3.c2.c1.' in source}.>.||.
+fu.c5.f3.d2.c1.>.sf.c2.>.d2.>.f2.>.d2.>.f2.>.d2.>.f2.>.d2.>.c2.>.f3.>.c2.>.f3.>.e3.>.c3{@misplaced barline in source}.>.sb.c6.e4.e3.c2.c1{@'co1.c6.e5.e4.e3.c2.c1.' in source}.>.||.
 //
