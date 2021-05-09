@@ -1,0 +1,14 @@
+missing and misplaced barlines
+- comment must be
+  {@no barline in source}
+  {@misplaced barline in source}
+- get no separate footnote, but are gathered in one single statement at the end of the 
+  footnotes. this applies also to missing non-standard barlines
+  - see phalese-1547_7-tant_que-4vv.tbp, b. 12
+
+altered barlines (in semantics, not in looks (e.g., three-line closing barlines)) 
+- get a separate footnote, possibly combined with any directly following footnote event 
+  - see phalese-1547_7-tant_que-4vv.tbp, bb. 11-12 (2x)
+
+a sequence of events that has a footnote can cross a barline
+- see adriansen-1584_6-d_vn_si.tbp, bb. 24-25
