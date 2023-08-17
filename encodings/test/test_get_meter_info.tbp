@@ -1,0 +1,18 @@
+{AUTHOR:}
+{TITLE:test_get_meter_info}
+{SOURCE:}
+
+{TABSYMBOLSET:French}
+{TUNING:G}
+{METER_INFO:3/8 (1); 2/2 (2-3); 3/4 (4-5); 2/2 (6-7); 5/16 (8); 2/2 (9)}
+{DIMINUTION:2; 2; 4; 1; 1; -2}
+
+M3:8.>.sm.a1.>.sm.a1.>.sm.a1.>.|.
+MC\.>.mi*.a2.a1.>.sm.a1.>.sb.a2.a1.>.|.
+mi.a2.a1.>.fu-.a1.>.fu-.a1.>.sf-.a1.>.sf-.a1.>.sf-.a1.>.sf.a1.>.sb.a2.a1.>.|.
+M3.>.mi.a2.a1.>.sm-.a1.>.fu-.a1.>.fu.a1.>.mi.a2.a1.>.|.
+sm*.a1.>.sf-.a1.>.sf.a1.>.sb.a2.a1.>.|.
+MC\.>.sb.a2.a1.>.sb.a2.a1.>.|.
+sm-.a1.>.sm-.a1.>.sm-.a1.>.sm.a1.>.sm-.a1.>.sm.a1.>.mi.a2.a1.>.|.
+sm-.a1.>.fu-.a1.>.fu-.a1.>.fu.a1.>.|.
+MC\.>.sb.a2.a1.>.sm-.a1.>.fu-.a1.>.fu.a1.>.mi.a2.a1.>.||.//

@@ -1,0 +1,374 @@
+pitches [60, 62, 64, 65, 67] at indices [1, 2, 3, 4, 5] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [67] at indices [8] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [67, 69, 71] at indices [10, 11, 12] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [67] at indices [17] (bar 2; onset 1/4)
+pitches in tab chord : [67]
+cheapest mapping (total cost 2):
+  voice 1 for pitch 67 (at cost 2) --> other
+voices for chord: [[1]]
+
+pitches [64, 65] at indices [15, 16] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [65, 64, 62] at indices [18, 19, 20] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [66] at indices [27] (bar 3; onset 1/8)
+pitches in tab chord : [66]
+cheapest mapping (total cost 2):
+  voice 1 for pitch 66 (at cost 2) --> ficta
+voices for chord: [[1]]
+
+no match for pitches [67] at indices [31] (bar 3; onset 1/2)
+pitches in tab chord : [67, 69]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [71] at indices [30] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [69] at indices [36] (bar 3; onset 3/4)
+pitches in tab chord : [66, 69]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 69 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [64] at indices [34] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [67] at indices [37] (bar 3; onset 7/8)
+pitches in tab chord : [67]
+cheapest mapping (total cost 1):
+  voice 1 for pitch 67 (at cost 1) --> other
+voices for chord: [[1]]
+
+pitches [66, 64, 66] at indices [38, 39, 40] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [66] at indices [54] (bar 5; onset 0/192)
+pitches in tab chord : [66, 69]
+cheapest mapping (total cost 2):
+  voice 1 for pitch 66 (at cost 2) --> ficta
+voices for chord: [[1], [0]]
+
+pitches [67] at indices [56] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [67] at indices [60] (bar 5; onset 1/2)
+pitches in tab chord : [67, 69]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [71] at indices [59] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [64] at indices [63] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [69] at indices [66] (bar 5; onset 7/8)
+pitches in tab chord : [69]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 69 (at cost 0) --> repetition
+voices for chord: [[0]]
+
+pitches [67] at indices [65] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [67, 69, 66] at indices [67, 68, 69] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [55] at indices [78] (bar 6; onset 1/2)
+pitches in tab chord : [55]
+cheapest mapping (total cost 12):
+  voice 1 for pitch 55 (at cost 12) --> other
+voices for chord: [[1]]
+
+pitches [66, 64, 62, 60, 59, 57] at indices [72, 73, 74, 75, 76, 77] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [64, 66, 67] at indices [80, 81, 82] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [66, 67, 69] at indices [84, 85, 86] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [69, 71] at indices [89, 90] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [60, 69] at indices [98, 99] (bar 8; onset 1/2)
+pitches in tab chord : [60, 69]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 60 (at cost 0) --> repetition
+  voice 0 for pitch 69 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [71, 69, 67, 69] at indices [100, 101, 102, 103] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [71] at indices [108] (bar 9; onset 0/192)
+pitches in tab chord : [55, 71]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 71 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [57] at indices [106] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [67] at indices [113] (bar 9; onset 1/2)
+pitches in tab chord : [57, 67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+no match for pitches [67] at indices [116] (bar 9; onset 3/4)
+pitches in tab chord : [67]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 67 (at cost 1) --> other
+voices for chord: [[0]]
+
+pitches [64] at indices [115] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [67] at indices [118] (bar 9; onset 7/8)
+pitches in tab chord : [67]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 67 (at cost 1) --> other
+voices for chord: [[0]]
+
+pitches [66] at indices [117] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [66, 64, 66] at indices [119, 120, 121] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [66, 64, 62, 60, 59, 57, 55, 66, 64, 62, 64, 66, 67] at indices [124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [67, 69, 71, 69, 71, 69, 67, 69] at indices [138, 139, 140, 141, 142, 143, 144, 145] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [71] at indices [155] (bar 12; onset 0/192)
+pitches in tab chord : [64, 71]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 71 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [59, 60, 62, 59, 60, 62] at indices [148, 149, 150, 151, 152, 153] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [71] at indices [158] (bar 12; onset 1/4)
+pitches in tab chord : [71]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 71 (at cost 0) --> repetition
+voices for chord: [[0]]
+
+pitches [67, 69] at indices [156, 157] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [64] at indices [164] (bar 12; onset 1/2)
+pitches in tab chord : [64, 67]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 64 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [69, 71, 69, 67, 66] at indices [159, 160, 161, 162, 163] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [69, 71] at indices [166, 167] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [72] at indices [172] (bar 13; onset 0/192)
+pitches in tab chord : [60, 72]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 72 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [59] at indices [170] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [62, 64, 66] at indices [173, 174, 175] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [67] at indices [180] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [64] at indices [183] (bar 14; onset 0/192)
+pitches in tab chord : [64, 65]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 64 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+no match for pitches [65] at indices [187] (bar 14; onset 1/4)
+pitches in tab chord : [62, 65]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 65 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+no match for pitches [62] at indices [190] (bar 14; onset 1/2)
+pitches in tab chord : [62, 64]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [67, 65] at indices [188, 189] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [62] at indices [193] (bar 14; onset 3/4)
+pitches in tab chord : [62]
+cheapest mapping (total cost 1):
+  voice 1 for pitch 62 (at cost 1) --> ficta
+voices for chord: [[1]]
+
+pitches [61] at indices [192] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [61] at indices [194] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [61] at indices [196] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [62] at indices [204] (bar 15; onset 1/2)
+pitches in tab chord : [62]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 62 (at cost 0) --> repetition
+voices for chord: [[1]]
+
+pitches [61, 59, 61, 62, 64] at indices [199, 200, 201, 202, 203] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [65] at indices [209] (bar 16; onset 1/4)
+pitches in tab chord : [62, 65]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 65 (at cost 0) --> repetition
+voices for chord: [[0], [1]]
+
+pitches [64] at indices [207] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [65] at indices [215] (bar 16; onset 3/4)
+pitches in tab chord : [62, 65]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 65 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [64] at indices [213] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [69] at indices [227] (bar 18; onset 0/192)
+pitches in tab chord : [59, 69]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 69 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+no match for pitches [67] at indices [233] (bar 18; onset 1/2)
+pitches in tab chord : [57, 67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [59] at indices [231] flagged as ornamentation
+voice for ornamental note(s): 1
+
+no match for pitches [67] at indices [235] (bar 18; onset 3/4)
+pitches in tab chord : [67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[0]]
+
+pitches [66] at indices [234] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [66, 64, 66] at indices [236, 237, 238] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [60, 59, 60, 62, 64] at indices [242, 243, 244, 245, 246] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [65] at indices [250] (bar 19; onset 3/4)
+pitches in tab chord : [62, 65]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 65 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [64] at indices [248] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [60, 69] at indices [262, 263] (bar 21; onset 0/192)
+pitches in tab chord : [60, 69]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 60 (at cost 0) --> repetition
+  voice 0 for pitch 69 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [71] at indices [261] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [59] at indices [264] (bar 21; onset 1/8)
+pitches in tab chord : [59, 67]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 59 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+no match for pitches [57] at indices [266] (bar 21; onset 1/4)
+pitches in tab chord : [57, 67]
+cheapest mapping (total cost 2):
+  voice 1 for pitch 57 (at cost 2) --> other
+voices for chord: [[1], [0]]
+
+no match for pitches [67] at indices [270] (bar 21; onset 1/2)
+pitches in tab chord : [57, 67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [55] at indices [268] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [62, 64] at indices [271, 272] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [62, 64, 66] at indices [274, 275, 276] flagged as ornamentation
+voice for ornamental note(s): 0
+
+no match for pitches [60] at indices [339] (bar 26; onset 1/2)
+pitches in tab chord : [60, 72]
+cheapest mapping (total cost 0):
+  voice 1 for pitch 60 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+no match for pitches [67] at indices [352] (bar 27; onset 1/2)
+pitches in tab chord : [57, 67]
+cheapest mapping (total cost 0):
+  voice 0 for pitch 67 (at cost 0) --> repetition
+voices for chord: [[1], [0]]
+
+pitches [59] at indices [350] flagged as ornamentation
+voice for ornamental note(s): 1
+
+pitches [64] at indices [354] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [67] at indices [356] flagged as ornamentation
+voice for ornamental note(s): 0
+
+pitches [66] at indices [358] flagged as ornamentation
+voice for ornamental note(s): 0
+
+number of notes in tab:    361
+number of mismatches:      162, of which 
+                           28 repetitions
+                           125 ornamentations
+                           3 ficta
+                           6 other
+percentage of matches:     0.551246537396122 (only full matches)
+                           0.6371191135734072 (including repetitions and ficta)
+                           0.9833795013850416 (including ornamentations, repetitions, ficta)

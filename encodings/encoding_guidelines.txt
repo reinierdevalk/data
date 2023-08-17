@@ -1,0 +1,45 @@
+missing and misplaced barlines
+- comment must be
+  {@no barline in source}
+  {@misplaced barline in source}
+- get no separate footnote, but are gathered in one single statement at the end of the 
+  footnotes. this applies also to missing non-standard barlines
+  - see phalese-1547_7-tant_que-4vv.tbp, b. 12
+
+altered barlines (in semantics, not in looks (e.g., three-line closing barlines)) 
+- get a separate footnote, possibly combined with any directly following footnote event 
+  - see phalese-1547_7-tant_que-4vv.tbp, bb. 11-12 (2x)
+
+a sequence of events that has a footnote can cross a barline
+- see adriansen-1584_6-d_vn_si.tbp, bb. 24-25
+
+REDUCTION is described in the ISMIR 2019 paper as
+- "the factor by which the durations in the tablature must be multiplied (or divided) in order for its nominal 
+  beat level to correspond to that of the vocal model. the reduction can be a positive integer greater than 1,
+  in which case it amounts to an augmentation; a negative integer, in which case it amounts to a reduction; or 
+  1, in which case the durations do not change"
+  - REDUCTION = 1 (no change): the default durations of the tablature rhythm symbols stay the same
+  - REDUCTION = 2 (augmentation): the default durations of the tablature rhythm symbols are doubled
+  - REDUCTION = -2 (reduction): the default durations of the tablature rhythm symbols are doubled
+- applies only to datasets created using TabMapper (e.g., josquIntab), where an _automatic_ mapping of tablature notes to 
+  voices from the vocal model (MIDI file) is done
+- does not apply to datasets created manually (e.g., thesis-int), where a _manual_ mapping of tablature notes to voices
+  from the vocal model (PDF file) is done. here, REDUCTION is always 1: the default durations of the tablature rhythm 
+  symbols are kept fixed, and instead the durations in the vocal model are interpreted flexible (i.e., read as reduced/augmented)
+
+transcription of tablature rhythm symbols in MEI tab + score. two options (see #ig-tablature message on 17.12.2021)
+- (1) fix the default set of tablature rhythm symbols and simply do a 1:1 transcription (current MEIExport approach using reduceCMNDur = true)
+  - set @tab.dur.sym.ratio on <staffDef> to '1' (or leave it out)
+  - add no @dur to the <tabDurSym> - the presence of <tabDurSym> only indicates that there is a RS; its duration is fixed
+  - add the (default) @dur to the <tabGrp> 
+  - add the same @dur to the corresponding <note>(s)
+- (2) scale the default set of tablature rhythm symbols and do a temporally augmented or reduced transcription (TODO in MEI)
+  - set @tab.dur.sym.ratio on <staffDef> to '<n>', where <n> is the scaling factor (>1 for augmentation; <0 for reduction)
+  - add the default @dur to the <tabDurSym> - to indicate its default value
+  - add the scaled @dur to the <tabGrp> - it can be derived automatically using tab.dur.sym.ratio. e.g., 
+    - tab.dur.sym.ratio='2'  --> a default @dur of 2 scales to a @dur of 1 (half to whole note; doubling)
+    - tab.dur.sym.ratio='-2' --> a default @dur of 2 scales to a @dur of 4 (half to quarter note; halving) 
+  - add the same scaled @dur to the corresponding <note>(s)
+--> for uniformity in approach, the second method can be used for option (1) as well, setting @tab.dur.sym.ratio on 
+    <staffDef> to '1' and using the same @dur on <tabDurSym> and <tabGrp> - but maybe this is not as clean as there is 
+    some redundancy now (one of the @dur can go) 

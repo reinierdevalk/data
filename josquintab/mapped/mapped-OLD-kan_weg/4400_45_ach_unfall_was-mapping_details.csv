@@ -1,0 +1,229 @@
+note,pitch,chord,bar,mapped voice,cost,category
+2,58,2,1 3/2,3,n/a,ornamentation
+3,57,3,1 13/8,3,n/a,ornamentation
+4,58,4,1 7/4,3,n/a,ornamentation
+5,60,5,1 15/8,3,n/a,ornamentation
+6,58,6,2,3,0,repetition
+10,58,10,3 1/1,3,0,repetition
+12,60,11,3 3/2,3,2,other
+13,58,12,3 13/8,3,n/a,ornamentation
+14,57,13,3 7/4,3,0,repetition
+15,55,14,3 15/8,3,n/a,ornamentation
+18,64,16,4 1/4,1,n/a,ornamentation
+19,65,17,4 1/2,1,n/a,ornamentation
+20,67,18,4 3/4,1,2,other
+21,53,19,4 1/1,3,0,repetition
+23,55,20,4 3/2,3,2,other
+24,53,21,4 13/8,3,n/a,ornamentation
+25,52,22,4 7/4,3,0,repetition
+26,50,23,4 15/8,3,n/a,ornamentation
+32,65,27,5 5/4,1,n/a,ornamentation
+35,53,30,6,3,0,repetition
+37,55,31,6 1/2,3,2,other
+38,53,32,6 5/8,3,n/a,ornamentation
+39,52,33,6 3/4,3,0,repetition
+40,50,34,6 7/8,3,n/a,ornamentation
+42,60,35,6 1/1,1,0,repetition
+44,67,36,6 3/2,0,n/a,ornamentation
+45,65,37,6 13/8,0,n/a,ornamentation
+46,67,38,6 7/4,0,n/a,ornamentation
+47,69,39,6 15/8,0,n/a,ornamentation
+49,58,40,7,1,2,other
+53,58,43,7 1/1,3,0,repetition
+56,72,44,7 3/2,0,2,other
+57,70,45,7 13/8,0,n/a,ornamentation
+58,69,46,7 7/4,0,1,other
+59,67,47,7 15/8,0,n/a,ornamentation
+61,70,48,8,0,0,repetition
+62,69,49,8 1/8,1,n/a,ornamentation
+63,67,50,8 1/4,1,2,other
+64,69,51,8 3/8,0,n/a,ornamentation
+70,70,54,8 5/4,0,n/a,ornamentation
+74,51,56,8 7/4,3,2,ficta
+80,58,58,9 1/2,2,0,repetition
+82,46,60,9 1/1,3,0,repetition
+84,65,60,9 1/1,0,0,repetition
+98,57,67,11,2,2,other
+100,53,68,11 1/2,2,0,repetition
+101,67,68,11 1/2,1,2,other
+102,65,69,11 5/8,0,n/a,ornamentation
+103,67,70,11 3/4,0,n/a,ornamentation
+104,69,71,11 7/8,0,n/a,ornamentation
+111,67,75,12 1/4,1,n/a,ornamentation
+113,65,76,12 1/2,1,0,repetition
+114,63,77,12 3/4,1,2,ficta
+118,58,80,12 3/2,2,0,repetition
+127,67,84,13 3/2,1,2,other
+128,65,85,13 13/8,1,n/a,ornamentation
+129,64,86,13 7/4,1,n/a,ornamentation
+130,65,87,13 15/8,1,n/a,ornamentation
+133,67,88,14,1,2,other
+134,65,89,14 1/4,0,n/a,ornamentation
+135,67,90,14 3/8,0,n/a,ornamentation
+136,69,91,14 1/2,0,1,other
+137,67,92,14 5/8,0,n/a,ornamentation
+138,65,93,14 3/4,0,n/a,ornamentation
+139,67,94,14 7/8,0,n/a,ornamentation
+155,70,101,15 7/4,2,n/a,ornamentation
+156,53,102,16,3,2,other
+158,72,103,16 1/4,0,0,repetition
+159,55,104,16 1/2,3,0,repetition
+161,53,105,16 3/4,3,0,repetition
+164,62,106,16 1/1,1,2,other
+187,67,114,18 1/1,0,0,repetition
+188,66,115,18 5/4,0,n/a,ornamentation
+189,67,116,18 3/2,0,0,repetition
+190,66,117,18 13/8,0,n/a,ornamentation
+191,64,118,18 7/4,0,n/a,ornamentation
+192,66,119,18 15/8,0,n/a,ornamentation
+194,62,120,19,1,0,repetition
+201,67,123,19 1/1,0,0,repetition
+204,48,125,20,3,2,other
+205,63,125,20,1,1,other
+206,46,126,20 1/4,3,0,repetition
+207,62,126,20 1/4,1,0,repetition
+220,70,132,21 1/2,0,0,repetition
+233,67,139,22 5/4,0,n/a,ornamentation
+234,50,140,22 3/2,3,1,other
+235,65,140,22 3/2,0,2,other
+236,48,141,22 7/4,3,3,other
+237,63,141,22 7/4,1,3,other
+241,58,143,23 1/2,2,n/a,ornamentation
+243,46,145,23 1/1,3,0,repetition
+253,64,149,24 1/4,0,1,other
+254,65,150,24 1/2,0,0,repetition
+259,67,153,24 9/8,0,n/a,ornamentation
+260,69,154,24 5/4,0,0,repetition
+261,70,155,24 11/8,0,n/a,ornamentation
+262,69,156,24 3/2,0,1,other
+263,72,157,24 7/4,0,0,repetition
+266,67,159,25 1/4,0,n/a,ornamentation
+267,69,160,25 1/2,0,1,other
+268,67,161,25 5/8,0,n/a,ornamentation
+269,65,162,25 3/4,0,n/a,ornamentation
+270,67,163,25 7/8,0,n/a,ornamentation
+272,67,165,25 9/8,1,n/a,ornamentation
+273,66,166,25 5/4,1,n/a,ornamentation
+274,64,167,25 11/8,1,n/a,ornamentation
+275,67,168,25 3/2,1,0,repetition
+276,66,169,25 7/4,1,n/a,ornamentation
+280,63,172,26 1/2,1,2,ficta
+286,57,177,27,1,0,repetition
+291,67,181,27 9/8,1,n/a,ornamentation
+292,66,182,27 5/4,1,n/a,ornamentation
+293,64,183,27 11/8,1,n/a,ornamentation
+294,67,184,27 3/2,1,0,repetition
+295,66,185,27 13/8,1,n/a,ornamentation
+296,64,186,27 7/4,1,n/a,ornamentation
+297,66,187,27 15/8,1,n/a,ornamentation
+300,55,189,28 1/2,3,n/a,ornamentation
+306,60,194,28 7/4,1,n/a,ornamentation
+310,67,196,29 1/2,0,0,repetition
+315,60,199,29 3/2,1,0,repetition
+316,67,200,29 7/4,0,n/a,ornamentation
+319,67,202,30 1/4,1,n/a,ornamentation
+325,64,206,30 3/2,1,1,ficta
+330,64,208,31,1,2,ficta
+332,55,209,31 1/2,2,0,repetition
+337,62,211,31 1/1,1,0,repetition
+343,65,215,32,0,3,other
+350,67,220,32 5/4,0,2,other
+351,69,221,32 11/8,0,n/a,ornamentation
+352,70,222,32 3/2,0,1,other
+353,69,223,32 13/8,0,n/a,ornamentation
+354,67,224,32 7/4,0,2,other
+355,69,225,32 15/8,0,n/a,ornamentation
+362,70,230,33 1/1,0,0,repetition
+364,69,232,33 7/4,0,n/a,ornamentation
+371,62,236,34 5/4,2,n/a,ornamentation
+372,59,237,34 3/2,2,2,other
+373,61,238,34 7/4,0,n/a,ornamentation
+376,57,240,35 1/4,1,n/a,ornamentation
+379,58,243,35 1/1,2,0,repetition
+383,57,246,35 7/4,2,n/a,ornamentation
+385,64,248,36 1/4,2,n/a,ornamentation
+387,62,250,36 3/4,2,n/a,ornamentation
+389,62,252,36 9/8,1,n/a,ornamentation
+390,61,253,36 5/4,1,n/a,ornamentation
+391,59,254,36 11/8,1,n/a,ornamentation
+392,62,255,36 3/2,1,0,repetition
+393,61,256,36 7/4,1,n/a,ornamentation
+397,58,258,37 1/2,3,0,repetition
+399,50,260,37 1/1,2,0,repetition
+401,62,260,37 1/1,1,0,repetition
+402,60,261,37 3/2,3,2,other
+403,58,262,37 13/8,3,n/a,ornamentation
+404,57,263,37 7/4,3,n/a,ornamentation
+405,58,264,37 15/8,3,n/a,ornamentation
+406,50,265,38,2,0,repetition
+409,50,267,38 1/1,2,0,repetition
+410,58,267,38 1/1,3,0,repetition
+411,62,268,38 5/4,3,n/a,ornamentation
+412,60,269,38 3/2,3,2,other
+413,58,270,38 13/8,3,n/a,ornamentation
+414,57,271,38 7/4,3,0,repetition
+415,55,272,38 15/8,3,n/a,ornamentation
+418,64,274,39 1/4,1,n/a,ornamentation
+419,65,275,39 1/2,1,n/a,ornamentation
+420,67,276,39 3/4,1,2,other
+421,53,277,39 1/1,3,0,repetition
+422,65,278,39 5/4,3,n/a,ornamentation
+426,64,282,40 1/4,1,n/a,ornamentation
+430,65,285,40 5/4,1,n/a,ornamentation
+433,53,288,41,3,0,repetition
+435,55,289,41 1/2,3,2,other
+436,53,290,41 5/8,3,n/a,ornamentation
+437,52,291,41 3/4,3,0,repetition
+438,50,292,41 7/8,3,n/a,ornamentation
+440,60,293,41 1/1,1,0,repetition
+442,65,294,41 9/8,0,n/a,ornamentation
+443,63,295,41 5/4,0,n/a,ornamentation
+444,62,296,41 11/8,0,n/a,ornamentation
+445,63,297,41 3/2,0,n/a,ornamentation
+446,65,298,41 13/8,0,n/a,ornamentation
+447,67,299,41 7/4,0,n/a,ornamentation
+448,69,300,41 15/8,0,n/a,ornamentation
+450,58,301,42,1,2,other
+454,58,304,42 1/1,3,0,repetition
+457,60,305,42 3/2,3,2,other
+458,58,306,42 13/8,3,n/a,ornamentation
+459,57,307,42 7/4,3,0,repetition
+460,55,308,42 15/8,3,n/a,ornamentation
+468,70,312,43 5/4,0,n/a,ornamentation
+477,58,316,44 1/2,2,0,repetition
+479,46,318,44 1/1,3,0,repetition
+486,53,321,45,2,5,other
+489,58,323,45 1/1,2,0,repetition
+496,67,326,46 1/2,1,2,other
+497,65,327,46 5/8,0,n/a,ornamentation
+498,67,328,46 3/4,0,n/a,ornamentation
+499,69,329,46 7/8,0,n/a,ornamentation
+506,67,333,47 1/4,1,n/a,ornamentation
+507,65,334,47 1/2,1,0,repetition
+508,63,335,47 3/4,1,2,ficta
+512,58,338,47 3/2,2,0,repetition
+525,67,344,49,1,2,other
+526,69,345,49 1/2,0,1,other
+527,67,346,49 5/8,0,n/a,ornamentation
+528,65,347,49 3/4,0,n/a,ornamentation
+529,67,348,49 7/8,0,n/a,ornamentation
+531,53,349,49 1/1,2,5,other
+545,72,354,50 3/2,0,0,repetition
+546,70,355,50 7/4,0,n/a,ornamentation
+548,72,356,51,0,0,repetition
+575,67,368,53 9/8,0,n/a,ornamentation
+576,66,369,53 5/4,0,n/a,ornamentation
+577,64,370,53 11/8,0,n/a,ornamentation
+578,67,371,53 3/2,0,0,repetition
+579,66,372,53 7/4,0,n/a,ornamentation
+580,43,373,54,3,7,other
+583,65,374,54 1/4,1,n/a,ornamentation
+584,63,375,54 1/2,1,1,other
+585,62,376,54 3/4,1,2,other
+588,65,378,54 3/2,1,2,other
+589,63,379,54 13/8,1,n/a,ornamentation
+590,62,380,54 7/4,1,n/a,ornamentation
+591,60,381,54 15/8,1,n/a,ornamentation
+592,43,382,55,3,3,other
+593,58,382,55,2,3,other
+594,62,382,55,1,0,repetition
