@@ -1,0 +1,16 @@
+- each project folder contains at least the following four folders
+  - score/
+    - contains, when using using own-made data (adriaenssen, byrd)
+      - (.pdf files of vocal model, from which are created)
+        - full .sib scores (CMN + tab) of vocal model, from which are created
+          - (no_tab .sib scores: CMN only, for .mid files export)
+          - (tab_only .sib scores: tab only, for .tab files export (from which are created .tbp files))
+    - contains, when using existing data (josquin)
+      - .pdf files of vocal model
+      - .mid files
+      - .tc files (from which are created .tbp files)
+  - MIDI/
+    - same piece names/naming convention as in tab/
+  - tab/
+    - same piece names/naming convention as in MIDI/ 
+  - mapped/
