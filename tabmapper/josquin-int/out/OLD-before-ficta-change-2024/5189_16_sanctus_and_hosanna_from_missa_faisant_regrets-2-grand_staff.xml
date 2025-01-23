@@ -1,0 +1,1866 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href='mei-cmn.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<mei xmlns='http://www.music-encoding.org/ns/mei' meiversion='4.0.0'>
+    <!-- https://music-encoding.org/guidelines/v4/content/metadata.html#headerstructure -->
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>5189_16_sanctus_and_hosanna_from_missa_faisant_regrets-2</title>
+            </titleStmt>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application isodate='2023-08-30' version='1.0.0'>
+                    <name>TabMapper</name>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <workList>
+            <work>
+                <title></title>
+                <composer></composer>
+                <notesStmt>
+                    <annot></annot>
+                </notesStmt>
+            </work>
+        </workList>  
+    </meiHead>
+    <music>
+       <body>
+            <mdiv>
+                <score>
+                    <scoreDef>
+                        <staffGrp>
+                            <staffGrp symbol='bracket' bar.thru='true'>
+                                <staffDef n='1' lines='5'>
+                                    <clef shape='G' line='2'/>
+                                    <keySig sig='1f' mode='major'/>
+                                    <meterSig count='2' unit='1'/>
+                                </staffDef>
+                                <staffDef n='2' lines='5'>
+                                    <clef shape='F' line='4'/>
+                                    <keySig sig='1f' mode='major'/>
+                                    <meterSig count='2' unit='1'/>
+                                </staffDef>
+                            </staffGrp>
+                            <staffDef n='3' lines='6' notationtype='tab.lute.french' tab.dur.sym.ratio='1' xml:id='s1'>
+                                <tuning tuning.standard='lute.renaissance.6'/>
+                                <meterSig count='2' unit='1'/>
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section n='1'>
+                        <measure n='1'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <mRest xml:id='0.1.0.r.0'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.1.0.r.0/1'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='1.1.1.d3.48/96.1.1'/>
+                                    <note pname='e' oct='3' dur='4' xml:id='1.1.2.e3.96/96.3.3'/>
+                                    <note pname='d' oct='3' dur='4' xml:id='1.1.3.d3.120/96.4.4'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.1.4.g3.144/96.6.6'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <mRest xml:id='2.1.0.r.0'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='b' oct='2' dur='2' xml:id='3.1.0.b2.0/96.0.0'/>
+                                    <rest dur='2' xml:id='3.1.1.r.1/2'/>
+                                    <note pname='g' oct='2' dur='4' xml:id='3.1.2.g2.96/96.2.2'/>
+                                    <rest dur='4' xml:id='3.1.3.r.5/4'/>
+                                    <note pname='g' oct='2' dur='2' xml:id='3.1.4.g2.144/96.5.5' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='0'/>
+                                        <note xml:id='' tab.course='5' tab.fret='4'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='0'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='2'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <rest dur='1' dots='1' xml:id='0.2.0.r.0/1'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='0.2.1.d4.3/2.14.14'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='4' xml:id='1.2.0.r.0/1'/>
+                                    <note pname='f' oct='3' accid='s' dur='4' xml:id='1.2.1.f3.1/4.8.8' color='blue'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='1.2.2.g3.48/96.9.9' color='lime'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='1.2.3.f3.3/4.10.10' color='blue'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.2.4.g3.96/96.12.12'/>
+                                    <rest dur='2' xml:id='1.2.5.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='1' xml:id='2.2.0.r.0/1'/>
+                                    <note pname='b' oct='3' dur='2' xml:id='2.2.1.b3.1/1.13.13'/>
+                                    <rest dur='2' xml:id='2.2.2.r.144/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='a' oct='2' dur='4' xml:id='3.2.0.a2.0/96.7.7'/>
+                                    <rest dur='2' dots='1' xml:id='3.2.1.r.1/4'/>
+                                    <note pname='g' oct='2' dur='2' xml:id='3.2.2.g2.96/96.11.11'/>
+                                    <rest dur='2' xml:id='3.2.3.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='1'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='0'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='3'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='e' oct='4' dur='4' xml:id='0.3.0.e4.0/96.16.16'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='0.3.1.d4.24/96.17.17'/>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.3.2.g4.48/96.20.20'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='0.3.3.d4.96/96.23.23' color='red'/>
+                                    <note pname='f' oct='4' accid='s' dur='2' xml:id='0.3.4.f4.3/2.26.26'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.3.0.r.0/1'/>
+                                    <note pname='e' oct='3' dur='2' xml:id='1.3.1.e3.1/2.18.18'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='1.3.2.d3.96/96.21.21'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='1.3.3.d3.144/96.24.24' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='g' oct='3' dur='4' xml:id='2.3.0.g3.0/96.15.15'/>
+                                    <rest dur='4' xml:id='2.3.1.r.1/4'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='2.3.2.g3.48/96.19.19' color='lime'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='2.3.3.a3.96/96.22.22'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='2.3.4.a3.144/96.25.25' color='lime'/>
+                                </layer>
+                                <layer n='2'>
+                                    <mRest xml:id='3.3.0.r.0'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='4'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.4.0.g4.0/96.29.29'/>
+                                    <rest dur='1' xml:id='0.4.1.r.1/2'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='0.4.2.c4.144/96.36.36'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.4.0.r.0/1'/>
+                                    <note pname='e' oct='3' dur='2' xml:id='1.4.1.e3.48/96.30.30'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='1.4.2.f3.96/96.32.32'/>
+                                    <note pname='e' oct='3' dur='4' xml:id='1.4.3.e3.120/96.33.33'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.4.4.a3.144/96.35.35'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='g' oct='3' dur='2' xml:id='2.4.0.g3.0/96.28.28'/>
+                                    <rest dur='1' dots='1' xml:id='2.4.1.r.1/2'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='c' oct='3' dur='2' xml:id='3.4.0.c3.0/96.27.27'/>
+                                    <rest dur='2' xml:id='3.4.1.r.1/2'/>
+                                    <note pname='a' oct='2' dur='4' xml:id='3.4.2.a2.96/96.31.31'/>
+                                    <rest dur='4' xml:id='3.4.3.r.5/4'/>
+                                    <note pname='a' oct='2' dur='2' xml:id='3.4.4.a2.144/96.34.34' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='0'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='4'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='2'/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='4'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='2'/>
+                                        <note xml:id='' tab.course='4' tab.fret='4'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='5'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='2' xml:id='0.5.0.d4.0/96.38.38'/>
+                                    <rest dur='4' xml:id='0.5.1.r.1/2'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='0.5.2.e4.72/96.40.40'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.5.3.f4.96/96.44.44'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.5.4.e4.144/96.46.46'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.5.0.r.0/1'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='1.5.1.g3.48/96.39.39'/>
+                                    <rest dur='4' xml:id='1.5.2.r.3/4'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.5.3.a3.96/96.42.42'/>
+                                    <rest dur='2' xml:id='1.5.4.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='1' xml:id='2.5.0.r.0/1'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='2.5.1.c4.1/1.43.43'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='2.5.2.c4.144/96.45.45' color='lime'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='b' oct='2' dur='2' xml:id='3.5.0.b2.0/96.37.37'/>
+                                    <rest dur='2' xml:id='3.5.1.r.1/2'/>
+                                    <note pname='a' oct='2' dur='2' xml:id='3.5.2.a2.96/96.41.41'/>
+                                    <rest dur='2' xml:id='3.5.3.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='3'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='2'/>
+                                        <note xml:id='' tab.course='4' tab.fret='4'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='6'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='4' xml:id='0.6.0.f4.0/96.48.48'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='0.6.1.e4.24/96.49.49'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='0.6.2.a4.48/96.52.52'/>
+                                    <rest dur='2' xml:id='0.6.3.r.1/1'/>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.6.4.g4.144/96.55.55'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.6.0.r.0/1'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.6.1.f3.1/2.50.50'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.6.2.g3.96/96.53.53'/>
+                                    <rest dur='2' xml:id='1.6.3.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='a' oct='3' dur='4' xml:id='2.6.0.a3.0/96.47.47'/>
+                                    <rest dur='4' xml:id='2.6.1.r.1/4'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='2.6.2.a3.48/96.51.51' color='lime'/>
+                                    <note pname='b' oct='3' dur='2' xml:id='2.6.3.b3.96/96.54.54'/>
+                                    <rest dur='2' xml:id='2.6.4.r.144/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <mRest xml:id='3.6.0.r.0'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='4'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='7'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='a' oct='4' dur='2' xml:id='0.7.0.a4.0/96.58.58'/>
+                                    <rest dur='1' xml:id='0.7.1.r.1/2'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='0.7.2.d4.144/96.64.64'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.7.0.r.0/1'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.7.1.f3.1/2.59.59'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='1.7.2.g3.96/96.61.61'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='1.7.3.f3.120/96.62.62'/>
+                                    <note pname='b' oct='3' dur='2' xml:id='1.7.4.b3.144/96.63.63'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='a' oct='3' dur='2' xml:id='2.7.0.a3.0/96.57.57'/>
+                                    <rest dur='1' dots='1' xml:id='2.7.1.r.1/2'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='d' oct='3' dur='2' xml:id='3.7.0.d3.0/96.56.56'/>
+                                    <rest dur='2' xml:id='3.7.1.r.1/2'/>
+                                    <note pname='b' oct='2' dur='4' xml:id='3.7.2.b2.96/96.60.60'/>
+                                    <rest dur='2' dots='1' xml:id='3.7.3.r.120/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='3'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='8'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.8.0.e4.0/96.66.66'/>
+                                    <rest dur='4' xml:id='0.8.1.r.1/2'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='0.8.2.f4.72/96.68.68'/>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.8.3.g4.96/96.72.72'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.8.4.f4.144/96.73.73'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.8.0.r.0/1'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='1.8.1.a3.48/96.67.67'/>
+                                    <rest dur='4' xml:id='1.8.2.r.3/4'/>
+                                    <note pname='b' oct='3' dur='2' xml:id='1.8.3.b3.96/96.70.70'/>
+                                    <rest dur='2' xml:id='1.8.4.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='1' xml:id='2.8.0.r.0/1'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='2.8.1.d4.1/1.71.71'/>
+                                    <rest dur='2' xml:id='2.8.2.r.3/2'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='c' oct='3' dur='2' xml:id='3.8.0.c3.0/96.65.65'/>
+                                    <rest dur='2' xml:id='3.8.1.r.1/2'/>
+                                    <note pname='b' oct='2' dur='2' xml:id='3.8.2.b2.96/96.69.69'/>
+                                    <rest dur='2' xml:id='3.8.3.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='3'/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='9'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='g' oct='4' dur='4' xml:id='0.9.0.g4.0/96.74.74'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='0.9.1.f4.24/96.75.75'/>
+                                    <note pname='b' oct='4' dur='4' xml:id='0.9.2.b4.48/96.77.77'/>
+                                    <rest dur='4' xml:id='0.9.3.r.3/4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='0.9.4.f4.96/96.81.81' color='red'/>
+                                    <note pname='b' oct='4' dur='4' xml:id='0.9.5.b4.120/96.82.82' color='blue'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='0.9.6.a4.144/96.86.86'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.9.0.r.0/1'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='1.9.1.a3.1/2.76.76'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='1.9.2.g3.72/96.78.78'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='1.9.3.f3.96/96.79.79'/>
+                                    <rest dur='4' xml:id='1.9.4.r.5/4'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.9.5.f3.144/96.83.83' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='1' xml:id='2.9.0.r.0/1'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='2.9.1.c4.1/1.80.80'/>
+                                    <rest dur='4' xml:id='2.9.2.r.5/4'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='2.9.3.c4.144/96.84.84' color='lime'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='1' dots='1' xml:id='3.9.0.r.0/1'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='3.9.1.f4.3/2.85.85' color='red'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='1' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='10'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.10.0.g4.0/96.90.90' color='red'/>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.10.1.g4.48/96.92.92'/>
+                                    <rest dur='2' xml:id='0.10.2.r.1/1'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='0.10.3.a4.144/96.96.96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.10.0.g3.0/96.88.88'/>
+                                    <note pname='e' oct='4' accid='f' dur='2' xml:id='1.10.1.e4.1/2.91.91'/>
+                                    <rest dur='4' xml:id='1.10.2.r.1/1'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='1.10.3.d4.120/96.94.94'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='1.10.4.c4.144/96.95.95'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='b' oct='3' dur='2' xml:id='2.10.0.b3.0/96.89.89'/>
+                                    <rest dur='1' dots='1' xml:id='2.10.1.r.1/2'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='e' oct='3' accid='f' dur='2' xml:id='3.10.0.e3.0/96.87.87'/>
+                                    <rest dur='2' xml:id='3.10.1.r.1/2'/>
+                                    <note pname='c' oct='3' dur='4' xml:id='3.10.2.c3.96/96.93.93'/>
+                                    <rest dur='2' dots='1' xml:id='3.10.3.r.120/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='3'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='1'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='11'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <rest dur='4' xml:id='0.11.0.r.0/1'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='0.11.1.f4.24/96.98.98' color='red'/>
+                                    <rest dur='4' xml:id='0.11.2.r.1/2'/>
+                                    <note pname='g' oct='4' dur='4' xml:id='0.11.3.g4.72/96.100.100' color='blue'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='0.11.4.a4.96/96.103.103'/>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.11.5.g4.144/96.105.105'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='1' xml:id='1.11.0.r.0/1'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='1.11.1.c4.96/96.102.102'/>
+                                    <rest dur='2' xml:id='1.11.2.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='2.11.0.r.0/1'/>
+                                    <note pname='b' oct='3' accid='n' dur='4' xml:id='2.11.1.b3.1/2.99.99' color='orange'/>
+                                    <rest dur='2' dots='1' xml:id='2.11.2.r.3/4'/>
+                                    <note pname='e' oct='4' accid='f' dur='2' xml:id='2.11.3.e4.3/2.104.104' color='lime'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='d' oct='3' dur='4' xml:id='3.11.0.d3.0/96.97.97'/>
+                                    <rest dur='2' dots='1' xml:id='3.11.1.r.1/4'/>
+                                    <note pname='c' oct='3' dur='2' xml:id='3.11.2.c3.96/96.101.101'/>
+                                    <rest dur='2' xml:id='3.11.3.r.144/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='1'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='12'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <rest dur='4' xml:id='0.12.0.r.0/1'/>
+                                    <beam>
+                                        <note pname='a' oct='4' dur='8' xml:id='0.12.1.a4.24/96.107.107' color='blue'/>
+                                        <note pname='b' oct='4' accid='n' dur='8' xml:id='0.12.2.b4.3/8.108.108' color='blue'/>
+                                    </beam>
+                                    <note pname='c' oct='5' dur='4' xml:id='0.12.3.c5.48/96.109.109'/>
+                                    <rest dur='2' xml:id='0.12.4.r.3/4'/>
+                                    <note pname='c' oct='5' dur='4' xml:id='0.12.5.c5.120/96.112.112' color='blue'/>
+                                    <note pname='b' oct='4' dur='2' xml:id='0.12.6.b4.3/2.114.114' color='orange'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='1' dots='1' xml:id='1.12.0.r.0/1'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.12.1.g3.3/2.113.113'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='2' dots='1' xml:id='2.12.0.r.0/1'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='2.12.1.c4.72/96.110.110' color='blue'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='2.12.2.d4.96/96.111.111'/>
+                                    <rest dur='2' dots='1' xml:id='2.12.3.r.120/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='c' oct='3' dur='4' xml:id='3.12.0.c3.0/96.106.106' color='lime'/>
+                                    <rest dur='1' dots='2' xml:id='3.12.1.r.24/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='8'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='8'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='4'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='5'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='5'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='1' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='13'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='c' oct='5' dur='2' xml:id='0.13.0.c5.0/96.118.118'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='0.13.1.a4.48/96.120.120'/>
+                                    <rest dur='4' xml:id='0.13.2.r.1/1'/>
+                                    <note pname='g' oct='4' dur='4' xml:id='0.13.3.g4.120/96.122.122' color='red'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.13.4.f4.144/96.124.124'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.13.0.a3.0/96.116.116'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.13.1.f3.48/96.119.119'/>
+                                    <rest dur='2' xml:id='1.13.2.r.1/1'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='1.13.3.d4.144/96.123.123'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='c' oct='4' dur='2' xml:id='2.13.0.c4.0/96.117.117'/>
+                                    <rest dur='1' dots='1' xml:id='2.13.1.r.1/2'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='f' oct='3' dur='2' xml:id='3.13.0.f3.0/96.115.115'/>
+                                    <rest dur='2' xml:id='3.13.1.r.1/2'/>
+                                    <note pname='d' oct='3' dur='4' xml:id='3.13.2.d3.96/96.121.121'/>
+                                    <rest dur='2' dots='1' xml:id='3.13.3.r.120/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='5'/>
+                                        <note xml:id='' tab.course='4' tab.fret='4'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='' tab.course='1' tab.fret='5'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='14'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.14.0.g4.0/96.126.126'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.14.1.e4.48/96.128.128'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.14.2.f4.96/96.132.131'/>
+                                    <rest dur='2' xml:id='0.14.3.r.3/2'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='1' xml:id='1.14.0.r.0/1'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='1.14.1.d4.96/96.130.130'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.14.2.a3.144/96.133.132'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='2.14.0.r.0/1'/>
+                                    <note pname='c' oct='4' accid='s' dur='2' xml:id='2.14.1.c4.1/2.127.127' color='orange'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='2.14.2.f4.96/96.131.131'/>
+                                    <rest dur='2' xml:id='2.14.3.r.144/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='e' oct='3' dur='2' xml:id='3.14.0.e3.0/96.125.125'/>
+                                    <rest dur='2' xml:id='3.14.1.r.1/2'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='3.14.2.d3.96/96.129.129'/>
+                                    <rest dur='2' xml:id='3.14.3.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='4'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='15'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='0.15.0.r.0/1'/>
+                                    <note pname='d' oct='5' dur='2' xml:id='0.15.1.d5.1/2.137.136'/>
+                                    <rest dur='2' xml:id='0.15.2.r.1/1'/>
+                                    <note pname='c' oct='5' accid='s' dur='2' xml:id='0.15.3.c5.3/2.141.140'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='b' oct='3' dur='2' xml:id='1.15.0.b3.0/96.134.133'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.15.1.f3.48/96.136.135'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.15.2.g3.96/96.138.137'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.15.3.a3.144/96.140.139'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='2' xml:id='2.15.0.d4.0/96.135.134'/>
+                                    <rest dur='2' xml:id='2.15.1.r.1/2'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='2.15.2.e4.96/96.139.138'/>
+                                    <rest dur='2' xml:id='2.15.3.r.144/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <mRest xml:id='3.15.0.r.0'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='5'/>
+                                        <note xml:id='' tab.course='3' tab.fret='5'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='5'/>
+                                        <note xml:id='' tab.course='1' tab.fret='7'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='7'/>
+                                        <note xml:id='' tab.course='3' tab.fret='7'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='4'/>
+                                        <note xml:id='' tab.course='1' tab.fret='6'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='16'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='d' oct='5' dur='2' xml:id='0.16.0.d5.0/96.144.143'/>
+                                    <rest dur='1' xml:id='0.16.1.r.1/2'/>
+                                    <note pname='b' oct='4' dur='2' xml:id='0.16.2.b4.144/96.151.150'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='d' oct='3' dur='2' xml:id='1.16.0.d3.0/96.142.141'/>
+                                    <note pname='b' oct='3' dur='2' xml:id='1.16.1.b3.48/96.146.145'/>
+                                    <rest dur='4' xml:id='1.16.2.r.1/1'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='1.16.3.a3.120/96.149.148'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.16.4.g3.144/96.150.149'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='2' xml:id='2.16.0.d4.0/96.143.142'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='2.16.1.d4.48/96.147.146' color='lime'/>
+                                    <rest dur='1' xml:id='2.16.2.r.1/1'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='3.16.0.r.0/1'/>
+                                    <note pname='b' oct='2' dur='2' xml:id='3.16.1.b2.1/2.145.144' color='lime'/>
+                                    <note pname='g' oct='2' dur='4' xml:id='3.16.2.g2.96/96.148.147'/>
+                                    <rest dur='2' dots='1' xml:id='3.16.3.r.120/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='7'/>
+                                        <note xml:id='' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='' tab.course='1' tab.fret='7'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='3'/>
+                                        <note xml:id='' tab.course='4' tab.fret='5'/>
+                                        <note xml:id='' tab.course='3' tab.fret='5'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='4'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='1' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='17'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='c' oct='5' dur='2' xml:id='0.17.0.c5.0/96.153.152'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='0.17.1.a4.48/96.155.154'/>
+                                    <note pname='b' oct='4' dur='2' xml:id='0.17.2.b4.96/96.158.157'/>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.17.3.g4.144/96.160.159'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.17.0.r.0/1'/>
+                                    <note pname='f' oct='3' accid='s' dur='2' xml:id='1.17.1.f3.1/2.154.153'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.17.2.g3.96/96.157.156'/>
+                                    <rest dur='2' xml:id='1.17.3.r.144/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='1' dots='1' xml:id='2.17.0.r.0/1'/>
+                                    <note pname='e' oct='4' accid='f' dur='2' xml:id='2.17.1.e4.3/2.159.158' color='red'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='a' oct='2' dur='2' xml:id='3.17.0.a2.0/96.152.151'/>
+                                    <rest dur='2' xml:id='3.17.1.r.1/2'/>
+                                    <note pname='g' oct='2' dur='2' xml:id='3.17.2.g2.96/96.156.155'/>
+                                    <rest dur='2' xml:id='3.17.3.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='2'/>
+                                        <note xml:id='' tab.course='1' tab.fret='5'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='1'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='0'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='1' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='1'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='18'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <rest dur='4' xml:id='0.18.0.r.0/1'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='0.18.1.e4.24/96.163.162'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.18.2.e4.48/96.165.164'/>
+                                    <rest dur='2' xml:id='0.18.3.r.1/1'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='0.18.4.c4.144/96.169.168'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='e' oct='3' dur='4' xml:id='1.18.0.e3.0/96.161.160'/>
+                                    <rest dur='1' xml:id='1.18.1.r.1/4'/>
+                                    <rest dur='4' xml:id='1.18.2.r.5/4'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.18.3.f3.144/96.168.167'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='g' oct='3' dur='4' xml:id='2.18.0.g3.0/96.162.161'/>
+                                    <rest dur='2' dots='1' xml:id='2.18.1.r.1/4'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='2.18.2.a3.96/96.166.165'/>
+                                    <rest dur='2' xml:id='2.18.3.r.3/2'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='3.18.0.r.0/1'/>
+                                    <note pname='c' oct='3' dur='2' xml:id='3.18.1.c3.1/2.164.163'/>
+                                    <rest dur='2' xml:id='3.18.2.r.1/1'/>
+                                    <note pname='a' oct='2' dur='2' xml:id='3.18.3.a2.144/96.167.166'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='2'/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='19'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='2' xml:id='0.19.0.d4.0/96.172.171'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='0.19.1.g3.48/96.173.172' color='blue'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='0.19.2.e4.72/96.174.173'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.19.3.f4.96/96.177.176'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.19.4.e4.144/96.179.178'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='d' oct='3' dur='2' xml:id='1.19.0.d3.0/96.171.170'/>
+                                    <rest dur='2' xml:id='1.19.1.r.1/2'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.19.2.a3.96/96.176.175'/>
+                                    <rest dur='2' xml:id='1.19.3.r.144/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='1' dots='1' xml:id='2.19.0.r.0/1'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='2.19.1.c4.3/2.178.177'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='b' oct='2' dur='2' xml:id='3.19.0.b2.0/96.170.169'/>
+                                    <rest dur='2' xml:id='3.19.1.r.1/2'/>
+                                    <note pname='a' oct='2' dur='2' xml:id='3.19.2.a2.96/96.175.174'/>
+                                    <rest dur='2' xml:id='3.19.3.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='3'/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='20'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.20.0.f4.0/96.181.180'/>
+                                    <rest dur='1' xml:id='0.20.1.r.1/2'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='0.20.2.d4.144/96.188.187'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.20.0.f3.0/96.180.179'/>
+                                    <rest dur='2' xml:id='1.20.1.r.1/2'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.20.2.f3.96/96.184.183'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.20.3.g3.144/96.187.186'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='2.20.0.r.0/1'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='2.20.1.a3.48/96.183.182'/>
+                                    <note pname='b' oct='3' dur='2' xml:id='2.20.2.b3.96/96.185.184'/>
+                                    <rest dur='2' xml:id='2.20.3.r.144/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='3.20.0.r.0/1'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='3.20.1.d3.1/2.182.181'/>
+                                    <rest dur='2' xml:id='3.20.2.r.1/1'/>
+                                    <note pname='b' oct='2' dur='2' xml:id='3.20.3.b2.144/96.186.185'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='3'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='21'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.21.0.e4.0/96.192.191'/>
+                                    <rest dur='2' xml:id='0.21.1.r.1/2'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='0.21.2.d4.96/96.197.196'/>
+                                    <rest dur='2' xml:id='0.21.3.r.5/4'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='0.21.4.e4.168/96.200.199'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='e' oct='3' dur='2' xml:id='1.21.0.e3.0/96.190.189'/>
+                                    <note pname='c' oct='3' dur='4' xml:id='1.21.1.c3.48/96.193.192' color='blue'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='1.21.2.f3.72/96.194.193'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='1.21.3.g3.96/96.196.195'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='1.21.4.a3.120/96.198.197'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='1.21.5.b3.144/96.199.198'/>
+                                    <rest dur='4' xml:id='1.21.6.r.7/4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='a' oct='3' dur='2' xml:id='2.21.0.a3.0/96.191.190'/>
+                                    <rest dur='1' dots='1' xml:id='2.21.1.r.48/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='c' oct='3' dur='2' xml:id='3.21.0.c3.0/96.189.188'/>
+                                    <rest dur='2' xml:id='3.21.1.r.1/2'/>
+                                    <note pname='b' oct='2' dur='4' xml:id='3.21.2.b2.96/96.195.194'/>
+                                    <rest dur='2' dots='1' xml:id='3.21.3.r.5/4'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='5'/>
+                                        <note xml:id='' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='5'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='3'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='22'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='4' xml:id='0.22.0.f4.0/96.202.201'/>
+                                    <rest dur='4' xml:id='0.22.1.r.1/4'/>
+                                    <note pname='g' oct='4' dur='4' xml:id='0.22.2.g4.48/96.207.206'/>
+                                    <rest dur='2' dots='1' xml:id='0.22.3.r.3/4'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.22.4.e4.144/96.214.213'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='1.22.0.r.0/1'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='1.22.1.g3.1/2.205.204'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='1.22.2.f3.72/96.208.207'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.22.3.g3.96/96.210.209'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.22.4.a3.144/96.213.212'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='4' xml:id='2.22.0.d4.0/96.201.200' color='lime'/>
+                                    <note pname='c' oct='4' accid='s' dur='4' xml:id='2.22.1.c4.1/4.203.202' color='red'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='2.22.2.b3.48/96.206.205'/>
+                                    <rest dur='4' xml:id='2.22.3.r.3/4'/>
+                                    <note pname='c' oct='4' accid='n' dur='2' xml:id='2.22.4.c4.96/96.211.210'/>
+                                    <rest dur='2' xml:id='2.22.5.r.144/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='3.22.0.r.0/1'/>
+                                    <note pname='e' oct='3' accid='f' dur='4' xml:id='3.22.1.e3.1/2.204.203'/>
+                                    <rest dur='4' xml:id='3.22.2.r.3/4'/>
+                                    <note pname='e' oct='3' dur='2' xml:id='3.22.3.e3.1/1.209.208' color='lime'/>
+                                    <note pname='c' oct='3' dur='2' xml:id='3.22.4.c3.144/96.212.211'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='4'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='3'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='3'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='23'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.23.0.f4.0/96.218.217'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='0.23.1.b3.48/96.219.218' color='blue'/>
+                                    <note pname='g' oct='4' dur='4' xml:id='0.23.2.g4.72/96.220.219'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='0.23.3.a4.96/96.223.222'/>
+                                    <note pname='g' oct='4' dur='4' xml:id='0.23.4.g4.144/96.225.224'/>
+                                    <rest dur='4' xml:id='0.23.5.r.168/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.23.0.f3.0/96.216.215'/>
+                                    <rest dur='2' xml:id='1.23.1.r.1/2'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='1.23.2.c4.96/96.222.221'/>
+                                    <rest dur='4' xml:id='1.23.3.r.3/2'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='1.23.4.b3.168/96.226.225' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='b' oct='3' dur='2' xml:id='2.23.0.b3.0/96.217.216'/>
+                                    <rest dur='1' xml:id='2.23.1.r.1/2'/>
+                                    <note pname='e' oct='4' accid='f' dur='4' xml:id='2.23.2.e4.3/2.224.223'/>
+                                    <rest dur='4' xml:id='2.23.3.r.7/4'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='d' oct='3' dur='2' xml:id='3.23.0.d3.0/96.215.214'/>
+                                    <rest dur='2' xml:id='3.23.1.r.1/2'/>
+                                    <note pname='c' oct='3' dur='2' xml:id='3.23.2.c3.96/96.221.220'/>
+                                    <rest dur='2' xml:id='3.23.3.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='1'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='24'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='a' oct='4' dur='4' xml:id='0.24.0.a4.0/96.228.227'/>
+                                    <rest dur='2' dots='1' xml:id='0.24.1.r.1/4'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='0.24.2.a4.96/96.235.234' color='lime'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.24.3.f4.144/96.238.237'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='4' xml:id='1.24.0.a3.0/96.227.226'/>
+                                    <rest dur='2' dots='1' xml:id='1.24.1.r.1/4'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.24.2.a3.96/96.233.232'/>
+                                    <note pname='b' oct='3' dur='2' xml:id='1.24.3.b3.144/96.237.236'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='2.24.0.r.0/1'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='2.24.1.c4.1/2.231.230'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='2.24.2.d4.96/96.234.233'/>
+                                    <rest dur='2' xml:id='2.24.3.r.3/2'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='4' xml:id='3.24.0.r.0/1'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='3.24.1.g3.1/4.229.228' color='blue'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='3.24.2.f3.48/96.230.229'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='3.24.3.f3.96/96.232.231' color='lime'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='3.24.4.d3.144/96.236.235'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='25'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.25.0.g4.0/96.241.240'/>
+                                    <note pname='c' oct='4' accid='s' dur='4' xml:id='0.25.1.c4.1/2.242.241' color='blue'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='0.25.2.a4.72/96.243.242'/>
+                                    <note pname='b' oct='4' dur='2' xml:id='0.25.3.b4.96/96.246.245'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='0.25.4.a4.144/96.248.247'/>
+                                    <rest dur='4' xml:id='0.25.5.r.7/4'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.25.0.g3.0/96.240.239'/>
+                                    <rest dur='2' xml:id='1.25.1.r.1/2'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='1.25.2.d4.96/96.245.244'/>
+                                    <rest dur='4' xml:id='1.25.3.r.3/2'/>
+                                    <note pname='c' oct='4' accid='n' dur='4' xml:id='1.25.4.c4.168/96.249.248'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='1' dots='1' xml:id='2.25.0.r.0/1'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='2.25.1.f4.3/2.247.246'/>
+                                    <rest dur='4' xml:id='2.25.2.r.7/4'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='e' oct='3' dur='2' xml:id='3.25.0.e3.0/96.239.238'/>
+                                    <rest dur='2' xml:id='3.25.1.r.1/2'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='3.25.2.d3.96/96.244.243'/>
+                                    <rest dur='2' xml:id='3.25.3.r.3/2'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='4'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                        <note xml:id='' tab.course='1' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                        <note xml:id='' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='26'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='0.26.0.r.0/1'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.26.1.f4.1/2.253.252'/>
+                                    <note pname='g' oct='4' dur='2' xml:id='0.26.2.g4.96/96.256.255'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.26.3.e4.144/96.258.257'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.26.0.a3.0/96.250.249'/>
+                                    <note pname='b' oct='3' dur='2' xml:id='1.26.1.b3.48/96.251.250'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.26.2.g3.96/96.254.253'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='1.26.3.a3.144/96.257.256'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='2.26.0.r.0/1'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='2.26.1.d4.1/2.252.251'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='2.26.2.e4.96/96.255.254'/>
+                                    <rest dur='2' xml:id='2.26.3.r.144/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <mRest xml:id='3.26.0.r.0'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='5'/>
+                                        <note xml:id='' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='27'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='2' xml:id='0.27.0.f4.0/96.261.260'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='0.27.1.d4.48/96.264.263'/>
+                                    <rest dur='2' xml:id='0.27.2.r.1/1'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.27.3.e4.144/96.268.267'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='f' oct='3' dur='2' xml:id='1.27.0.f3.0/96.259.258'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.27.1.g3.48/96.263.262'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='1.27.2.d3.96/96.265.264'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.27.3.g3.144/96.267.266'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='2' xml:id='2.27.0.d4.0/96.260.259'/>
+                                    <rest dur='1' dots='1' xml:id='2.27.1.r.1/2'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='3.27.0.r.0/1'/>
+                                    <note pname='b' oct='2' dur='2' xml:id='3.27.1.b2.1/2.262.261'/>
+                                    <rest dur='2' xml:id='3.27.2.r.1/1'/>
+                                    <note pname='g' oct='2' dur='2' xml:id='3.27.3.g2.144/96.266.265'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='3'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='0'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='28'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='0.28.0.r.0/1'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='0.28.1.c4.48/96.273.272'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='0.28.2.d4.72/96.274.273' color='blue'/>
+                                    <note pname='e' oct='4' dur='2' xml:id='0.28.3.e4.96/96.277.276'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='0.28.4.d4.144/96.279.278'/>
+                                    <rest dur='4' xml:id='0.28.5.r.168/96'/>
+                                </layer>
+                                <layer n='2'>
+                                    <rest dur='4' xml:id='1.28.0.r.0/1'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='1.28.1.a3.24/96.270.269' color='red'/>
+                                    <note pname='f' oct='3' accid='s' dur='4' xml:id='1.28.2.f3.1/2.272.271' color='orange'/>
+                                    <rest dur='4' xml:id='1.28.3.r.3/4'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='1.28.4.g3.96/96.276.275'/>
+                                    <rest dur='4' xml:id='1.28.5.r.3/2'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='1.28.6.a3.168/96.280.279'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='1' dots='1' xml:id='2.28.0.r.0/1'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='2.28.1.b3.3/2.278.277'/>
+                                    <rest dur='4' xml:id='2.28.2.r.7/4'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='a' oct='2' dur='4' xml:id='3.28.0.a2.0/96.269.268'/>
+                                    <rest dur='4' xml:id='3.28.1.r.1/4'/>
+                                    <note pname='a' oct='2' dur='4' xml:id='3.28.2.a2.48/96.271.270' color='lime'/>
+                                    <rest dur='4' xml:id='3.28.3.r.3/4'/>
+                                    <note pname='g' oct='2' dur='2' xml:id='3.28.4.g2.96/96.275.274'/>
+                                    <rest dur='2' xml:id='3.28.5.r.144/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='2'/>
+                                        <note xml:id='' tab.course='4' tab.fret='1'/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='0'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='29'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='2' xml:id='0.29.0.d4.0/96.283.282' color='lime'/>
+                                    <note pname='g' oct='4' dur='4' xml:id='0.29.1.g4.48/96.286.285'/>
+                                    <rest dur='2' dots='1' xml:id='0.29.2.r.3/4'/>
+                                    <note pname='f' oct='4' accid='s' dur='2' xml:id='0.29.3.f4.3/2.293.292'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='b' oct='3' dur='2' xml:id='1.29.0.b3.0/96.282.281'/>
+                                    <rest dur='4' xml:id='1.29.1.r.1/2'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='1.29.2.c4.72/96.287.286' color='blue'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='1.29.3.d4.96/96.290.289'/>
+                                    <rest dur='2' xml:id='1.29.4.r.144/96'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='2.29.0.r.0/1'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='2.29.1.g3.1/2.285.284'/>
+                                    <rest dur='4' xml:id='2.29.2.r.3/4'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='2.29.3.a3.96/96.289.288'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='2.29.4.a3.144/96.292.291' color='lime'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='d' oct='3' dur='2' xml:id='3.29.0.d3.0/96.281.280'/>
+                                    <note pname='e' oct='3' accid='f' dur='4' xml:id='3.29.1.e3.1/2.284.283'/>
+                                    <rest dur='4' xml:id='3.29.2.r.3/4'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='3.29.3.d3.96/96.288.287'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='3.29.4.d3.144/96.291.290' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='3'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='4'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='' dur='2'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='' tab.course='2' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='30' right='end'>
+                            <staff n='1'>
+                                <layer n='1'>
+                                    <note pname='g' oct='4' dur='1' xml:id='0.30.0.g4.0/96.297.296'/>
+                                    <rest dur='1' xml:id='0.30.1.r.1/1'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='d' oct='4' dur='1' xml:id='1.30.0.d4.0/96.296.295' color='lime'/>
+                                    <rest dur='1' xml:id='1.30.1.r.1/1'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='1'>
+                                    <note pname='g' oct='3' dur='1' xml:id='2.30.0.g3.0/96.295.294'/>
+                                    <rest dur='1' xml:id='2.30.1.r.1/1'/>
+                                </layer>
+                                <layer n='2'>
+                                    <note pname='g' oct='2' dur='1' xml:id='3.30.0.g2.0/96.294.293'/>
+                                    <rest dur='1' xml:id='3.30.1.r.1/1'/>
+                                </layer>
+                            </staff>
+                            <staff n='3'>
+                                <layer n='1'>
+                                    <tabGrp xml:id='' dur='1'>
+                                        <tabDurSym xml:id=''/>
+                                        <note xml:id='' tab.course='6' tab.fret='0'/>
+                                        <note xml:id='' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='' tab.course='2' tab.fret='5'/>
+                                    </tabGrp>
+                                    <barLine/>
+                                    <tabGrp xml:id='' dur='1'>
+                                        <tabDurSym xml:id=''/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>

@@ -1,3 +1,15 @@
+comments
+- must be placed directly after the event they refer to, before the SS + space (.>.) following that event
+- in case of multiple events being replaced (either by one or more events)
+  - the comment must be placed after the first event of the replacement, i.e., at onset of the replaced event
+  - the following replacement events must all be followed by an empty footnote {@}
+  - example: 
+    mi.a5.g3.f2.f1.>. 
+    replaced by 
+    sm-.a5.g3.f2.f1.>.fu-.f1.>.fu.f1.>.  
+    becomes
+    sm-.a5.g3.f2.f1{@'mi.a5.g3.f2.f1.' in source}.>.fu-.f1{@}.>.fu.f1{@}.>.
+
 missing and misplaced barlines
 - comment must be
   {@no barline in source}
@@ -13,22 +25,38 @@ altered barlines (in semantics, not in looks (e.g., three-line closing barlines)
 a sequence of events that has a footnote can cross a barline
 - see adriansen-1584_6-d_vn_si.tbp, bb. 24-25
 
-REDUCTION is described in the ISMIR 2019 paper as
-- "the factor by which the durations in the tablature must be multiplied (or divided) in order for its nominal 
+diminution (TabMapper)
+- why? meter in tab and model MIDI are not always the same but are often 'nominally proportioned' (i.e., 
+  halved or doubled) -- but should be to enable mapping 
+- in case of meter mismatches, the durations in the model MIDI (and not those in the tab) should be adapted, 
+  using the DIMINUTION values given in the tab 
+- thus, the TabMapper output (the mapped transcriptions) have the same durations as those in as the tab
+  - this is good, as the rhythm flags in the tab should always represent the same duration to be usable 
+    for ML tasks
+- how it works
+  - DIMINUTION = 1 (no change): the durations in the model are the same as those given in the tab                                 
+  - DIMINUTION = 2 (diminution): the durations in the model are halved w.r.t. to those given in the tab
+  - DIMINUTION = -2 (augmentation): the durations in the model are doubled w.r.t. to those given in the tab  
+- examples
+  - 1025_adieu_mes_amours
+    tab: 2/2; model: 2/1; dim: 2; mapped: 2/2
+  - 5106_10_misa_de_faysan_regres_2_gloria
+    tab: 2/1, 3/2; model: 2/1, 3/1; dim: 1, 2; mapped: 2/1, 3/2
+- diminution applies only to the data in data/annotated/tabmapper/josquin-int/tab/; in the case of the data in 
+  data/annotated/voice_separation/encodings/thesis-int/, DIMINUTION is always 1
+  - the default durations of the tab rhythm symbols are kept fixed when creating the ground truth transcriptions, 
+    and instead the durations in the vocal model (PDF) are interpreted flexibly (i.e., read as reduced/augmented)
+    --> the rhythm flags always represent the same durations
+- NB: diminution ("reduction") is described in the ISMIR 2019 paper as
+  "the factor by which the durations in the tablature must be multiplied (or divided) in order for its nominal 
   beat level to correspond to that of the vocal model. the reduction can be a positive integer greater than 1,
   in which case it amounts to an augmentation; a negative integer, in which case it amounts to a reduction; or 
   1, in which case the durations do not change"
-  - REDUCTION = 1 (no change): the default durations of the tablature rhythm symbols stay the same
-  - REDUCTION = 2 (augmentation): the default durations of the tablature rhythm symbols are doubled
-  - REDUCTION = -2 (reduction): the default durations of the tablature rhythm symbols are doubled
-- applies only to datasets created using TabMapper (e.g., josquIntab), where an _automatic_ mapping of tablature notes to 
-  voices from the vocal model (MIDI file) is done
-- does not apply to datasets created manually (e.g., thesis-int), where a _manual_ mapping of tablature notes to voices
-  from the vocal model (PDF file) is done. here, REDUCTION is always 1: the default durations of the tablature rhythm 
-  symbols are kept fixed, and instead the durations in the vocal model are interpreted flexible (i.e., read as reduced/augmented)
+  - this is incorrect: it should be the other way around (as described above), and has been inplemented as such 
+    since
 
 transcription of tablature rhythm symbols in MEI tab + score. two options (see #ig-tablature message on 17.12.2021)
-- (1) fix the default set of tablature rhythm symbols and simply do a 1:1 transcription (current MEIExport approach using reduceCMNDur = true)
+- (1) fix the default set of tablature rhythm symbols and simply do a 1:1 transcription (current MEIExport approach)
   - set @tab.dur.sym.ratio on <staffDef> to '1' (or leave it out)
   - add no @dur to the <tabDurSym> - the presence of <tabDurSym> only indicates that there is a RS; its duration is fixed
   - add the (default) @dur to the <tabGrp> 

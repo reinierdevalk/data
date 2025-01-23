@@ -1,0 +1,21 @@
+no match for pitches [65] at indices [26] (bar 12; onset 0)
+pitches in tab chord : [65]
+cheapest mapping (total cost 2):
+  voice 0 for pitch 65 (at cost 2) --> ficta
+voices for chord: [[0]]
+
+no match for pitches [68] at indices [31] (bar 13; onset 1/2)
+pitches in tab chord : [64, 68]
+cheapest mapping (total cost 1):
+  voice 0 for pitch 68 (at cost 1) --> ficta
+voices for chord: [[1], [0]]
+
+number of notes in tab:    234
+number of mismatches:      2, of which 
+                           0 repetitions
+                           0 ornamentations
+                           2 ficta
+                           0 other
+percentage of matches:     0.9914529914529915 (only full matches)
+                           1.0 (including repetitions and ficta)
+                           1.0 (including ornamentations, repetitions, ficta)
