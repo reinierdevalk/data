@@ -1,5 +1,5 @@
 comments
-- must be placed directly after the event they refer to, before the SS + space (.>.) following that event
+- must be placed directly after the event they refer to, before the SS + space + SS (.>.) following that event
 - in case of multiple events being replaced (either by one or more events)
   - the comment must be placed after the first event of the replacement, i.e., at onset of the replaced event
   - the following replacement events must all be followed by an empty footnote {@}
@@ -22,8 +22,10 @@ altered barlines (in semantics, not in looks (e.g., three-line closing barlines)
 - get a separate footnote, possibly combined with any directly following footnote event 
   - see phalese-1547_7-tant_que-4vv.tbp, bb. 11-12 (2x)
 
-a sequence of events that has a footnote can cross a barline
-- see adriansen-1584_6-d_vn_si.tbp, bb. 24-25
+a sequence of events that has a footnote 
+- must have all the events in the same bar
+- but the following replacement events (empty footnote events) can cross a barline
+  - see adriansen-1584_6-d_vn_si.tbp, bb. 24-25
 
 diminution (TabMapper)
 - why? meter in tab and model MIDI are not always the same but are often 'nominally proportioned' (i.e., 
@@ -42,7 +44,7 @@ diminution (TabMapper)
     tab: 2/2; model: 2/1; dim: 2; mapped: 2/2
   - 5106_10_misa_de_faysan_regres_2_gloria
     tab: 2/1, 3/2; model: 2/1, 3/1; dim: 1, 2; mapped: 2/1, 3/2
-- diminution applies only to the data in data/annotated/tabmapper/josquin-int/tab/; in the case of the data in 
+- diminution applies only to the data in data/annotated/tabmapper/josquin-int/in/tab/; in the case of the data in 
   data/annotated/voice_separation/encodings/thesis-int/, DIMINUTION is always 1
   - the default durations of the tab rhythm symbols are kept fixed when creating the ground truth transcriptions, 
     and instead the durations in the vocal model (PDF) are interpreted flexibly (i.e., read as reduced/augmented)
