@@ -1,0 +1,2696 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href='https://music-encoding.org/schema/5.0/mei-all.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<mei xmlns='http://www.music-encoding.org/ns/mei' meiversion='5.1'>
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>3585_002_benedictus_de_missa_pange_lingua_josquin</title>
+            </titleStmt>
+            <pubStmt></pubStmt>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application isodate='2025-08-25' version='1.0.0'>
+                    <name>abtab -- tabmapper</name>
+                    <p>Input file: 3585_002_benedictus_de_missa_pange_lingua_josquin.tbp</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <workList>
+            <work>
+                <title></title>
+                <composer></composer>
+                <notesStmt>
+                    <annot></annot>
+                </notesStmt>
+            </work>
+        </workList>
+    </meiHead>
+    <music>
+       <body>
+            <mdiv>
+                <score>
+                    <scoreDef xml:id='sdlh37lr'>
+                        <staffGrp xml:id='sg3xf5bi'>
+                            <staffGrp xml:id='sg4q8ndz' symbol='bracket' bar.thru='true'>
+                                <staffDef xml:id='sd41c7n3' n='1' lines='5' keysig='0' meter.count='2' meter.unit='1'>
+                                    <clef xml:id='cnsk9gmi' shape='G' line='2'/>
+                                    <keySig xml:id='kslnvk1h' sig='0' mode='major'/>
+                                    <meterSig xml:id='msx3drov' count='2' unit='1' form='num'/>
+                                </staffDef>
+                                <staffDef xml:id='sd3xakxs' n='2' lines='5' keysig='0' meter.count='2' meter.unit='1'>
+                                    <clef xml:id='cd2kd4dv' shape='F' line='4'/>
+                                    <keySig xml:id='ksz9dy2s' sig='0' mode='major'/>
+                                    <meterSig xml:id='ms2dh7zw' count='2' unit='1' form='num'/>
+                                </staffDef>
+                            </staffGrp>
+                            <staffDef xml:id='sd8gpiy9' n='3' lines='6' notationtype='tab.lute.french' tab.dur.sym.ratio='1'>
+                                <tuning xml:id='te66s7r9'>
+                                    <course xml:id='cguic16k' n='1' pname='d' oct='4'/>
+                                    <course xml:id='cagbzthp' n='2' pname='a' oct='3'/>
+                                    <course xml:id='cavhbd8j' n='3' pname='e' oct='3'/>
+                                    <course xml:id='cwdo5bwv' n='4' pname='c' oct='3'/>
+                                    <course xml:id='cnqv4th3' n='5' pname='g' oct='2'/>
+                                    <course xml:id='cplnh8zi' n='6' pname='d' oct='2'/>
+                                </tuning>
+                                <meterSig xml:id='msokemow' count='2' unit='1' form='num'/>
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id='s74nb8sm' n='1'>
+                        <measure xml:id='mq56x3cs' n='1'>
+                            <staff xml:id='swoz9zkx' n='1'>
+                                <layer xml:id='lkkwyw26' n='1'>
+                                    <mRest xml:id='mr3rwajp'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='svjl43ap' n='2'>
+                                <layer xml:id='lf8m6a1f' n='1'>
+                                    <mRest xml:id='mroe8g32'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='srrj7427' n='3'>
+                                <layer xml:id='lisrx66w' n='1'>
+                                    <tabGrp xml:id='tgkja1qo' dur='1'>
+                                        <tabDurSym xml:id='tds2pqfr'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='myl1xg49' n='2'>
+                            <staff xml:id='srcucpfz' n='1'>
+                                <layer xml:id='lnv4xt91' n='1'>
+                                    <mRest xml:id='mrt29pyb'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='soqep4zw' n='2'>
+                                <layer xml:id='l6wygr5y' n='1'>
+                                    <mRest xml:id='mrgy5wdz'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sergdbwv' n='3'>
+                                <layer xml:id='lzspl1j3' n='1'>
+                                    <tabGrp xml:id='tg2v55ay' dur='1'>
+                                        <tabDurSym xml:id='tds4qeen'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mdtkvf6o' n='3'>
+                            <staff xml:id='s2vyid51' n='1'>
+                                <layer xml:id='lmgpepk1' n='1'>
+                                    <mRest xml:id='mrl9fags'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sy52mhez' n='2'>
+                                <layer xml:id='lhv414h1' n='1'>
+                                    <mRest xml:id='mrg39n9a'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sqflc2er' n='3'>
+                                <layer xml:id='ljbjkcpf' n='1'>
+                                    <tabGrp xml:id='tgj6ih4o' dur='1'>
+                                        <tabDurSym xml:id='tdsv8cy6'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mg3dr51z' n='4'>
+                            <staff xml:id='s8w4h7rd' n='1'>
+                                <layer xml:id='lyvu3d12' n='1'>
+                                    <mRest xml:id='mrrstc3p'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='semgqzc8' n='2'>
+                                <layer xml:id='l6phczp1' n='1'>
+                                    <mRest xml:id='mravmy49'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sso8sofs' n='3'>
+                                <layer xml:id='lqsgk5es' n='1'>
+                                    <tabGrp xml:id='tgv6ub4h' dur='1'>
+                                        <tabDurSym xml:id='tdsc2eqd'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mzcns4gm' n='5'>
+                            <staff xml:id='sk82qelo' n='1'>
+                                <layer xml:id='lerwj59w' n='1'>
+                                    <mRest xml:id='mr9l9jui'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='slmfp3kj' n='2'>
+                                <layer xml:id='lgz3n9u2' n='1'>
+                                    <mRest xml:id='mr638fdw'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sgph5s6b' n='3'>
+                                <layer xml:id='l6k1z34p' n='1'>
+                                    <tabGrp xml:id='tg89lbxg' dur='1'>
+                                        <tabDurSym xml:id='tdsgdxme'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m5roso1l' n='6'>
+                            <staff xml:id='s9mg9pil' n='1'>
+                                <layer xml:id='lhib8x97' n='1'>
+                                    <mRest xml:id='mrfenxki'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sdy5qz15' n='2'>
+                                <layer xml:id='l4dvyp2g' n='1'>
+                                    <mRest xml:id='mr6n9zcm'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sm925fcv' n='3'>
+                                <layer xml:id='lbgt1dqu' n='1'>
+                                    <tabGrp xml:id='tg9f9az3' dur='1'>
+                                        <tabDurSym xml:id='tdsrsiu6'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m6b5y1d3' n='7'>
+                            <staff xml:id='skloq926' n='1'>
+                                <layer xml:id='l2wpwhfp' n='1'>
+                                    <mRest xml:id='mr633vsl'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sv92d5vf' n='2'>
+                                <layer xml:id='ljzjpq5q' n='1'>
+                                    <mRest xml:id='mrwyzyip'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='syd4snna' n='3'>
+                                <layer xml:id='lwljcbzb' n='1'>
+                                    <tabGrp xml:id='tg452o7d' dur='1'>
+                                        <tabDurSym xml:id='tds1c59i'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m4t7jyy6' n='8'>
+                            <staff xml:id='spzjlw9v' n='1'>
+                                <layer xml:id='l3t7zdcb' n='1'>
+                                    <mRest xml:id='mr9lu73n'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sr49jeno' n='2'>
+                                <layer xml:id='lhr6ac38' n='1'>
+                                    <mRest xml:id='mrgg84vm'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='se45hubs' n='3'>
+                                <layer xml:id='lvu492iu' n='1'>
+                                    <tabGrp xml:id='tguds6yu' dur='1'>
+                                        <tabDurSym xml:id='tdsbpkip'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mdxv1vjx' n='9'>
+                            <staff xml:id='sj4cagsa' n='1'>
+                                <layer xml:id='l7bu45k9' n='1'>
+                                    <mRest xml:id='mrmms7md'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='skwa3xkh' n='2'>
+                                <layer xml:id='lx35i45o' n='1'>
+                                    <mRest xml:id='mrv39v56'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s624nc9k' n='3'>
+                                <layer xml:id='l5fylhsu' n='1'>
+                                    <tabGrp xml:id='tgq8vv3g' dur='1'>
+                                        <tabDurSym xml:id='tds2elnw'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m9x7k2hg' n='10'>
+                            <staff xml:id='sgrp8omx' n='1'>
+                                <layer xml:id='l6tg1ro3' n='1'>
+                                    <mRest xml:id='mrnie59c'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='snhp9erm' n='2'>
+                                <layer xml:id='lwaczwr4' n='1'>
+                                    <mRest xml:id='mr6gmr9e'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sct9f3er' n='3'>
+                                <layer xml:id='lcfw485o' n='1'>
+                                    <tabGrp xml:id='tgef9iff' dur='1'>
+                                        <tabDurSym xml:id='tdsvrjv6'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mjmq2ckl' n='11'>
+                            <staff xml:id='ssh6w343' n='1'>
+                                <layer xml:id='ldzhf2wg' n='1'>
+                                    <mRest xml:id='mrv5up7j'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s2iwozr7' n='2'>
+                                <layer xml:id='lkykvug1' n='1'>
+                                    <mRest xml:id='mrn561zz'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sjzhdlf9' n='3'>
+                                <layer xml:id='lcdzast5' n='1'>
+                                    <tabGrp xml:id='tg2yjuwc' dur='1'>
+                                        <tabDurSym xml:id='tdsjsv8i'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='md6sju4r' n='12'>
+                            <staff xml:id='s35f1941' n='1'>
+                                <layer xml:id='l5kqt4ci' n='1'>
+                                    <mRest xml:id='mrt4r3yb'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='smeyndy9' n='2'>
+                                <layer xml:id='lja6yt8w' n='1'>
+                                    <mRest xml:id='mrwjd1dd'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='srtfgmh6' n='3'>
+                                <layer xml:id='lq6pevqy' n='1'>
+                                    <tabGrp xml:id='tg92ifz8' dur='1'>
+                                        <tabDurSym xml:id='tdsxdv7c'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mqvf1g69' n='13'>
+                            <staff xml:id='seqt2etz' n='1'>
+                                <layer xml:id='l8grj61s' n='1'>
+                                    <mRest xml:id='mrft6ncp'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sqo9hbno' n='2'>
+                                <layer xml:id='lkp5zows' n='1'>
+                                    <mRest xml:id='mrlea8wk'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sni9zgwc' n='3'>
+                                <layer xml:id='ly2v84ct' n='1'>
+                                    <tabGrp xml:id='tgvbewhk' dur='1'>
+                                        <tabDurSym xml:id='tdselrzo'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mbc6c6u9' n='14'>
+                            <staff xml:id='sod13orq' n='1'>
+                                <layer xml:id='lqjabf1d' n='1'>
+                                    <mRest xml:id='mrf1biu9'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s7hvbo9g' n='2'>
+                                <layer xml:id='l2445hci' n='1'>
+                                    <mRest xml:id='mr2uukwk'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sskddsje' n='3'>
+                                <layer xml:id='lqhv695j' n='1'>
+                                    <tabGrp xml:id='tgsmluah' dur='1'>
+                                        <tabDurSym xml:id='tdskxtsd'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mvijq9x2' n='15'>
+                            <staff xml:id='sbetf5gd' n='1'>
+                                <layer xml:id='lssk49ck' n='1'>
+                                    <mRest xml:id='mruujo8x'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s438hlmw' n='2'>
+                                <layer xml:id='lwozhagq' n='1'>
+                                    <mRest xml:id='mrympsdr'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sfip47mn' n='3'>
+                                <layer xml:id='lfuactbu' n='1'>
+                                    <tabGrp xml:id='tgwj4523' dur='1'>
+                                        <tabDurSym xml:id='tdspjxfb'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mgz96uo5' n='16'>
+                            <staff xml:id='syobb56j' n='1'>
+                                <layer xml:id='ls1csxda' n='1'>
+                                    <mRest xml:id='mrlj5kkx'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sd81kkdu' n='2'>
+                                <layer xml:id='lby2lkgs' n='1'>
+                                    <mRest xml:id='mr84wkmn'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sof4z8ux' n='3'>
+                                <layer xml:id='lutlk4hp' n='1'>
+                                    <tabGrp xml:id='tgrkudpy' dur='1'>
+                                        <tabDurSym xml:id='tdsgquhw'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mve4oanv' n='17'>
+                            <staff xml:id='sqqzmtrc' n='1'>
+                                <layer xml:id='l4dafre1' n='1'>
+                                    <mRest xml:id='mrsnguys'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s3fy4l43' n='2'>
+                                <layer xml:id='lzialw6o' n='1'>
+                                    <note xml:id='n326gn1t' pname='e' oct='3' dur='2'/>
+                                    <note xml:id='nyvknvaz' pname='f' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='shvu6zt3' n='3'>
+                                <layer xml:id='l427e7wr' n='1'>
+                                    <tabGrp xml:id='tg8vdndk' dur='2'>
+                                        <tabDurSym xml:id='tdsp5euc'/>
+                                        <note xml:id='n5zirydb' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgp3rwuf' dur='2'>
+                                        <tabDurSym xml:id='tdsoqadh'/>
+                                        <note xml:id='ns98qsmh' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mfaxlpdn' n='18'>
+                            <staff xml:id='s4djblnl' n='1'>
+                                <layer xml:id='ltzm69ik' n='1'>
+                                    <mRest xml:id='mrsm29dc'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='slgctts4' n='2'>
+                                <layer xml:id='lksh7avm' n='1'>
+                                    <note xml:id='nc1ld6r3' pname='e' oct='3' dur='2'/>
+                                    <note xml:id='nzz4bma7' pname='a' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sfcltvrc' n='3'>
+                                <layer xml:id='l2subnhl' n='1'>
+                                    <tabGrp xml:id='tgze2eci' dur='2'>
+                                        <tabDurSym xml:id='tdsae9ma'/>
+                                        <note xml:id='nfc491tj' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgbkcjmo' dur='2'>
+                                        <tabDurSym xml:id='tdslcvuv'/>
+                                        <note xml:id='n3pywtye' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mzbjxxoh' n='19'>
+                            <staff xml:id='sh1oonmm' n='1'>
+                                <layer xml:id='lqa4gpd2' n='1'>
+                                    <mRest xml:id='mrylxqld'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sck6x67e' n='2'>
+                                <layer xml:id='ldoirga3' n='1'>
+                                    <rest xml:id='rasioi6t' dur='2'/>
+                                    <note xml:id='nf23dpk3' pname='g' oct='3' dur='4'/>
+                                    <note xml:id='narcxbgt' pname='f' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='smzc498f' n='3'>
+                                <layer xml:id='lprghc51' n='1'>
+                                    <tabGrp xml:id='tg4yl6tp' dur='2'>
+                                        <tabDurSym xml:id='tds3t94z'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgzf9w3h' dur='4'>
+                                        <tabDurSym xml:id='tdsyefv5'/>
+                                        <note xml:id='nqkh9h8v' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgoglwvb' dur='4'>
+                                        <tabDurSym xml:id='tdsllgw2'/>
+                                        <note xml:id='nizvpvjh' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mz552563' n='20'>
+                            <staff xml:id='swrhusi2' n='1'>
+                                <layer xml:id='lfwenbw3' n='1'>
+                                    <mRest xml:id='mrwrt3vb'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s2p8p7uk' n='2'>
+                                <layer xml:id='lx9wnrss' n='1'>
+                                    <note xml:id='nnuj5xnw' pname='e' oct='3' dur='4'/>
+                                    <note xml:id='npg5mphf' pname='d' oct='3' dur='4' color='blue'/>
+                                    <note xml:id='nhg1eqao' pname='e' oct='3' dur='2' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sy7tvbp9' n='3'>
+                                <layer xml:id='l76ejw2i' n='1'>
+                                    <tabGrp xml:id='tg64rzcm' dur='4'>
+                                        <tabDurSym xml:id='tdsj5din'/>
+                                        <note xml:id='nl5end1x' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgumqnh4' dur='4'>
+                                        <tabDurSym xml:id='tdszhoe6'/>
+                                        <note xml:id='n48k6hvo' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgccz2ll' dur='2'>
+                                        <tabDurSym xml:id='tdsnay84'/>
+                                        <note xml:id='njou7a6h' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='md8m1b14' n='21'>
+                            <staff xml:id='shiphxhf' n='1'>
+                                <layer xml:id='lkacnsc1' n='1'>
+                                    <note xml:id='ng4wz5al' pname='b' oct='3' dur='2'/>
+                                    <note xml:id='nle8143p' pname='c' oct='4' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s9542pzv' n='2'>
+                                <layer xml:id='l9j6n8hn' n='1'>
+                                    <mRest xml:id='mri89dv9'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='scgxksh9' n='3'>
+                                <layer xml:id='l615a6ny' n='1'>
+                                    <tabGrp xml:id='tge61wwa' dur='2'>
+                                        <tabDurSym xml:id='tds7jirm'/>
+                                        <note xml:id='n9ckeiom' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg2ow99l' dur='2'>
+                                        <tabDurSym xml:id='tdsjgyxo'/>
+                                        <note xml:id='nefymanp' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='my3lrgez' n='22'>
+                            <staff xml:id='sd1boy7o' n='1'>
+                                <layer xml:id='lvmlph17' n='1'>
+                                    <note xml:id='njluufut' pname='b' oct='3' dur='2'/>
+                                    <note xml:id='nwuw15ap' pname='e' oct='4' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sstup1hf' n='2'>
+                                <layer xml:id='la12p3vu' n='1'>
+                                    <note xml:id='nrv5a3e1' pname='e' oct='3' dur='2'/>
+                                    <rest xml:id='r44uhkf3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sznlzy1c' n='3'>
+                                <layer xml:id='lvwifu8o' n='1'>
+                                    <tabGrp xml:id='tg2w5jgk' dur='2'>
+                                        <tabDurSym xml:id='tdsrb9j9'/>
+                                        <note xml:id='nknjyexy' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='nhnhuryf' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg5l1v4v' dur='2'>
+                                        <tabDurSym xml:id='tds67sta'/>
+                                        <note xml:id='nwugy9wf' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mggg13h7' n='23'>
+                            <staff xml:id='s2exyq2n' n='1'>
+                                <layer xml:id='lhfhshik' n='1'>
+                                    <rest xml:id='rqmzkhqy' dur='2'/>
+                                    <note xml:id='nxka68o6' pname='d' oct='4' dur='4'/>
+                                    <note xml:id='nbg6s7zc' pname='c' oct='4' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='suzrdmya' n='2'>
+                                <layer xml:id='ln2g4ktw' n='1'>
+                                    <note xml:id='n8a1ygpu' pname='e' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='nlxh3fe6' pname='f' oct='3' dur='4'/>
+                                    <rest xml:id='r3euof4w' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sow7sq1h' n='3'>
+                                <layer xml:id='l1k1caxl' n='1'>
+                                    <tabGrp xml:id='tgeykmy5' dur='2'>
+                                        <tabDurSym xml:id='tds9jku8'/>
+                                        <note xml:id='nd6kdytc' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg4ca8yx' dur='4'>
+                                        <tabDurSym xml:id='tdscofsz'/>
+                                        <note xml:id='nfrgbkn3' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='nlpwlqau' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg9tbaox' dur='4'>
+                                        <tabDurSym xml:id='tds5wrro'/>
+                                        <note xml:id='n1jfsmqb' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mrbqnxh9' n='24'>
+                            <staff xml:id='sqcornq4' n='1'>
+                                <layer xml:id='lsngc5vy' n='1'>
+                                    <note xml:id='nvatnr2h' pname='b' oct='3' dur='4'/>
+                                    <note xml:id='n2crhu62' pname='a' oct='3' dur='4' color='blue'/>
+                                    <note xml:id='nf9q8z5h' pname='b' oct='3' dur='2' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sj13ktd1' n='2'>
+                                <layer xml:id='lsofnqyg' n='1'>
+                                    <note xml:id='nsxhjtmu' pname='g' oct='3' dur='4'/>
+                                    <rest xml:id='rb5pi43x' dur='2' dots='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s1eaysfj' n='3'>
+                                <layer xml:id='l4sv14q9' n='1'>
+                                    <tabGrp xml:id='tg3jrxe6' dur='4'>
+                                        <tabDurSym xml:id='tdsiom8v'/>
+                                        <note xml:id='nh5hihln' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='nvbg6po1' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgjt9e1r' dur='4'>
+                                        <tabDurSym xml:id='tdsb8smg'/>
+                                        <note xml:id='nw1uoyft' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgrvy9ms' dur='2'>
+                                        <tabDurSym xml:id='tdszyyfn'/>
+                                        <note xml:id='nszmy1bo' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m3p1akxk' n='25'>
+                            <staff xml:id='sugqdzj7' n='1'>
+                                <layer xml:id='l9yjj3hw' n='1'>
+                                    <mRest xml:id='mr5dv6ms'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sbjx9u55' n='2'>
+                                <layer xml:id='liusqvaf' n='1'>
+                                    <note xml:id='ngjz5nhx' pname='a' oct='3' dur='2' dots='1'/>
+                                    <note xml:id='nyc51bk9' pname='g' oct='3' dur='4' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sofywv9r' n='3'>
+                                <layer xml:id='lh5ze29h' n='1'>
+                                    <tabGrp xml:id='tgqjjoxk' dur='2' dots='1'>
+                                        <tabDurSym xml:id='tdsuz6mh'/>
+                                        <note xml:id='n2lhz23k' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tggw5a55' dur='4'>
+                                        <tabDurSym xml:id='tdsxqhdg'/>
+                                        <note xml:id='n39ubwhj' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m8s47sqa' n='26'>
+                            <staff xml:id='sboc8kxe' n='1'>
+                                <layer xml:id='l6l5nn4g' n='1'>
+                                    <note xml:id='nmjnxzfj' pname='b' oct='3' dur='2' dots='1'/>
+                                    <rest xml:id='rewke9by' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sly6w36o' n='2'>
+                                <layer xml:id='lq6eb7nt' n='1'>
+                                    <note xml:id='nvtg8fnq' pname='e' oct='3' dur='2' dots='1'/>
+                                    <note xml:id='n53whws5' pname='f' oct='3' accid='s' dur='4' color='orange'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s62k4aoc' n='3'>
+                                <layer xml:id='l52qdqpx' n='1'>
+                                    <tabGrp xml:id='tguvakx3' dur='2' dots='1'>
+                                        <tabDurSym xml:id='tdsfm7qo'/>
+                                        <note xml:id='nekk5rae' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='nq9nlwmz' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgcrjjc2' dur='4'>
+                                        <tabDurSym xml:id='tdswa3x7'/>
+                                        <note xml:id='n3wdkqn9' tab.course='3' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mqnh59ra' n='27'>
+                            <staff xml:id='scbfzdsp' n='1'>
+                                <layer xml:id='lcxufmxn' n='1'>
+                                    <note xml:id='na1nxe3a' pname='b' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='nhrwkh9v' pname='c' oct='4' accid='s' dur='2' color='orange'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sxezweqo' n='2'>
+                                <layer xml:id='l6scci9l' n='1'>
+                                    <note xml:id='nuvve3ny' pname='g' oct='3' dur='2'/>
+                                    <note xml:id='nnq5ylqj' pname='a' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s92h5lcq' n='3'>
+                                <layer xml:id='lucdp7rq' n='1'>
+                                    <tabGrp xml:id='tgv7ktth' dur='2'>
+                                        <tabDurSym xml:id='tdsgsde5'/>
+                                        <note xml:id='nwo5rej8' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='nu36hyeb' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgjcd9m7' dur='2'>
+                                        <tabDurSym xml:id='tds4siap'/>
+                                        <note xml:id='nnhe9hkb' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='n5us3nhw' tab.course='2' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mj9i2hm4' n='28'>
+                            <staff xml:id='syiore3j' n='1'>
+                                <layer xml:id='lrhwlp28' n='1'>
+                                    <note xml:id='n86t17s4' pname='d' oct='4' dur='2'/>
+                                    <rest xml:id='r12gnj4a' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='svg6jl7f' n='2'>
+                                <layer xml:id='lasb1h5d' n='1'>
+                                    <note xml:id='naa7domq' pname='f' oct='3' dur='2'/>
+                                    <note xml:id='nw8rniy6' pname='d' oct='4' dur='4' color='blue'/>
+                                    <note xml:id='nf9vj2rz' pname='g' oct='3' dur='4' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='srcjek7v' n='3'>
+                                <layer xml:id='lwyy6pbw' n='1'>
+                                    <tabGrp xml:id='tgfo7tp2' dur='2'>
+                                        <tabDurSym xml:id='tdscxzv5'/>
+                                        <note xml:id='nxdjw1ot' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='nanj8k2z' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg4hjut9' dur='4'>
+                                        <tabDurSym xml:id='tdsvfpup'/>
+                                        <note xml:id='nub3t9ch' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgcr62pv' dur='4'>
+                                        <tabDurSym xml:id='tdsehfcg'/>
+                                        <note xml:id='n69lf5yr' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mmiuy9n3' n='29'>
+                            <staff xml:id='s1n8cs5v' n='1'>
+                                <layer xml:id='l1o3ztkq' n='1'>
+                                    <note xml:id='ntyrtbdk' pname='e' oct='4' dur='4'/>
+                                    <rest xml:id='r81v1yov' dur='2' dots='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sdlslzwh' n='2'>
+                                <layer xml:id='lm3i9ngl' n='1'>
+                                    <note xml:id='nmcmq44j' pname='e' oct='3' dur='4'/>
+                                    <note xml:id='nm98ifen' pname='d' oct='3' dur='4' color='blue'/>
+                                    <note xml:id='nyqhxfkd' pname='e' oct='3' dur='2' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sr656lvo' n='3'>
+                                <layer xml:id='l1rq7fp4' n='1'>
+                                    <tabGrp xml:id='tghuqhy6' dur='4'>
+                                        <tabDurSym xml:id='tdsauci4'/>
+                                        <note xml:id='nomp2htq' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='nsbix5d8' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgddrtcb' dur='4'>
+                                        <tabDurSym xml:id='tdso4h7w'/>
+                                        <note xml:id='ntvu96l1' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgftqlup' dur='2'>
+                                        <tabDurSym xml:id='tdsgkafc'/>
+                                        <note xml:id='n2t8aaf6' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mgpdxevu' n='30'>
+                            <staff xml:id='si6ksdkq' n='1'>
+                                <layer xml:id='l6jh51ya' n='1'>
+                                    <note xml:id='nwe9klp4' pname='b' oct='3' dur='2' dots='1'/>
+                                    <note xml:id='nrgdyqat' pname='c' oct='4' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sxq8hc28' n='2'>
+                                <layer xml:id='lwrdvmdx' n='1'>
+                                    <mRest xml:id='mrd352n8'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sdi4dz63' n='3'>
+                                <layer xml:id='lnxxxnpv' n='1'>
+                                    <tabGrp xml:id='tg8s74q9' dur='2' dots='1'>
+                                        <tabDurSym xml:id='tdsm6i5g'/>
+                                        <note xml:id='nr1534g1' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgx22r1q' dur='4'>
+                                        <tabDurSym xml:id='tds3769s'/>
+                                        <note xml:id='ncwhqt7r' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='msqm7wc6' n='31'>
+                            <staff xml:id='sdi2zbgr' n='1'>
+                                <layer xml:id='lbgn79zn' n='1'>
+                                    <note xml:id='ngeh59lu' pname='d' oct='4' dur='2'/>
+                                    <note xml:id='n9e56vla' pname='e' oct='4' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s4hoy6yb' n='2'>
+                                <layer xml:id='ley8kg38' n='1'>
+                                    <rest xml:id='r8rqt44v' dur='2'/>
+                                    <note xml:id='nne47gcz' pname='c' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s2u6626v' n='3'>
+                                <layer xml:id='lz93q6iy' n='1'>
+                                    <tabGrp xml:id='tgdnv8fn' dur='2'>
+                                        <tabDurSym xml:id='tdsenb34'/>
+                                        <note xml:id='nlifpwo8' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg4jusro' dur='2'>
+                                        <tabDurSym xml:id='tdsxm6oa'/>
+                                        <note xml:id='ntv11jnv' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='nnjy3uwa' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='meu9lsbo' n='32'>
+                            <staff xml:id='srxiww9t' n='1'>
+                                <layer xml:id='l3xgsudd' n='1'>
+                                    <note xml:id='nxevmc3i' pname='c' oct='4' dur='4'/>
+                                    <rest xml:id='rm8qw3ch' dur='2' dots='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='szokpjoi' n='2'>
+                                <layer xml:id='l84oe5d5' n='1'>
+                                    <rest xml:id='rwko2kmr' dur='4'/>
+                                    <note xml:id='n9ovfuif' pname='d' oct='3' dur='4'/>
+                                    <note xml:id='n6eauzqs' pname='e' oct='3' dur='4'/>
+                                    <note xml:id='nbxv7ssc' pname='f' oct='3' accid='s' dur='4' color='orange'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sp77rzok' n='3'>
+                                <layer xml:id='lk4aorvc' n='1'>
+                                    <tabGrp xml:id='tga84273' dur='4'>
+                                        <tabDurSym xml:id='tdswqbjs'/>
+                                        <note xml:id='nt5vljn6' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgsd41et' dur='4'>
+                                        <tabDurSym xml:id='tds2cqy9'/>
+                                        <note xml:id='nazvzezb' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg6ud3tn' dur='4'>
+                                        <tabDurSym xml:id='tds7pb69'/>
+                                        <note xml:id='nkmxrf69' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgd5ryws' dur='4'>
+                                        <tabDurSym xml:id='tds8wdlm'/>
+                                        <note xml:id='nkpvprqz' tab.course='3' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mz3ikr8w' n='33'>
+                            <staff xml:id='sgpmnbtf' n='1'>
+                                <layer xml:id='lhdvidnv' n='1'>
+                                    <note xml:id='nhu1wksl' pname='b' oct='3' dur='2'/>
+                                    <note xml:id='n4pyqci6' pname='g' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='svebfth9' n='2'>
+                                <layer xml:id='lygvkqda' n='1'>
+                                    <note xml:id='num86emc' pname='g' oct='3' dur='2'/>
+                                    <note xml:id='n2b7u8zg' pname='e' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s3mba51k' n='3'>
+                                <layer xml:id='ltr8nut8' n='1'>
+                                    <tabGrp xml:id='tgye9ny9' dur='2'>
+                                        <tabDurSym xml:id='tdsbmevd'/>
+                                        <note xml:id='n29ftcyi' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='n6v224kx' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg75x4s9' dur='2'>
+                                        <tabDurSym xml:id='tdsizitp'/>
+                                        <note xml:id='nrnpbghy' tab.course='4' tab.fret='4'/>
+                                        <note xml:id='nkdfuj7m' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mm3vqgh6' n='34'>
+                            <staff xml:id='sir1vatf' n='1'>
+                                <layer xml:id='lqc2sp4x' n='1'>
+                                    <rest xml:id='r1d2amot' dur='4'/>
+                                    <note xml:id='ndpzqwx8' pname='a' oct='3' dur='4'/>
+                                    <note xml:id='n477ujws' pname='b' oct='3' dur='4'/>
+                                    <note xml:id='nykxshtq' pname='c' oct='4' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s8l3a9ka' n='2'>
+                                <layer xml:id='l5c4fz8p' n='1'>
+                                    <note xml:id='nv3nidn5' pname='g' oct='3' dur='4'/>
+                                    <rest xml:id='r1kvp7k9' dur='2'/>
+                                    <note xml:id='n3qw39cs' pname='f' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sgvz2zw3' n='3'>
+                                <layer xml:id='lnsh8pyq' n='1'>
+                                    <tabGrp xml:id='tgju3w1c' dur='4'>
+                                        <tabDurSym xml:id='tds7tkg3'/>
+                                        <note xml:id='n9683nh5' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgb2nuf7' dur='4'>
+                                        <tabDurSym xml:id='tdsd5qus'/>
+                                        <note xml:id='nabmomf4' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgzvkns5' dur='4'>
+                                        <tabDurSym xml:id='tds823eb'/>
+                                        <note xml:id='n97kls9q' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgougtqt' dur='4'>
+                                        <tabDurSym xml:id='tdsaiiyc'/>
+                                        <note xml:id='nfgocb5a' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='njjkwilz' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='me7s36eg' n='35'>
+                            <staff xml:id='stnwhbk1' n='1'>
+                                <layer xml:id='lwnk95n6' n='1'>
+                                    <note xml:id='nn2ltbcr' pname='d' oct='4' dur='2'/>
+                                    <note xml:id='ntdx7pg5' pname='b' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sce6hhfg' n='2'>
+                                <layer xml:id='lynaezxw' n='1'>
+                                    <note xml:id='nzprtua1' pname='d' oct='3' dur='2'/>
+                                    <note xml:id='n6tw8tim' pname='g' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='shtucwi4' n='3'>
+                                <layer xml:id='l4qviidb' n='1'>
+                                    <tabGrp xml:id='tgn23e5t' dur='2'>
+                                        <tabDurSym xml:id='tdsjmr7s'/>
+                                        <note xml:id='n9i7m635' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='na58pokk' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgke3a11' dur='2'>
+                                        <tabDurSym xml:id='tdsfgb4g'/>
+                                        <note xml:id='nwqzn7ql' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='nmke88ss' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mwualt21' n='36'>
+                            <staff xml:id='sw65e3h4' n='1'>
+                                <layer xml:id='l6biv3o3' n='1'>
+                                    <note xml:id='nyhiu63d' pname='a' oct='3' dur='2'/>
+                                    <note xml:id='n8hss87r' pname='d' oct='4' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sktq8pir' n='2'>
+                                <layer xml:id='lapvfwom' n='1'>
+                                    <note xml:id='nimfr7sg' pname='f' oct='3' dur='2'/>
+                                    <note xml:id='nduuepxw' pname='d' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='swq44zzj' n='3'>
+                                <layer xml:id='lfn67eq2' n='1'>
+                                    <tabGrp xml:id='tgbylvii' dur='2'>
+                                        <tabDurSym xml:id='tdsk941u'/>
+                                        <note xml:id='n1mmrdrw' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='n62fbk4a' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg62lsvg' dur='2'>
+                                        <tabDurSym xml:id='tdseydvh'/>
+                                        <note xml:id='ng2mhncj' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='nnzgqfs3' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m9dvu3er' n='37'>
+                            <staff xml:id='sfi6lzpu' n='1'>
+                                <layer xml:id='lhnobblf' n='1'>
+                                    <note xml:id='noiuy7vq' pname='c' oct='4' dur='2'/>
+                                    <note xml:id='nxsxy6ov' pname='a' oct='3' dur='4'/>
+                                    <rest xml:id='rxg8q5xv' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='suhxg34c' n='2'>
+                                <layer xml:id='l1pumscz' n='1'>
+                                    <note xml:id='nlzmbrui' pname='f' oct='3' dur='2'/>
+                                    <rest xml:id='rogrnktw' dur='4'/>
+                                    <note xml:id='n9jlidye' pname='e' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='swssvc5q' n='3'>
+                                <layer xml:id='ludhcc3g' n='1'>
+                                    <tabGrp xml:id='tgmilr47' dur='2'>
+                                        <tabDurSym xml:id='tdssdlrs'/>
+                                        <note xml:id='nw9phsgd' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='nvklg45h' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgw7bink' dur='4'>
+                                        <tabDurSym xml:id='tdshlbpx'/>
+                                        <note xml:id='ntyaqbcp' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tggb255n' dur='4'>
+                                        <tabDurSym xml:id='tdsycge3'/>
+                                        <note xml:id='ngmi2pkv' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mcqvt7n4' n='38'>
+                            <staff xml:id='silp8z9y' n='1'>
+                                <layer xml:id='l2ugsspy' n='1'>
+                                    <note xml:id='n1y4y3ct' pname='c' oct='4' dur='2'/>
+                                    <rest xml:id='rjo65vxb' dur='4'/>
+                                    <note xml:id='nhe55zqt' pname='b' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s5pgr86m' n='2'>
+                                <layer xml:id='lvx7plu2' n='1'>
+                                    <note xml:id='nt6nxl4a' pname='c' oct='3' dur='2'/>
+                                    <note xml:id='n8nzgtpc' pname='e' oct='3' dur='4'/>
+                                    <rest xml:id='ryesimrw' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='svrxnfky' n='3'>
+                                <layer xml:id='lmwio8s2' n='1'>
+                                    <tabGrp xml:id='tguig76q' dur='2'>
+                                        <tabDurSym xml:id='tdsl6zrz'/>
+                                        <note xml:id='n5rkqf56' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='n6xenfnd' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgnmoxmy' dur='4'>
+                                        <tabDurSym xml:id='tds9549u'/>
+                                        <note xml:id='nbppnckb' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgicsmp9' dur='4'>
+                                        <tabDurSym xml:id='tdsdczs6'/>
+                                        <note xml:id='nz3t51bj' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mkhvqdfi' n='39'>
+                            <staff xml:id='s31ecjaq' n='1'>
+                                <layer xml:id='lgq6fw58' n='1'>
+                                    <note xml:id='n268gpfm' pname='g' oct='3' dur='4'/>
+                                    <rest xml:id='r23g627u' dur='4'/>
+                                    <note xml:id='neqioz1p' pname='a' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s5yphvr6' n='2'>
+                                <layer xml:id='lxny8gta' n='1'>
+                                    <rest xml:id='r8eatidk' dur='4'/>
+                                    <note xml:id='nldrxe2j' pname='d' oct='3' dur='4'/>
+                                    <note xml:id='n1l53uzy' pname='c' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sve6p31q' n='3'>
+                                <layer xml:id='ljhnw8nw' n='1'>
+                                    <tabGrp xml:id='tg9bsdta' dur='4'>
+                                        <tabDurSym xml:id='tds51eda'/>
+                                        <note xml:id='ni624e92' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgnxj1ag' dur='4'>
+                                        <tabDurSym xml:id='tdsfpu4g'/>
+                                        <note xml:id='nxb36anf' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgrakyh8' dur='2'>
+                                        <tabDurSym xml:id='tds2nncd'/>
+                                        <note xml:id='nn55ydfc' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='nge7xsft' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mgwyi976' n='40'>
+                            <staff xml:id='su9fi9i1' n='1'>
+                                <layer xml:id='le712me4' n='1'>
+                                    <rest xml:id='rsfsko28' dur='4'/>
+                                    <beam xml:id='bwwrbzao'>
+                                        <note xml:id='njl3pt1x' pname='g' oct='3' accid='s' dur='8' color='blue'/>
+                                        <note xml:id='nruj7kq1' pname='f' oct='3' accid='s' dur='8' color='blue'/>
+                                    </beam>
+                                    <note xml:id='n9pjbay2' pname='a' oct='3' dur='4' color='lime'/>
+                                    <note xml:id='nwhg2ojv' pname='g' oct='3' accid.ges='s' dur='4' color='blue'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sowpliz4' n='2'>
+                                <layer xml:id='l1xb2isa' n='1'>
+                                    <note xml:id='ntlxwvdr' pname='b' oct='2' dur='4'/>
+                                    <rest xml:id='r2y1tzgc' dur='2' dots='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='svr9zzkb' n='3'>
+                                <layer xml:id='lobnm96o' n='1'>
+                                    <tabGrp xml:id='tgo2itlc' dur='4'>
+                                        <tabDurSym xml:id='tds9jelc'/>
+                                        <note xml:id='n7ugoqbb' tab.course='5' tab.fret='4'/>
+                                    </tabGrp>
+                                    <beam xml:id='be29n685'>
+                                        <tabGrp xml:id='tgjc7lnr' dur='8'>
+                                            <tabDurSym xml:id='tdshmuvb'/>
+                                            <note xml:id='n9eik2rz' tab.course='3' tab.fret='4'/>
+                                        </tabGrp>
+                                        <tabGrp xml:id='tg5wf957' dur='8'>
+                                            <tabDurSym xml:id='tdsbv35z'/>
+                                            <note xml:id='ny7vimcc' tab.course='3' tab.fret='2'/>
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp xml:id='tgebxp4i' dur='4'>
+                                        <tabDurSym xml:id='tds9jdpz'/>
+                                        <note xml:id='n44hg81h' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg41u158' dur='4'>
+                                        <tabDurSym xml:id='tdsuwijr'/>
+                                        <note xml:id='nfwscafa' tab.course='3' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mipgdlkm' n='41'>
+                            <staff xml:id='ss4vnn5j' n='1'>
+                                <layer xml:id='lnn3zwg8' n='1'>
+                                    <note xml:id='nuwlmjqf' pname='a' oct='3' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='syv3uc7s' n='2'>
+                                <layer xml:id='lfa37192' n='1'>
+                                    <note xml:id='nwm4rhn3' pname='a' oct='2' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='ss9bat3r' n='3'>
+                                <layer xml:id='lhkkqizb' n='1'>
+                                    <tabGrp xml:id='tg95cowt' dur='1'>
+                                        <tabDurSym xml:id='tdsn2xk1'/>
+                                        <note xml:id='n6f9fy8i' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='nz5lw3vj' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mqrzzh88' n='42'>
+                            <staff xml:id='s8kh54mm' n='1'>
+                                <layer xml:id='l96llc5j' n='1'>
+                                    <note xml:id='nq945774' pname='a' oct='3' dur='1' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='ss5a81wy' n='2'>
+                                <layer xml:id='lvyo75ik' n='1'>
+                                    <note xml:id='nm2t9z75' pname='a' oct='2' dur='1' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='slgpo52r' n='3'>
+                                <layer xml:id='lhen42km' n='1'>
+                                    <tabGrp xml:id='tg5wfggn' dur='1'>
+                                        <tabDurSym xml:id='tdsc9ayg'/>
+                                        <note xml:id='n8iuofme' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='n4px3ope' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mi3ju716' n='43'>
+                            <staff xml:id='sow7o368' n='1'>
+                                <layer xml:id='ll8bzl9a' n='1'>
+                                    <note xml:id='ns7qwco6' pname='a' oct='3' dur='2' color='lime'/>
+                                    <rest xml:id='r33uz3z5' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sgwd2ael' n='2'>
+                                <layer xml:id='lq7xi9ia' n='1'>
+                                    <rest xml:id='r82mbtb4' dur='2'/>
+                                    <note xml:id='na7dvfrz' pname='d' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s8z9e95o' n='3'>
+                                <layer xml:id='li3n6dai' n='1'>
+                                    <tabGrp xml:id='tgopj77t' dur='2'>
+                                        <tabDurSym xml:id='tdsv5zgk'/>
+                                        <note xml:id='nu1bh1fx' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgdbdpgx' dur='2'>
+                                        <tabDurSym xml:id='tds1qnor'/>
+                                        <note xml:id='nu4rhbpz' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m7v51cvf' n='44'>
+                            <staff xml:id='s4s8stw7' n='1'>
+                                <layer xml:id='ldh2dbir' n='1'>
+                                    <note xml:id='nzzpqlip' pname='a' oct='3' dur='2' color='lime'/>
+                                    <rest xml:id='rgyycmsi' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='snt2o73g' n='2'>
+                                <layer xml:id='lvyf1f4v' n='1'>
+                                    <note xml:id='nxpf7b4p' pname='d' oct='3' dur='2'/>
+                                    <note xml:id='nv4hkkdj' pname='d' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='spzsssa1' n='3'>
+                                <layer xml:id='lymqoz12' n='1'>
+                                    <tabGrp xml:id='tg74lvv4' dur='2'>
+                                        <tabDurSym xml:id='tdsbm1ca'/>
+                                        <note xml:id='namqbgcw' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='n1xsdw8z' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg67g4c2' dur='2'>
+                                        <tabDurSym xml:id='tdsszsjn'/>
+                                        <note xml:id='nky1pwwb' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mvsopbtr' n='45'>
+                            <staff xml:id='savi8s7a' n='1'>
+                                <layer xml:id='lpqmvlvx' n='1'>
+                                    <rest xml:id='rw9aou1l' dur='2'/>
+                                    <note xml:id='nyuc454k' pname='a' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='shpcp23w' n='2'>
+                                <layer xml:id='ltma4her' n='1'>
+                                    <note xml:id='nkv9ixoj' pname='f' oct='3' dur='2'/>
+                                    <rest xml:id='rcxo82g8' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sa166tik' n='3'>
+                                <layer xml:id='lgdras22' n='1'>
+                                    <tabGrp xml:id='tggkgnjo' dur='2'>
+                                        <tabDurSym xml:id='tdst21gh'/>
+                                        <note xml:id='ngtzv1ty' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgbqoshs' dur='2'>
+                                        <tabDurSym xml:id='tds5pm5o'/>
+                                        <note xml:id='nmsgl5i5' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mz9bvsns' n='46'>
+                            <staff xml:id='sgc3j7ca' n='1'>
+                                <layer xml:id='l3gkt99x' n='1'>
+                                    <note xml:id='ng11trrj' pname='a' oct='3' dur='2'/>
+                                    <note xml:id='nxx78ph2' pname='a' oct='3' dur='4'/>
+                                    <rest xml:id='rnstxg41' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='shfh1cas' n='2'>
+                                <layer xml:id='lkogztzu' n='1'>
+                                    <note xml:id='n6afd9my' pname='f' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='n89qm4yp' pname='e' oct='3' dur='4'/>
+                                    <note xml:id='nwtr6s2r' pname='d' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='skaa43gk' n='3'>
+                                <layer xml:id='l6m1ioxt' n='1'>
+                                    <tabGrp xml:id='tgphvblt' dur='2'>
+                                        <tabDurSym xml:id='tdsyauoy'/>
+                                        <note xml:id='n8no5jvb' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='n9w53mu1' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgi5pwhi' dur='4'>
+                                        <tabDurSym xml:id='tdsu4b1h'/>
+                                        <note xml:id='n3ybziym' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='nqq95w1q' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgxx71uu' dur='4'>
+                                        <tabDurSym xml:id='tdstvpfu'/>
+                                        <note xml:id='n44mharh' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mrhqurab' n='47'>
+                            <staff xml:id='sspk9cwe' n='1'>
+                                <layer xml:id='lzmlrqsp' n='1'>
+                                    <note xml:id='n53p69f3' pname='c' oct='4' dur='2'/>
+                                    <rest xml:id='rn1y51dv' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sidefa94' n='2'>
+                                <layer xml:id='lfwybetx' n='1'>
+                                    <note xml:id='nxswl91s' pname='e' oct='3' dur='2'/>
+                                    <note xml:id='nowqcmkj' pname='a' oct='2' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sy7r8n5p' n='3'>
+                                <layer xml:id='loyzb3yf' n='1'>
+                                    <tabGrp xml:id='tga431hu' dur='2'>
+                                        <tabDurSym xml:id='tdszp2bt'/>
+                                        <note xml:id='nhm1443r' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='nxdixgb2' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgxjvoxe' dur='2'>
+                                        <tabDurSym xml:id='tdsxlu6c'/>
+                                        <note xml:id='ndv44ded' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m4zb723i' n='48'>
+                            <staff xml:id='sd6i14il' n='1'>
+                                <layer xml:id='l41l15sw' n='1'>
+                                    <note xml:id='ntlyd35r' pname='c' oct='4' dur='2' color='lime'/>
+                                    <note xml:id='nbcz5z1l' pname='b' oct='3' dur='4'/>
+                                    <note xml:id='nd1atajw' pname='a' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sfeqg5q6' n='2'>
+                                <layer xml:id='lhwpjpo2' n='1'>
+                                    <note xml:id='n9uh7k7b' pname='a' oct='3' dur='2'/>
+                                    <rest xml:id='rixj6ejc' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='slosp2p1' n='3'>
+                                <layer xml:id='lsi457lh' n='1'>
+                                    <tabGrp xml:id='tgj8jtil' dur='2'>
+                                        <tabDurSym xml:id='tdsekkw3'/>
+                                        <note xml:id='nwpogk7n' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='nb1sybm5' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgm8lz2j' dur='4'>
+                                        <tabDurSym xml:id='tdsvkvgh'/>
+                                        <note xml:id='nv68gfwy' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tggjt6q6' dur='4'>
+                                        <tabDurSym xml:id='tdslj67h'/>
+                                        <note xml:id='ntcnk8xk' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mmh6ad8e' n='49'>
+                            <staff xml:id='sapeobli' n='1'>
+                                <layer xml:id='l87cu48p' n='1'>
+                                    <note xml:id='n39ei6es' pname='b' oct='3' dur='2'/>
+                                    <note xml:id='ng4z6bnz' pname='e' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s4fcsv6j' n='2'>
+                                <layer xml:id='lmqf35ec' n='1'>
+                                    <note xml:id='nnycdzc2' pname='g' oct='3' dur='2'/>
+                                    <rest xml:id='rvi1qmpg' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s8lubayp' n='3'>
+                                <layer xml:id='lk3p9gji' n='1'>
+                                    <tabGrp xml:id='tgaj1s59' dur='2'>
+                                        <tabDurSym xml:id='tdsmctpm'/>
+                                        <note xml:id='naa7n6pz' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='n879lsne' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgx8ak3h' dur='2'>
+                                        <tabDurSym xml:id='tdsf6iys'/>
+                                        <note xml:id='n2odzzn8' tab.course='4' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mnzjsq1u' n='50'>
+                            <staff xml:id='smmd4qry' n='1'>
+                                <layer xml:id='lpm3jdkv' n='1'>
+                                    <note xml:id='n1f5f8wn' pname='e' oct='4' dur='2'/>
+                                    <rest xml:id='rumgfdri' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='spoj8py1' n='2'>
+                                <layer xml:id='lg6ifbai' n='1'>
+                                    <note xml:id='nr31wtr5' pname='g' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='nfysg7v1' pname='f' oct='3' dur='4'/>
+                                    <note xml:id='ng1pis3q' pname='e' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='syvaexdc' n='3'>
+                                <layer xml:id='ld3xn9y2' n='1'>
+                                    <tabGrp xml:id='tgakg1ei' dur='2'>
+                                        <tabDurSym xml:id='tds85zgb'/>
+                                        <note xml:id='neg46soy' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='n3319de9' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tglzk1pn' dur='4'>
+                                        <tabDurSym xml:id='tdsf1s6u'/>
+                                        <note xml:id='nkufmo3q' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgi52f4p' dur='4'>
+                                        <tabDurSym xml:id='tds2agl1'/>
+                                        <note xml:id='ni8vf3s6' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m61m152l' n='51'>
+                            <staff xml:id='s7pvrgjb' n='1'>
+                                <layer xml:id='l18you7n' n='1'>
+                                    <note xml:id='njteq692' pname='d' oct='4' dur='2'/>
+                                    <note xml:id='nm7cwkit' pname='b' oct='3' dur='2' color='red'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s78496kz' n='2'>
+                                <layer xml:id='lx45lt6u' n='1'>
+                                    <note xml:id='ng7hdlf2' pname='f' oct='3' dur='2'/>
+                                    <note xml:id='nr4ucpi6' pname='g' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sp54yknx' n='3'>
+                                <layer xml:id='lzdrxvtu' n='1'>
+                                    <tabGrp xml:id='tgegrxbm' dur='2'>
+                                        <tabDurSym xml:id='tdscklfz'/>
+                                        <note xml:id='nyvv3nd7' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='nh2rq2sa' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgbueojn' dur='2'>
+                                        <tabDurSym xml:id='tdsmtk9j'/>
+                                        <note xml:id='ndocfwbd' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='n185l1r7' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='me78hwd7' n='52'>
+                            <staff xml:id='smgtcajm' n='1'>
+                                <layer xml:id='lz6i6ydd' n='1'>
+                                    <note xml:id='nnqe7hrj' pname='d' oct='4' dur='2' color='lime'/>
+                                    <note xml:id='niczbh5z' pname='c' oct='4' dur='4'/>
+                                    <note xml:id='nnyuyx7v' pname='b' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sir6x954' n='2'>
+                                <layer xml:id='l35ylmbv' n='1'>
+                                    <note xml:id='n7a9ui3z' pname='d' oct='3' dur='2'/>
+                                    <rest xml:id='ril39le3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='srop2etc' n='3'>
+                                <layer xml:id='lb5zywo2' n='1'>
+                                    <tabGrp xml:id='tg59225r' dur='2'>
+                                        <tabDurSym xml:id='tdsxpbii'/>
+                                        <note xml:id='nsraxv47' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='n7ifdolx' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgaw592v' dur='4'>
+                                        <tabDurSym xml:id='tds1qwv8'/>
+                                        <note xml:id='nwt4drcv' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgw97s8m' dur='4'>
+                                        <tabDurSym xml:id='tdsxsqo1'/>
+                                        <note xml:id='n5pcbgcn' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m8duo2om' n='53'>
+                            <staff xml:id='sh6j1srg' n='1'>
+                                <layer xml:id='lef3lgq9' n='1'>
+                                    <note xml:id='nbj2b2lg' pname='c' oct='4' dur='2'/>
+                                    <note xml:id='nrbjipw9' pname='a' oct='3' dur='4'/>
+                                    <rest xml:id='rfobkz2q' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='slvoixzn' n='2'>
+                                <layer xml:id='llqa6vkd' n='1'>
+                                    <note xml:id='nsrq8rti' pname='a' oct='3' dur='2'/>
+                                    <rest xml:id='regse9b8' dur='4'/>
+                                    <note xml:id='nww8fcq1' pname='f' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='srqfdvmr' n='3'>
+                                <layer xml:id='lrp2uc5d' n='1'>
+                                    <tabGrp xml:id='tgwoy3km' dur='2'>
+                                        <tabDurSym xml:id='tds6p3ky'/>
+                                        <note xml:id='n5nsw1mp' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='n7iks4ab' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg85xq8v' dur='4'>
+                                        <tabDurSym xml:id='tdss23z7'/>
+                                        <note xml:id='n9erj4r7' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgfwkc79' dur='4'>
+                                        <tabDurSym xml:id='tdsvvva3'/>
+                                        <note xml:id='nlxbgc5g' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mwqekngo' n='54'>
+                            <staff xml:id='s44e7vn4' n='1'>
+                                <layer xml:id='lo3mgw2y' n='1'>
+                                    <note xml:id='no58j6fk' pname='b' oct='3' dur='2'/>
+                                    <note xml:id='n1gifh4n' pname='c' oct='4' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='stwsgym2' n='2'>
+                                <layer xml:id='l6q2xoo2' n='1'>
+                                    <note xml:id='nh4pfpli' pname='g' oct='3' dur='2'/>
+                                    <note xml:id='nudjx769' pname='a' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sk675vtu' n='3'>
+                                <layer xml:id='lxte5tnj' n='1'>
+                                    <tabGrp xml:id='tgyqrftj' dur='2'>
+                                        <tabDurSym xml:id='tdsnztmo'/>
+                                        <note xml:id='n93fxaaj' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='nfewrxqr' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgjoq6ni' dur='2'>
+                                        <tabDurSym xml:id='tdsf1ac3'/>
+                                        <note xml:id='niyryd1b' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='nrfjoajj' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='miek7pm7' n='55'>
+                            <staff xml:id='so8kooa6' n='1'>
+                                <layer xml:id='lyvjr8wt' n='1'>
+                                    <rest xml:id='rv7ltzth' dur='2'/>
+                                    <note xml:id='nih8lfvy' pname='b' oct='3' dur='4'/>
+                                    <note xml:id='nqnih5l2' pname='a' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sjgu3quh' n='2'>
+                                <layer xml:id='l58zgwbo' n='1'>
+                                    <note xml:id='nrjjl5id' pname='e' oct='3' dur='2'/>
+                                    <rest xml:id='ro4qm81u' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='slwdtpqo' n='3'>
+                                <layer xml:id='la7o9yeg' n='1'>
+                                    <tabGrp xml:id='tggys2uj' dur='2'>
+                                        <tabDurSym xml:id='tdsaxoiw'/>
+                                        <note xml:id='nqslne9q' tab.course='4' tab.fret='4'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgmj5hir' dur='4'>
+                                        <tabDurSym xml:id='tdsc4fmz'/>
+                                        <note xml:id='n9vn1qr7' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg2ddr3d' dur='4'>
+                                        <tabDurSym xml:id='tds156kd'/>
+                                        <note xml:id='newcmnqp' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mkr5p3js' n='56'>
+                            <staff xml:id='sghlkjtq' n='1'>
+                                <layer xml:id='lpxlskvl' n='1'>
+                                    <note xml:id='nbdfkl4f' pname='g' oct='3' accid='s' dur='2' color='orange'/>
+                                    <note xml:id='n6gokx1h' pname='a' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='srvo8e9h' n='2'>
+                                <layer xml:id='lozag1ck' n='1'>
+                                    <rest xml:id='re9pfw67' dur='2'/>
+                                    <note xml:id='n3e7da1h' pname='a' oct='2' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='ssv57zsu' n='3'>
+                                <layer xml:id='l4qrt3fw' n='1'>
+                                    <tabGrp xml:id='tgkvnuez' dur='2'>
+                                        <tabDurSym xml:id='tdsysl47'/>
+                                        <note xml:id='nkirigdj' tab.course='3' tab.fret='4'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg4ad1h2' dur='2'>
+                                        <tabDurSym xml:id='tdscxy3x'/>
+                                        <note xml:id='nwv9vawy' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='nq57fuhg' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mto8wrsj' n='57'>
+                            <staff xml:id='sr7b7tp8' n='1'>
+                                <layer xml:id='lxnscxo2' n='1'>
+                                    <note xml:id='ne6zohyb' pname='a' oct='3' dur='2' color='lime'/>
+                                    <rest xml:id='rrg3kru7' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sh2351s9' n='2'>
+                                <layer xml:id='lkrerqtm' n='1'>
+                                    <note xml:id='n3vkclb3' pname='a' oct='2' dur='2'/>
+                                    <note xml:id='njnwsti2' pname='a' oct='2' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sl33jvgl' n='3'>
+                                <layer xml:id='ltetjtfa' n='1'>
+                                    <tabGrp xml:id='tg9qekxj' dur='2'>
+                                        <tabDurSym xml:id='tdsuyacg'/>
+                                        <note xml:id='ntjoshml' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='nyrqk7gi' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgzukmq4' dur='2'>
+                                        <tabDurSym xml:id='tds55t4n'/>
+                                        <note xml:id='nepdj57l' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mzrmlbro' n='58'>
+                            <staff xml:id='scyulas4' n='1'>
+                                <layer xml:id='l8oqxkoe' n='1'>
+                                    <rest xml:id='rkkjdpke' dur='2'/>
+                                    <note xml:id='nya9k7p7' pname='e' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='st64trzn' n='2'>
+                                <layer xml:id='ldo9nezz' n='1'>
+                                    <note xml:id='nokytm3n' pname='c' oct='3' dur='2'/>
+                                    <rest xml:id='r83zp74o' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sr9lkewb' n='3'>
+                                <layer xml:id='lckx61fl' n='1'>
+                                    <tabGrp xml:id='tgbkhzt3' dur='2'>
+                                        <tabDurSym xml:id='tdsbbsxq'/>
+                                        <note xml:id='npdsv4xn' tab.course='4' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgv3nocz' dur='2'>
+                                        <tabDurSym xml:id='tdsrle4z'/>
+                                        <note xml:id='n2pw3miw' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mrihs44z' n='59'>
+                            <staff xml:id='s819nfb3' n='1'>
+                                <layer xml:id='lolnepk7' n='1'>
+                                    <note xml:id='nw4rhwvn' pname='e' oct='3' dur='2'/>
+                                    <note xml:id='nb7gpfzk' pname='e' oct='3' dur='4'/>
+                                    <rest xml:id='rkb9h9bl' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sbphnyhx' n='2'>
+                                <layer xml:id='l6slw7rk' n='1'>
+                                    <note xml:id='n9l3k2gz' pname='c' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='no72ydzw' pname='b' oct='2' dur='4'/>
+                                    <note xml:id='nfwkn77y' pname='a' oct='2' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sachyb3r' n='3'>
+                                <layer xml:id='l1mlcx4l' n='1'>
+                                    <tabGrp xml:id='tg14kgfq' dur='2'>
+                                        <tabDurSym xml:id='tdsp2fui'/>
+                                        <note xml:id='n1nzojv2' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='nyoa4wqf' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg9wuznc' dur='4'>
+                                        <tabDurSym xml:id='tds8xuya'/>
+                                        <note xml:id='nndv5a3m' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='n8tqj2te' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tghreilg' dur='4'>
+                                        <tabDurSym xml:id='tdsanff9'/>
+                                        <note xml:id='nbimh92h' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='myfwrndb' n='60'>
+                            <staff xml:id='s81mpqog' n='1'>
+                                <layer xml:id='lp2rajxb' n='1'>
+                                    <note xml:id='n59kw1e8' pname='g' oct='3' dur='2'/>
+                                    <rest xml:id='rdcq15da' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s7ogp4zm' n='2'>
+                                <layer xml:id='l5lfx1bh' n='1'>
+                                    <note xml:id='n4mfpnsj' pname='b' oct='2' dur='2'/>
+                                    <note xml:id='nq6xjwzs' pname='c' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sqsg7h67' n='3'>
+                                <layer xml:id='litd8tgk' n='1'>
+                                    <tabGrp xml:id='tgg7xylq' dur='2'>
+                                        <tabDurSym xml:id='tds195fk'/>
+                                        <note xml:id='nnf6is67' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='np51iwe3' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgwe7e3g' dur='2'>
+                                        <tabDurSym xml:id='tdstgbnx'/>
+                                        <note xml:id='np927ouk' tab.course='4' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='msan5fkn' n='61'>
+                            <staff xml:id='sfzgvpoz' n='1'>
+                                <layer xml:id='l4smsuy2' n='1'>
+                                    <note xml:id='n689ricd' pname='g' oct='3' dur='4' color='lime'/>
+                                    <rest xml:id='ra5m966z' dur='4'/>
+                                    <note xml:id='n4l9omyn' pname='f' oct='3' dur='4'/>
+                                    <note xml:id='ngzmctdv' pname='e' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='skyti12m' n='2'>
+                                <layer xml:id='lxlfkwlj' n='1'>
+                                    <note xml:id='n67ipeeu' pname='g' oct='2' dur='4'/>
+                                    <note xml:id='nweywmcb' pname='a' oct='2' dur='4'/>
+                                    <note xml:id='nxoi2yt3' pname='b' oct='2' dur='4'/>
+                                    <note xml:id='nq1i6w3z' pname='c' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s9vhqku4' n='3'>
+                                <layer xml:id='l3mmmfog' n='1'>
+                                    <tabGrp xml:id='tgyyqceb' dur='4'>
+                                        <tabDurSym xml:id='tdsaorjo'/>
+                                        <note xml:id='na5dvc2j' tab.course='5' tab.fret='0'/>
+                                        <note xml:id='nwqoudbx' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgv7i58p' dur='4'>
+                                        <tabDurSym xml:id='tdsz3rqv'/>
+                                        <note xml:id='naue5dnz' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tga9bblq' dur='4'>
+                                        <tabDurSym xml:id='tdsof16c'/>
+                                        <note xml:id='nysj9c4s' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='ncfk7m68' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tggvcf81' dur='4'>
+                                        <tabDurSym xml:id='tdsxyu6n'/>
+                                        <note xml:id='nr9893ir' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='nrnq4m7o' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m93ge9aj' n='62'>
+                            <staff xml:id='sfiheunh' n='1'>
+                                <layer xml:id='ltngcq1c' n='1'>
+                                    <note xml:id='nxcfqkdm' pname='f' oct='3' dur='2'/>
+                                    <note xml:id='nlfpdtfn' pname='g' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sdzec3yo' n='2'>
+                                <layer xml:id='lk98fr3w' n='1'>
+                                    <note xml:id='ntvmzk4k' pname='d' oct='3' dur='2'/>
+                                    <note xml:id='nqy3g42r' pname='e' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='slozxdps' n='3'>
+                                <layer xml:id='l8qbnale' n='1'>
+                                    <tabGrp xml:id='tganhbgi' dur='2'>
+                                        <tabDurSym xml:id='tdsiddpg'/>
+                                        <note xml:id='ne69z7d1' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='nrkizl22' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg33y6ga' dur='2'>
+                                        <tabDurSym xml:id='tds7k931'/>
+                                        <note xml:id='nyaqi19u' tab.course='4' tab.fret='4'/>
+                                        <note xml:id='naf3pjie' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mzucotjs' n='63'>
+                            <staff xml:id='sg2wvqnl' n='1'>
+                                <layer xml:id='l9q35sd6' n='1'>
+                                    <note xml:id='nekmaxb6' pname='d' oct='3' dur='2'/>
+                                    <rest xml:id='rz191x87' dur='4'/>
+                                    <note xml:id='n4n1gewv' pname='f' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s9rxwgr5' n='2'>
+                                <layer xml:id='l5zevghr' n='1'>
+                                    <note xml:id='nb6oqng6' pname='f' oct='3' dur='2'/>
+                                    <note xml:id='n4g57s46' pname='d' oct='3' dur='4'/>
+                                    <rest xml:id='rtxnj214' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sszaexlt' n='3'>
+                                <layer xml:id='lb9qsty7' n='1'>
+                                    <tabGrp xml:id='tgq4uzov' dur='2'>
+                                        <tabDurSym xml:id='tdsunjrl'/>
+                                        <note xml:id='nb1kckqq' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='nh8d7osr' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgkgnouu' dur='4'>
+                                        <tabDurSym xml:id='tdsg3g5v'/>
+                                        <note xml:id='nlwrult3' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgphwipu' dur='4'>
+                                        <tabDurSym xml:id='tdsz5iy9'/>
+                                        <note xml:id='nqsfw93s' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m1ogt7hg' n='64'>
+                            <staff xml:id='sj4n1g92' n='1'>
+                                <layer xml:id='lfaj1h4j' n='1'>
+                                    <note xml:id='nundbz63' pname='e' oct='3' dur='4'/>
+                                    <rest xml:id='rx2t3fas' dur='2' dots='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sod1drrq' n='2'>
+                                <layer xml:id='lzre8zj2' n='1'>
+                                    <rest xml:id='raz7ncch' dur='4'/>
+                                    <note xml:id='nojstxtw' pname='d' oct='3' dur='4' color='blue'/>
+                                    <note xml:id='nlse1skt' pname='c' oct='3' accid='s' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s54pn26q' n='3'>
+                                <layer xml:id='lki6y9bw' n='1'>
+                                    <tabGrp xml:id='tgz5t14g' dur='4'>
+                                        <tabDurSym xml:id='tdsnllwe'/>
+                                        <note xml:id='n8hmskt1' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg2pbkun' dur='4'>
+                                        <tabDurSym xml:id='tdsq42im'/>
+                                        <note xml:id='n5jyaqge' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg7tlqkh' dur='2'>
+                                        <tabDurSym xml:id='tdsrdr7g'/>
+                                        <note xml:id='nl7nc281' tab.course='4' tab.fret='1'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='my6gktjn' n='65'>
+                            <staff xml:id='svluih58' n='1'>
+                                <layer xml:id='ln49xms9' n='1'>
+                                    <note xml:id='nkvgwyih' pname='d' oct='3' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s6xnyss6' n='2'>
+                                <layer xml:id='lfcurs1d' n='1'>
+                                    <note xml:id='nbhb5wru' pname='d' oct='3' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sh3fkrb7' n='3'>
+                                <layer xml:id='lmmok3u8' n='1'>
+                                    <tabGrp xml:id='tg9vfkc3' dur='1'>
+                                        <tabDurSym xml:id='tdse486q'/>
+                                        <note xml:id='nix5459q' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mqqokukj' n='66'>
+                            <staff xml:id='sdv3rzb4' n='1'>
+                                <layer xml:id='luphuw3m' n='1'>
+                                    <mRest xml:id='mr17aayw'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='smscfy6o' n='2'>
+                                <layer xml:id='lmswjsad' n='1'>
+                                    <mRest xml:id='mregc4bb'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sy7a2rkd' n='3'>
+                                <layer xml:id='l1c4zjga' n='1'>
+                                    <tabGrp xml:id='tgui11yr' dur='1'>
+                                        <tabDurSym xml:id='tds2ti94'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mxw4fe3k' n='67'>
+                            <staff xml:id='svyxf3hh' n='1'>
+                                <layer xml:id='lxdq4t7a' n='1'>
+                                    <mRest xml:id='mrglnkvg'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='skxihka6' n='2'>
+                                <layer xml:id='lr5lz68z' n='1'>
+                                    <note xml:id='nnhjstlq' pname='d' oct='3' dur='2'/>
+                                    <note xml:id='n6kxx2ax' pname='d' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sqlt6fiy' n='3'>
+                                <layer xml:id='lgp33qh5' n='1'>
+                                    <tabGrp xml:id='tge2qgeh' dur='2'>
+                                        <tabDurSym xml:id='tds5mce6'/>
+                                        <note xml:id='ndrg25vp' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg69eqt7' dur='2'>
+                                        <tabDurSym xml:id='tdswce6i'/>
+                                        <note xml:id='ntqpdg1c' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mbju71c7' n='68'>
+                            <staff xml:id='sp387in4' n='1'>
+                                <layer xml:id='l74d8wo4' n='1'>
+                                    <rest xml:id='rmgp5kmt' dur='2'/>
+                                    <note xml:id='n1f5k9fi' pname='a' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s7ox3nn4' n='2'>
+                                <layer xml:id='loehyk7k' n='1'>
+                                    <note xml:id='n1usjfxs' pname='f' oct='3' dur='2'/>
+                                    <rest xml:id='rdlt227r' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='szfhk53o' n='3'>
+                                <layer xml:id='lyr93r8x' n='1'>
+                                    <tabGrp xml:id='tg1j349h' dur='2'>
+                                        <tabDurSym xml:id='tdsoa5p9'/>
+                                        <note xml:id='n3vcvfzf' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg7iengn' dur='2'>
+                                        <tabDurSym xml:id='tdsgyfcf'/>
+                                        <note xml:id='n26fw7rh' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mkaed3aa' n='69'>
+                            <staff xml:id='s5fhfzs2' n='1'>
+                                <layer xml:id='l2njnfoz' n='1'>
+                                    <note xml:id='nvhcqe8t' pname='a' oct='3' dur='2'/>
+                                    <note xml:id='n5tvklfk' pname='a' oct='3' dur='4'/>
+                                    <rest xml:id='r6h7c2bi' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sox3x4ek' n='2'>
+                                <layer xml:id='la2w6tdf' n='1'>
+                                    <note xml:id='nv8aueje' pname='f' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='nugbjqh1' pname='e' oct='3' dur='4'/>
+                                    <note xml:id='nok2owpr' pname='d' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sh74rkwm' n='3'>
+                                <layer xml:id='ld1fkqqk' n='1'>
+                                    <tabGrp xml:id='tgtse53f' dur='2'>
+                                        <tabDurSym xml:id='tds74n28'/>
+                                        <note xml:id='ngxkv87i' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='n7tg1p72' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgd1pixy' dur='4'>
+                                        <tabDurSym xml:id='tds4embc'/>
+                                        <note xml:id='nigxkiiv' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='nj6b5ydo' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg2oonme' dur='4'>
+                                        <tabDurSym xml:id='tds7d1tw'/>
+                                        <note xml:id='ndr4a291' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m8g1f7xj' n='70'>
+                            <staff xml:id='s6orq77l' n='1'>
+                                <layer xml:id='leeff3c1' n='1'>
+                                    <note xml:id='npbiaveu' pname='c' oct='4' dur='2'/>
+                                    <rest xml:id='rimnzkev' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sxk411tb' n='2'>
+                                <layer xml:id='lldxh5rf' n='1'>
+                                    <note xml:id='n45zk5q2' pname='e' oct='3' dur='2'/>
+                                    <note xml:id='nf1id1ix' pname='f' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s9o8a4eq' n='3'>
+                                <layer xml:id='labswiau' n='1'>
+                                    <tabGrp xml:id='tgd34haj' dur='2'>
+                                        <tabDurSym xml:id='tdsae4p1'/>
+                                        <note xml:id='nz5kjb1u' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='n24grnfy' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgposo7a' dur='2'>
+                                        <tabDurSym xml:id='tdsildhw'/>
+                                        <note xml:id='nja9fbeg' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m8ctwwvq' n='71'>
+                            <staff xml:id='svva43xf' n='1'>
+                                <layer xml:id='lz66t29f' n='1'>
+                                    <note xml:id='nhlwuhro' pname='c' oct='4' dur='4' color='lime'/>
+                                    <rest xml:id='r29ncax4' dur='4'/>
+                                    <note xml:id='n61y1m7t' pname='b' oct='3' dur='4'/>
+                                    <note xml:id='nu4fdaej' pname='a' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sxhcljaz' n='2'>
+                                <layer xml:id='lbf19b62' n='1'>
+                                    <note xml:id='n5lmb3wq' pname='c' oct='3' dur='4'/>
+                                    <note xml:id='nw9m46kq' pname='d' oct='3' dur='4'/>
+                                    <note xml:id='n8ohgwda' pname='e' oct='3' dur='4'/>
+                                    <note xml:id='nqfldb4l' pname='f' oct='3' accid='s' dur='4' color='orange'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='se36y6s3' n='3'>
+                                <layer xml:id='lhde1d35' n='1'>
+                                    <tabGrp xml:id='tgvczw1i' dur='4'>
+                                        <tabDurSym xml:id='tdsopbdf'/>
+                                        <note xml:id='nvc64qq9' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='n23mhztx' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg7qq28e' dur='4'>
+                                        <tabDurSym xml:id='tdstv52w'/>
+                                        <note xml:id='nmmiggfg' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg22sa5k' dur='4'>
+                                        <tabDurSym xml:id='tds6vltt'/>
+                                        <note xml:id='ngw8e11r' tab.course='3' tab.fret='0'/>
+                                        <note xml:id='ndzetr7b' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg6uc62o' dur='4'>
+                                        <tabDurSym xml:id='tdstfdrh'/>
+                                        <note xml:id='n1m6p2mk' tab.course='3' tab.fret='2'/>
+                                        <note xml:id='nkbbyo6r' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mw2lz88i' n='72'>
+                            <staff xml:id='s9fhtwxb' n='1'>
+                                <layer xml:id='l9r1i2v8' n='1'>
+                                    <note xml:id='nwwqbfjs' pname='b' oct='3' dur='2'/>
+                                    <note xml:id='n484smui' pname='c' oct='4' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s8fqe3do' n='2'>
+                                <layer xml:id='lchi9qwj' n='1'>
+                                    <note xml:id='njvw7zjf' pname='g' oct='3' dur='2'/>
+                                    <note xml:id='nu2zqgah' pname='a' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='suncflqc' n='3'>
+                                <layer xml:id='l7o2f9hq' n='1'>
+                                    <tabGrp xml:id='tg8xhhkd' dur='2'>
+                                        <tabDurSym xml:id='tds78era'/>
+                                        <note xml:id='nfip9kde' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='ndoymaqj' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tguxs7w6' dur='2'>
+                                        <tabDurSym xml:id='tdsna5ft'/>
+                                        <note xml:id='ntd4s3fb' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='ndh3mahx' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m9r41u8a' n='73'>
+                            <staff xml:id='sr7l2f8d' n='1'>
+                                <layer xml:id='ltr8mn4e' n='1'>
+                                    <note xml:id='nzqbalrz' pname='g' oct='3' dur='2'/>
+                                    <rest xml:id='rmm5n15r' dur='4'/>
+                                    <note xml:id='n67e3696' pname='b' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='skmm89r9' n='2'>
+                                <layer xml:id='ltru9zjw' n='1'>
+                                    <note xml:id='nybf1jz5' pname='b' oct='3' dur='2'/>
+                                    <note xml:id='n3a62j61' pname='g' oct='3' dur='4'/>
+                                    <rest xml:id='ryhbhc8t' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s6jjuan1' n='3'>
+                                <layer xml:id='l232wz6j' n='1'>
+                                    <tabGrp xml:id='tg2yu62a' dur='2'>
+                                        <tabDurSym xml:id='tdsdsyon'/>
+                                        <note xml:id='nkacqrl4' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='n16m1off' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgavsfjc' dur='4'>
+                                        <tabDurSym xml:id='tds85xm8'/>
+                                        <note xml:id='nu5qessb' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg65ofxm' dur='4'>
+                                        <tabDurSym xml:id='tdswa8lp'/>
+                                        <note xml:id='nl5evhyq' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mw5acsuy' n='74'>
+                            <staff xml:id='sg2a12mt' n='1'>
+                                <layer xml:id='lydlsjkl' n='1'>
+                                    <note xml:id='nx8yn7i4' pname='a' oct='3' dur='4'/>
+                                    <rest xml:id='rg4ge77g' dur='2' dots='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sb5k55q4' n='2'>
+                                <layer xml:id='lx2ognmu' n='1'>
+                                    <rest xml:id='rkzl74i5' dur='4'/>
+                                    <note xml:id='n3wd2zt9' pname='g' oct='3' dur='4' color='blue'/>
+                                    <note xml:id='ndk4x9hj' pname='f' oct='3' accid='s' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='skwe53bp' n='3'>
+                                <layer xml:id='lr7u2dnq' n='1'>
+                                    <tabGrp xml:id='tgjf5hza' dur='4'>
+                                        <tabDurSym xml:id='tdsnr4qh'/>
+                                        <note xml:id='nj8qs8oh' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgilb1b9' dur='4'>
+                                        <tabDurSym xml:id='tdsopfvg'/>
+                                        <note xml:id='nuzty9oa' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgq8az31' dur='2'>
+                                        <tabDurSym xml:id='tds67ibc'/>
+                                        <note xml:id='ncj36hwi' tab.course='3' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m9sbrit3' n='75'>
+                            <staff xml:id='s3mooukh' n='1'>
+                                <layer xml:id='l2k4pjid' n='1'>
+                                    <note xml:id='n1grczcz' pname='g' oct='3' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s7m6c1tp' n='2'>
+                                <layer xml:id='lh9fuvqt' n='1'>
+                                    <note xml:id='nkp3omjy' pname='g' oct='3' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sb5g3c8t' n='3'>
+                                <layer xml:id='lga1lg73' n='1'>
+                                    <tabGrp xml:id='tgliae1u' dur='1'>
+                                        <tabDurSym xml:id='tdsyxmax'/>
+                                        <note xml:id='n9twlcu7' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mtgatcg7' n='76'>
+                            <staff xml:id='scw9c5fa' n='1'>
+                                <layer xml:id='lce6d7s7' n='1'>
+                                    <mRest xml:id='mrqw6qio'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s7cgw6kf' n='2'>
+                                <layer xml:id='l3yyu3il' n='1'>
+                                    <note xml:id='naxvad6u' pname='g' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='nxxopmjz' pname='e' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sjhorxgv' n='3'>
+                                <layer xml:id='lp4z3hlf' n='1'>
+                                    <tabGrp xml:id='tgt64rsl' dur='2'>
+                                        <tabDurSym xml:id='tdscs2jk'/>
+                                        <note xml:id='nqfdkszd' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg9c73xr' dur='2'>
+                                        <tabDurSym xml:id='tdsqh4et'/>
+                                        <note xml:id='nuj2qua2' tab.course='4' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mvp7axcs' n='77'>
+                            <staff xml:id='sur162vf' n='1'>
+                                <layer xml:id='lpwqv687' n='1'>
+                                    <note xml:id='nrj57hah' pname='g' oct='3' dur='2' color='lime'/>
+                                    <rest xml:id='re475t1i' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sunq82yg' n='2'>
+                                <layer xml:id='lnzyn72k' n='1'>
+                                    <note xml:id='nsq37e2l' pname='e' oct='3' dur='2'/>
+                                    <note xml:id='nbsaktvx' pname='e' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='stwiz42n' n='3'>
+                                <layer xml:id='lp1s3fv8' n='1'>
+                                    <tabGrp xml:id='tgzdufzd' dur='2'>
+                                        <tabDurSym xml:id='tdsxz3lj'/>
+                                        <note xml:id='nn592bav' tab.course='4' tab.fret='4'/>
+                                        <note xml:id='nkq9udq5' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgm6liea' dur='2'>
+                                        <tabDurSym xml:id='tdsr6bml'/>
+                                        <note xml:id='nwi9y5jw' tab.course='4' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mqqea6vq' n='78'>
+                            <staff xml:id='sj6po8jr' n='1'>
+                                <layer xml:id='lr9rdcr3' n='1'>
+                                    <rest xml:id='r5awzjm1' dur='2'/>
+                                    <note xml:id='ny1eytgl' pname='b' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='skkd1ef7' n='2'>
+                                <layer xml:id='l7j5lbz2' n='1'>
+                                    <note xml:id='nwufut3f' pname='g' oct='3' dur='2'/>
+                                    <rest xml:id='raba6y34' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sai8qud7' n='3'>
+                                <layer xml:id='l8gedskh' n='1'>
+                                    <tabGrp xml:id='tg7mr2c3' dur='2'>
+                                        <tabDurSym xml:id='tdscmoq5'/>
+                                        <note xml:id='niidlsdc' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgs76glv' dur='2'>
+                                        <tabDurSym xml:id='tdskivoi'/>
+                                        <note xml:id='nyvj2m3k' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m2yl6r8v' n='79'>
+                            <staff xml:id='skjb98kl' n='1'>
+                                <layer xml:id='l4tg9lob' n='1'>
+                                    <note xml:id='njsbkx8f' pname='b' oct='3' dur='2'/>
+                                    <note xml:id='nxjal2d3' pname='b' oct='3' dur='4'/>
+                                    <rest xml:id='rtae29p7' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sjiahc5e' n='2'>
+                                <layer xml:id='lej9wvzz' n='1'>
+                                    <note xml:id='n6ojh24b' pname='g' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='nezm7u4n' pname='f' oct='3' dur='4'/>
+                                    <note xml:id='n2jor1rv' pname='e' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s4wi3ba4' n='3'>
+                                <layer xml:id='l9zcxrid' n='1'>
+                                    <tabGrp xml:id='tgixfibn' dur='2'>
+                                        <tabDurSym xml:id='tdsip778'/>
+                                        <note xml:id='n2uk4pgf' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='nl7k5qkf' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgk5t1mu' dur='4'>
+                                        <tabDurSym xml:id='tds82ftk'/>
+                                        <note xml:id='n1r246bh' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='n6snb88e' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgrdlg17' dur='4'>
+                                        <tabDurSym xml:id='tdsvpzw4'/>
+                                        <note xml:id='nw5dhp4g' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mkqueyk9' n='80'>
+                            <staff xml:id='sgnuf5jz' n='1'>
+                                <layer xml:id='lgb167z7' n='1'>
+                                    <note xml:id='n5ztzs9m' pname='d' oct='4' dur='2'/>
+                                    <note xml:id='n7q1wci5' pname='e' oct='4' dur='2' color='red'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sen54nrm' n='2'>
+                                <layer xml:id='liuzzitf' n='1'>
+                                    <note xml:id='nwdnc811' pname='f' oct='3' dur='2'/>
+                                    <note xml:id='n3ba16dw' pname='g' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sosk7vf5' n='3'>
+                                <layer xml:id='liafb3iq' n='1'>
+                                    <tabGrp xml:id='tg21tqfu' dur='2'>
+                                        <tabDurSym xml:id='tdskabh2'/>
+                                        <note xml:id='nc47xlgb' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='nk5dzy86' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgq1sjwf' dur='2'>
+                                        <tabDurSym xml:id='tds5e3qw'/>
+                                        <note xml:id='n7jme4yi' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='ndo3sbhh' tab.course='1' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mwf1gza2' n='81'>
+                            <staff xml:id='srkte1y7' n='1'>
+                                <layer xml:id='lil5vt9s' n='1'>
+                                    <note xml:id='n9antc8m' pname='d' oct='4' dur='4' color='lime'/>
+                                    <rest xml:id='rylirt9z' dur='4'/>
+                                    <note xml:id='noiiy2oi' pname='c' oct='4' dur='4'/>
+                                    <note xml:id='no7e5mms' pname='b' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s2hqk2u5' n='2'>
+                                <layer xml:id='l2u7gl9b' n='1'>
+                                    <note xml:id='nocgyymo' pname='d' oct='3' dur='4'/>
+                                    <note xml:id='ntolg8pu' pname='e' oct='3' dur='4'/>
+                                    <note xml:id='nochta25' pname='f' oct='3' dur='4'/>
+                                    <note xml:id='ndsh3a5k' pname='g' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sz9jzeli' n='3'>
+                                <layer xml:id='l7sx2uya' n='1'>
+                                    <tabGrp xml:id='tgyt51ca' dur='4'>
+                                        <tabDurSym xml:id='tdskg5hl'/>
+                                        <note xml:id='n92wepuu' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='nmw44f62' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg36lkkf' dur='4'>
+                                        <tabDurSym xml:id='tdsfp86s'/>
+                                        <note xml:id='n47k97gd' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgwy4kpn' dur='4'>
+                                        <tabDurSym xml:id='tdsp3i9i'/>
+                                        <note xml:id='n9tdktnx' tab.course='3' tab.fret='1'/>
+                                        <note xml:id='nxdof7km' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg3ocr3s' dur='4'>
+                                        <tabDurSym xml:id='tdseaphr'/>
+                                        <note xml:id='ncpzn2ev' tab.course='3' tab.fret='3'/>
+                                        <note xml:id='n81dklkq' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='maafu1xi' n='82'>
+                            <staff xml:id='s2w5xwy7' n='1'>
+                                <layer xml:id='l2eedb4k' n='1'>
+                                    <note xml:id='n6xcftq6' pname='c' oct='4' dur='2'/>
+                                    <note xml:id='nmlx73qu' pname='d' oct='4' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='szum52is' n='2'>
+                                <layer xml:id='lirvxw5o' n='1'>
+                                    <note xml:id='nq973gn7' pname='a' oct='3' dur='2'/>
+                                    <note xml:id='nt25qxef' pname='b' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sb3nk4vb' n='3'>
+                                <layer xml:id='lk9pftj3' n='1'>
+                                    <tabGrp xml:id='tgr35f3z' dur='2'>
+                                        <tabDurSym xml:id='tds6badb'/>
+                                        <note xml:id='nqps7oet' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='n256livz' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgbgwvjy' dur='2'>
+                                        <tabDurSym xml:id='tdsj7mjw'/>
+                                        <note xml:id='ne2hyea3' tab.course='2' tab.fret='2'/>
+                                        <note xml:id='nhbjni2m' tab.course='1' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='msncunid' n='83'>
+                            <staff xml:id='si8hws62' n='1'>
+                                <layer xml:id='lv6fm43n' n='1'>
+                                    <note xml:id='nwcotzkj' pname='a' oct='3' dur='2'/>
+                                    <rest xml:id='rgh5p9pz' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='ssspqonz' n='2'>
+                                <layer xml:id='l329a4d8' n='1'>
+                                    <note xml:id='na2rtqvf' pname='c' oct='4' dur='2'/>
+                                    <note xml:id='nwhowy1t' pname='b' oct='3' dur='4' color='red'/>
+                                    <note xml:id='nyublyqb' pname='a' oct='3' dur='4' color='lime'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sae64y6o' n='3'>
+                                <layer xml:id='lj326ns5' n='1'>
+                                    <tabGrp xml:id='tg9hiign' dur='2'>
+                                        <tabDurSym xml:id='tdshregr'/>
+                                        <note xml:id='n2zd9jvo' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='np9sy9ks' tab.course='2' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg1x2rvy' dur='4'>
+                                        <tabDurSym xml:id='tdsuouym'/>
+                                        <note xml:id='nlj3rvw8' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgcsvrdv' dur='4'>
+                                        <tabDurSym xml:id='tds1m2ty'/>
+                                        <note xml:id='nvmipruy' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='myx7ebqm' n='84'>
+                            <staff xml:id='s1tdbe1k' n='1'>
+                                <layer xml:id='lqzzchv1' n='1'>
+                                    <note xml:id='n3qphm2a' pname='b' oct='3' dur='2'/>
+                                    <rest xml:id='rz6st4pi' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='ssatnexa' n='2'>
+                                <layer xml:id='letl4wdw' n='1'>
+                                    <rest xml:id='rdydl7us' dur='2'/>
+                                    <note xml:id='nkxd7knm' pname='g' oct='3' accid='s' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s7kmew1d' n='3'>
+                                <layer xml:id='li97jqun' n='1'>
+                                    <tabGrp xml:id='tgn5tm5s' dur='2'>
+                                        <tabDurSym xml:id='tds2cn28'/>
+                                        <note xml:id='nynms3bd' tab.course='2' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgoplapx' dur='2'>
+                                        <tabDurSym xml:id='tdsisvas'/>
+                                        <note xml:id='np683qe1' tab.course='3' tab.fret='4'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mod875fn' n='85'>
+                            <staff xml:id='s4tc8rbf' n='1'>
+                                <layer xml:id='l83jv82j' n='1'>
+                                    <note xml:id='n1vioy46' pname='a' oct='3' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='siy49iy1' n='2'>
+                                <layer xml:id='lzflyb3d' n='1'>
+                                    <note xml:id='niukla1k' pname='a' oct='3' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='ss3itus3' n='3'>
+                                <layer xml:id='l6kc8f1h' n='1'>
+                                    <tabGrp xml:id='tgmzm9kg' dur='1'>
+                                        <tabDurSym xml:id='tdsgybyf'/>
+                                        <note xml:id='njteum8n' tab.course='3' tab.fret='5'/>
+                                        <note xml:id='nqgzgah3' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mc3meg3m' n='86'>
+                            <staff xml:id='syj175ll' n='1'>
+                                <layer xml:id='lso47jyz' n='1'>
+                                    <mRest xml:id='mrgot6i2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='soobaelf' n='2'>
+                                <layer xml:id='lbfrqmnd' n='1'>
+                                    <note xml:id='nvrtqzof' pname='a' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='narvpnmd' pname='a' oct='2' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='skrykqm3' n='3'>
+                                <layer xml:id='lndpk9zy' n='1'>
+                                    <tabGrp xml:id='tg32zvvo' dur='2'>
+                                        <tabDurSym xml:id='tdsa53ev'/>
+                                        <note xml:id='natks2cy' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg6wpjk8' dur='2'>
+                                        <tabDurSym xml:id='tdsiqhiy'/>
+                                        <note xml:id='n1snetgf' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mmhnro1f' n='87'>
+                            <staff xml:id='sqxjisbc' n='1'>
+                                <layer xml:id='lsr2zn2q' n='1'>
+                                    <note xml:id='nxz3kfaw' pname='a' oct='3' dur='2' color='lime'/>
+                                    <rest xml:id='rjx688zw' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='stbfo9mq' n='2'>
+                                <layer xml:id='lfraucsr' n='1'>
+                                    <note xml:id='np4xsf3l' pname='a' oct='2' dur='2'/>
+                                    <note xml:id='nhz591zi' pname='a' oct='2' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='srmg4smh' n='3'>
+                                <layer xml:id='ll2jtcu7' n='1'>
+                                    <tabGrp xml:id='tg4ne2bp' dur='2'>
+                                        <tabDurSym xml:id='tdsl9zox'/>
+                                        <note xml:id='ntyvz7ef' tab.course='5' tab.fret='2'/>
+                                        <note xml:id='n3a6u7p4' tab.course='2' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgq6eb6e' dur='2'>
+                                        <tabDurSym xml:id='tdsikotk'/>
+                                        <note xml:id='nd4a42z1' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mgqs5xvy' n='88'>
+                            <staff xml:id='swcpqjuw' n='1'>
+                                <layer xml:id='l1g4fnfe' n='1'>
+                                    <rest xml:id='rtlzfz6u' dur='2'/>
+                                    <note xml:id='niaqqihz' pname='e' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s7be7azv' n='2'>
+                                <layer xml:id='la1wkinl' n='1'>
+                                    <note xml:id='n26o2bub' pname='c' oct='3' dur='2'/>
+                                    <rest xml:id='rc6vcf61' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sfqsfbvn' n='3'>
+                                <layer xml:id='lmv147gx' n='1'>
+                                    <tabGrp xml:id='tg5fjc16' dur='2'>
+                                        <tabDurSym xml:id='tdsilknk'/>
+                                        <note xml:id='n5rpxj5s' tab.course='4' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgd17pue' dur='2'>
+                                        <tabDurSym xml:id='tdsn456n'/>
+                                        <note xml:id='nehok6zg' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m71j8wdr' n='89'>
+                            <staff xml:id='sp7igi1b' n='1'>
+                                <layer xml:id='lg4bgh5q' n='1'>
+                                    <note xml:id='ngtje4ss' pname='e' oct='3' dur='2'/>
+                                    <note xml:id='nd5rsszi' pname='e' oct='3' dur='4'/>
+                                    <rest xml:id='ro7v8yom' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sl9qnbi6' n='2'>
+                                <layer xml:id='lnl5wb3o' n='1'>
+                                    <note xml:id='nmzm251n' pname='c' oct='3' dur='2' color='lime'/>
+                                    <note xml:id='n9jzmleb' pname='b' oct='2' dur='4'/>
+                                    <note xml:id='n25wvxss' pname='a' oct='2' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sp3kgzot' n='3'>
+                                <layer xml:id='lqit1uvn' n='1'>
+                                    <tabGrp xml:id='tgpfohsc' dur='2'>
+                                        <tabDurSym xml:id='tds8i221'/>
+                                        <note xml:id='n4yfiblj' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='np19o5ce' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg94oa1g' dur='4'>
+                                        <tabDurSym xml:id='tds7cez7'/>
+                                        <note xml:id='nu1gv8hv' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='n2ifv8fx' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg63v2av' dur='4'>
+                                        <tabDurSym xml:id='tdsk9qx9'/>
+                                        <note xml:id='ny5gq79u' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mwgcjnjh' n='90'>
+                            <staff xml:id='sonjmp5o' n='1'>
+                                <layer xml:id='l3bgris9' n='1'>
+                                    <note xml:id='nk9fla5k' pname='g' oct='3' dur='2'/>
+                                    <rest xml:id='rh784s6q' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sq5u3eji' n='2'>
+                                <layer xml:id='lmgsqaxp' n='1'>
+                                    <note xml:id='nrumrlwi' pname='b' oct='2' dur='2'/>
+                                    <note xml:id='nnrdnmbl' pname='c' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='smnf36jh' n='3'>
+                                <layer xml:id='l6xd2rpv' n='1'>
+                                    <tabGrp xml:id='tg86kgh8' dur='2'>
+                                        <tabDurSym xml:id='tds4exu7'/>
+                                        <note xml:id='nmses1ao' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='nenjfhhc' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgghniu2' dur='2'>
+                                        <tabDurSym xml:id='tdscasmp'/>
+                                        <note xml:id='nilukk2z' tab.course='4' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m9m77meg' n='91'>
+                            <staff xml:id='s2vn6rqd' n='1'>
+                                <layer xml:id='l1ipqwl2' n='1'>
+                                    <note xml:id='nwghxama' pname='g' oct='3' dur='4' color='lime'/>
+                                    <rest xml:id='rptdd6q7' dur='4'/>
+                                    <note xml:id='n5zkumk6' pname='f' oct='3' dur='4'/>
+                                    <note xml:id='nqp1bcya' pname='e' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s3dzz6t8' n='2'>
+                                <layer xml:id='lrxcyq3f' n='1'>
+                                    <note xml:id='noqdniey' pname='g' oct='2' dur='4'/>
+                                    <note xml:id='nldw51wj' pname='a' oct='2' dur='4'/>
+                                    <note xml:id='ndmn5xrl' pname='b' oct='2' dur='4'/>
+                                    <note xml:id='nogxs14i' pname='c' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='s5izn87e' n='3'>
+                                <layer xml:id='lbav9unn' n='1'>
+                                    <tabGrp xml:id='tg8liibm' dur='4'>
+                                        <tabDurSym xml:id='tdsfo2g5'/>
+                                        <note xml:id='ndyjdddu' tab.course='5' tab.fret='0'/>
+                                        <note xml:id='nkx9gfq2' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tglrxo8l' dur='4'>
+                                        <tabDurSym xml:id='tdsjplqy'/>
+                                        <note xml:id='nmulzrtu' tab.course='5' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgkbesrr' dur='4'>
+                                        <tabDurSym xml:id='tds323ku'/>
+                                        <note xml:id='neg6locl' tab.course='5' tab.fret='4'/>
+                                        <note xml:id='ne8j9aet' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg5bq7fv' dur='4'>
+                                        <tabDurSym xml:id='tds1os64'/>
+                                        <note xml:id='ny4s8n3a' tab.course='4' tab.fret='0'/>
+                                        <note xml:id='nvtg3fxx' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m4aby551' n='92'>
+                            <staff xml:id='sc17n21e' n='1'>
+                                <layer xml:id='le8zup4m' n='1'>
+                                    <note xml:id='nktpttpw' pname='f' oct='3' dur='2'/>
+                                    <note xml:id='nrfry7du' pname='g' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sl88who8' n='2'>
+                                <layer xml:id='l5gtsrsa' n='1'>
+                                    <note xml:id='n4uqpebz' pname='d' oct='3' dur='2'/>
+                                    <note xml:id='n9fvorwi' pname='e' oct='3' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='svorm7c2' n='3'>
+                                <layer xml:id='lnxixldi' n='1'>
+                                    <tabGrp xml:id='tghxle8m' dur='2'>
+                                        <tabDurSym xml:id='tdssccpc'/>
+                                        <note xml:id='nz3bwfz3' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='nr4ue7lw' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgucvxv5' dur='2'>
+                                        <tabDurSym xml:id='tdsmu1r2'/>
+                                        <note xml:id='nun5so2w' tab.course='4' tab.fret='4'/>
+                                        <note xml:id='n5ui1ib6' tab.course='3' tab.fret='3'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mo7nfitu' n='93'>
+                            <staff xml:id='st2amp9g' n='1'>
+                                <layer xml:id='l7upklm3' n='1'>
+                                    <note xml:id='nwmg9duo' pname='d' oct='3' dur='2'/>
+                                    <rest xml:id='rnkbtkns' dur='4'/>
+                                    <note xml:id='nx7kw62b' pname='f' oct='3' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sa69bxzu' n='2'>
+                                <layer xml:id='ljbbfcro' n='1'>
+                                    <note xml:id='ngvexfqf' pname='f' oct='3' dur='2'/>
+                                    <note xml:id='nzpul9yc' pname='d' oct='3' dur='4'/>
+                                    <rest xml:id='r7e537wr' dur='4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sdbpw8ve' n='3'>
+                                <layer xml:id='l32b5x6l' n='1'>
+                                    <tabGrp xml:id='tg8lt9hl' dur='2'>
+                                        <tabDurSym xml:id='tdsezisj'/>
+                                        <note xml:id='n4mfxw2j' tab.course='4' tab.fret='2'/>
+                                        <note xml:id='n59w9re8' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgtmp171' dur='4'>
+                                        <tabDurSym xml:id='tdsjfnhn'/>
+                                        <note xml:id='n9rwizvx' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgxsvwwd' dur='4'>
+                                        <tabDurSym xml:id='tdsr9x23'/>
+                                        <note xml:id='n7r23n1u' tab.course='3' tab.fret='1'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='myuoalkp' n='94'>
+                            <staff xml:id='smt9gsql' n='1'>
+                                <layer xml:id='le884653' n='1'>
+                                    <note xml:id='nuze73xw' pname='e' oct='3' dur='4'/>
+                                    <rest xml:id='rldfrx2q' dur='2' dots='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sgs927gk' n='2'>
+                                <layer xml:id='lnrbi5db' n='1'>
+                                    <rest xml:id='rnfoyyr5' dur='4'/>
+                                    <note xml:id='n8u6osud' pname='d' oct='3' dur='4' color='blue'/>
+                                    <note xml:id='nurlivt9' pname='c' oct='3' accid='s' dur='2'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sn6yovyh' n='3'>
+                                <layer xml:id='lwldrmpf' n='1'>
+                                    <tabGrp xml:id='tgqlby3i' dur='4'>
+                                        <tabDurSym xml:id='tds34ebq'/>
+                                        <note xml:id='nf6yw3ut' tab.course='3' tab.fret='0'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tgxwlkgk' dur='4'>
+                                        <tabDurSym xml:id='tdsywf99'/>
+                                        <note xml:id='nmf9gp1i' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                    <tabGrp xml:id='tg8mpqq7' dur='2'>
+                                        <tabDurSym xml:id='tdsliyb6'/>
+                                        <note xml:id='nt4h4v2s' tab.course='4' tab.fret='1'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='m74dmc9c' n='95'>
+                            <staff xml:id='sr1sihlu' n='1'>
+                                <layer xml:id='l3mxkv6t' n='1'>
+                                    <note xml:id='nh1dm94u' pname='d' oct='3' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sgv8so63' n='2'>
+                                <layer xml:id='l78ex3my' n='1'>
+                                    <note xml:id='np7dy3ai' pname='d' oct='3' dur='1'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='stdn77gf' n='3'>
+                                <layer xml:id='l3pza5kt' n='1'>
+                                    <tabGrp xml:id='tgxut6hd' dur='1'>
+                                        <tabDurSym xml:id='tdsw1iuq'/>
+                                        <note xml:id='nxwbasp5' tab.course='4' tab.fret='2'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id='mdry8957' n='96' right='end'>
+                            <staff xml:id='sng9z4ne' n='1'>
+                                <layer xml:id='lhmk8w9f' n='1'>
+                                    <mRest xml:id='mrg8v3f4'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sftk5g52' n='2'>
+                                <layer xml:id='l4juk1an' n='1'>
+                                    <mRest xml:id='mr3hq69t'/>
+                                </layer>
+                            </staff>
+                            <staff xml:id='sqkrw3pk' n='3'>
+                                <layer xml:id='lfhvmxqk' n='1'>
+                                    <tabGrp xml:id='tgxic5xj' dur='1'>
+                                        <tabDurSym xml:id='tds6w78l'/>
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
