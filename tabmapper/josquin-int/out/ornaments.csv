@@ -743,8 +743,41 @@ Q -2 E
 E -2 S 2 S 1 E.
 E. -3 S 3 E 2 E -2 Q
 E. 4 S -2 S -2 S -1 S -2 S 2 W
-E. -1 S 1 S -1 S 1 S 2 S -2 Q
+E. 2 S -2 S 2 S 1 S 2 S 2 Q
+E. -2 S 2 S 2 S 1 S 2 S 2 Q
+S 4 S -2 S -2 S 2 S -2 S -1 S -2 S 2 Q
 Q 0 E -1 S 1 S 2 S
+R 0 T -1 T -2 T 2 Q
+R 0 T 1 T 2 T 2 T -2 E
+E 1 T -1 T -2 T 2 T 1 Q.
+R 0 S 2 S 1 S 2 S -2 Q
+E. -2 S -3 S 2 S 1 S 2 S -2 Q
+E. -2 S -2 E -1 S 3 S -2 Q
+E -1 T 1 T 2 T 2 T -2 Q
+E -2 S -2 S 2 S 2 S 1 S 2 S -2 Q
+E. -2 S 2 S 1 S -3 S 2 S 1 H
+E. -2 S -2 S -1 S 1 T 2 T 2 T 2 T 1 H
+E -10 S 1 S 2 S 2 S 1 S 2 S 2 Q
+E -8 S 2 S 1 S -3 S 2 T 1 T 2 T 2 T 1 E
+E -3 S 14 S -2 S -2 S -1 S -2 S -2 E.
+E. -4 S 2 E 2 E 1 E.
+E. 2 S -2 S -1 S -2 S -2 S 2 Q
+R 0 null
+E -2 null
+null -17 null 16 null 0 R
+R 0 S 2 S 2 Q
+R 0 S 1 S 2 Q
+E -10 S 1 T 2 T 2 T 2 T 1 T -3 T 2 T 1 T 2 T 2 T -2 H
+E 5 T -2 T -1 T 1 T -1 E.
+E. 2 S -2 S -2 S 2 T -2 T -1 T -2 T 2 Q
+E -2 S 2 S 1 H
+E -3 S 2 S 1 S 2 S 2 S 2 S 1 E.
+E. -1 S -2 S -2 S -2 S -1 S 1 Q
+E. -1 S -2 S 2 S 1 S 2 S 2 Q
+E 5 S 2 S 1 S -1 S -2 S -2 S -1 E
+S 10 S -1 S -2 S -7 S
+E 0 S 2 S 1 S
+E. -1 S 1 S -1 S 1 S 2 S -2 Q
 S -2 S -1 S -2 S -2 S 2 S 2 S 1 S 2 E.
 E. -8 S 1 S 2 S 2 S 1 S 2 E -2 S -1 S -2 S 2 S 1 S 2 S 2 H
 S -2 S -1 S -2 S 2 E.
@@ -1442,6 +1475,31 @@ R 0 S -2 S -2 S 0 E
 R 0 S -2 S -1 S
 E -5 S 2 S 2 S 1 S 2 S
 E. 1 S 2 S -2 S -1 S -2 S 2 W
+E -7 E 2 E 2 E 5 Q
+E -13 E 1 E 11 E
+E -2 E 2 E 2 E
+E -9 E
+E -12 S 2 S 1 S 2 S 2 S 1 S 2 E.
+E. -2 S 2 S -2 S -1 S
+E 13 S -1 S -2 S -2 S -1 S -2 S -2 Q
+E 18 S 1 S 2 S 2 S 1 S 2 S -2 E.
+R 0 S 2 S 1 S 2 S -2 E
+E -5 E 2 E 1 E 2 E.
+E. 14 S -2 S -2 S -1 S -2 S -2 S
+E. 7 S -2 S -1 S -2 S
+E 3 E -1 E -2 E
+E 11 S -2 S -2 S -2 S -1 S -2 S -2 H
+E. 2 S -2 S -2 S 2 T -2 T -1 T -2 T -2 Q
+E 1 S 4 S -2 S -2 S -1 S
+R 0 S 2 S 2 S -2 S -2 S -1 S 1 S
+S 9 S -2 S -2 S 2 S -2 S -1 S -2 S -2 E
+R 0 S 1 S 2 S 2 S 1 S 2 S -2 Q
+E. -5 S 2 S 2 S 1 S
+E 1 S 4 S -2 S -2 S -1 S -2 S 2 Q
+R 0 null 2 null -2 null -1 null -2 null 0 R
+R 0 null -2 null 0 R
+R 0 null 2 null 0 R
+E -7 S 2 S 1 S 2 S 2 S 1 S -1 H
 Q 0 S -1 S 1 S 2 S -2 H
 Q 0 S -2 S 2 S 2 S 1 Q
 S -2 S -1 S 1 S 2 E
@@ -1460,7 +1518,6 @@ T -2 T -1 T -2 T 3 S
 S 9 S
 R 0 S -2 S -1 S -2 S
 R 0 S 1 T 2 T 2 T 1 T 0 Q
-R 0 T -1 T -2 T 2 Q
 T -2 T 2 T 2 T 1 T
 T -1 T 1 T 2 T -2 Q
 S -2 S -2 S 2 S 3 S
@@ -1571,6 +1628,14 @@ S -2 S 2 T -2 T -2 T 2 T 2 S
 S -2 S 2 S 1 S -1 E -2 E 2 Q
 R 0 E -2 E -1 E
 Q 5 Q -2 Q -1 Q
+Q. -8 E 1 Q 2 Q 2 Q
+Q 2 Q 2 Q 1 Q 2 W
+Q 10 E -2 E -1 E -2 E -2 E -1 E -2 W
+R 0 E 1 Q 2 Q -2 H
+Q -5 E 2 E 1 E 2 E 2 E 2 E 1 Q
+R 0 E 2 E 1 E -1 E 1 E -1 E 1 H
+H 7 Q -5 Q 2 Q
+Q 10 E -2 E -1 E -2 E -2 E -1 E -2 H
 E 0 S -2 S -1 S 1 S 2 S 2 S 1 E.
 T -1 T 1 T 2 T 2 E
 E 2 S 2 S 2 S -2 S 2 T -2 T -2 T 2 T -2 E
@@ -1588,7 +1653,6 @@ E 5 S -2 S -1 S
 E 2 S 1 S 2 S -2 S -1 S -2 S -2 Q
 E. 4 S -2 S -2 S -1 S -2 S 2 E
 R 0 S 1 S 2 S 2 S 1 S 2 S 2 E
-E. -2 S -3 S 2 S 1 S 2 S -2 Q
 E 2 T -2 T -2 T 2 T -2 S
 S -2 S -1 S 3 S -2 S
 R 0 S 2 E 0 E
@@ -1643,7 +1707,6 @@ S -10 S 1 S 2 S 2 T -2 T 2 T 2 T 1 T -1 T 1 T 2 T 2 E
 E -2 S 2 S 1 S -1 S -2 S 2 S 5 Q
 R 0 S -1 S -2 S 3 S -1 S -2 S 2 S 1 H
 R 0 E 1 S -1 S -1 S 1 S 1 H
-E. -2 S -2 S -1 S 1 T 2 T 2 T 2 T 1 H
 Q 2 S -2 S 2 T -2 T -2 T -1 T -2 H
 S -2 S -1 T -2 T -2 T -1 T 1 T 2 T 2 T 2 T 1 E -2 Q
 R 0 S -1 S -2 S -2 S
