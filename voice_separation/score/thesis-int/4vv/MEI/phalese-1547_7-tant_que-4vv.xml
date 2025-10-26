@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="mei-cmn.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>phalese-1547_7-tant_que-4vv</title>
+            </titleStmt>
+        </fileDesc>
+    </meiHead>
+    <music>
+       <body>
+            <mdiv>
+                <score>
+                    <scoreDef key.sig='1f' meter.count='2' meter.unit='2' meter.sym='common'>
+                        <staffGrp symbol='brace' barthru='true'>
+                            <staffDef n='1' xml:id='s1' lines='5' clef.shape='G' clef.line='2'/>
+                            <staffDef n='2' xml:id='s2' lines='5' clef.shape='F' clef.line='4'/>   
+                        </staffGrp>
+                    </scoreDef>
+                    <section> 
+                        <measure n='1'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='c' oct='5' dur='4' dots='1' xml:id='3-0-1-0-c5'/>
+                                    <note pname='d' oct='5' dur='8' xml:id='4-0-1-1-d5'/>
+                                    <note pname='c' oct='5' dur='4' xml:id='8-0-1-2-c5'/>
+                                    <note pname='b' oct='4' dur='4' xml:id='12-0-1-3-b4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='2' xml:id='2-1-1-0-f4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='7-1-1-1-f4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='11-1-1-2-d4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='13-1-1-3-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='14-1-1-4-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='15-1-1-5-g4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='2' xml:id='1-2-1-0-a3'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='6-2-1-1-a3'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='10-2-1-2-b3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='2' xml:id='0-3-1-0-f3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='5-3-1-1-f3'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='9-3-1-2-g3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='2'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='a' oct='4' dur='8' xml:id='19-0-2-0-a4'/>
+                                    <note pname='g' oct='4' dur='8' xml:id='20-0-2-1-g4'/>
+                                    <note pname='a' oct='4' dur='8' xml:id='21-0-2-2-a4'/>
+                                    <note pname='b' oct='4' dur='8' xml:id='22-0-2-3-b4'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='26-0-2-4-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='2' xml:id='18-1-2-0-f4'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='25-1-2-1-f4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='c' oct='4' dur='2' xml:id='17-2-2-0-c4'/>
+                                    <note pname='c' oct='4' dur='4' dots='1' xml:id='24-2-2-1-c4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='30-2-2-2-d4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='2' xml:id='16-3-2-0-f3'/>
+                                    <note pname='f' oct='3' dur='8' xml:id='23-3-2-1-f3'/>
+                                    <note pname='g' oct='3' dur='8' xml:id='27-3-2-2-g3'/>
+                                    <note pname='a' oct='3' dur='8' xml:id='28-3-2-3-a3'/>
+                                    <note pname='b' oct='3' accid='n' dur='8' xml:id='29-3-2-4-b3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='3'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='g' oct='4' dur='4' xml:id='34-0-3-0-g4'/>
+                                    <note pname='c' oct='5' dur='4' xml:id='38-0-3-1-c5'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='42-0-3-2-g4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='43-0-3-3-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='44-0-3-4-g4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='45-0-3-5-a4'/>
+                                    <note pname='b' oct='4' accid='n' dur='16' xml:id='46-0-3-6-b4'/>
+                                    <note pname='c' oct='5' dur='16' xml:id='47-0-3-7-c5'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='48-0-3-8-a4'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='49-0-3-9-b4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='e' oct='4' dur='4' xml:id='33-1-3-0-e4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='37-1-3-1-f4'/>
+                                    <note pname='g' oct='4' dur='2' xml:id='41-1-3-2-g4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='e' oct='4' dur='4' xml:id='32-2-3-0-e4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='36-2-3-1-c4'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='40-2-3-2-d4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='c' oct='4' dur='4' xml:id='31-3-3-0-c4'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='35-3-3-1-a3'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='39-3-3-2-g3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='4'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='c' oct='5' dur='8' xml:id='53-0-4-0-c5'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='54-0-4-1-b4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='55-0-4-2-a4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='56-0-4-3-g4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='57-0-4-4-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='58-0-4-5-e4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='59-0-4-6-d4'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='60-0-4-7-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='e' oct='4' dur='2' xml:id='52-1-4-0-e4'/>
+                                    <rest dur='2' xml:id='-1-1-4-1-r'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='c' oct='4' dur='2' xml:id='51-2-4-0-c4'/>
+                                    <rest dur='2' xml:id='-1-2-4-1-r'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='c' oct='3' dur='2' xml:id='50-3-4-0-c3'/>
+                                    <rest dur='2' xml:id='-1-3-4-1-r'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='5'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='a' oct='4' dur='16' xml:id='64-0-5-0-a4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='65-0-5-1-g4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='66-0-5-2-a4'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='67-0-5-3-b4'/>
+                                    <note pname='a' oct='4' dur='8' xml:id='68-0-5-4-a4'/>
+                                    <note pname='g' oct='4' dur='8' xml:id='69-0-5-5-g4'/>
+                                    <note pname='a' oct='4' dur='8' xml:id='72-0-5-6-a4'/>
+                                    <note pname='b' oct='4' dur='8' xml:id='73-0-5-7-b4'/>
+                                    <note pname='g' oct='4' dur='8' xml:id='77-0-5-8-g4'/>
+                                    <note pname='a' oct='4' dur='8' xml:id='78-0-5-9-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='2' xml:id='63-1-5-0-f4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='71-1-5-1-f4'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='76-1-5-2-d4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='c' oct='4' dur='2' xml:id='62-2-5-0-c4'/>
+                                    <rest dur='4' xml:id='-1-2-5-1-r'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='75-2-5-2-b3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='2' xml:id='61-3-5-0-f3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='70-3-5-1-f3'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='74-3-5-2-g3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='6'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='f' oct='4' dur='8' xml:id='82-0-6-0-f4'/>
+                                    <note pname='e' oct='4' dur='8' xml:id='83-0-6-1-e4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='84-0-6-2-f4'/>
+                                    <note pname='g' oct='4' dur='8' xml:id='85-0-6-3-g4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='89-0-6-4-f4'/>
+                                    <note pname='c' oct='4' dur='16' xml:id='90-0-6-5-c4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='91-0-6-6-d4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='92-0-6-7-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='93-0-6-8-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='94-0-6-9-g4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='95-0-6-10-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='2' xml:id='81-1-6-0-d4'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='88-1-6-1-d4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='2' xml:id='80-2-6-0-a3'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='87-2-6-1-a3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='d' oct='3' dur='2' xml:id='79-3-6-0-d3'/>
+                                    <note pname='d' oct='3' dur='2' xml:id='86-3-6-1-d3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='7'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='b' oct='4' dur='4' xml:id='99-0-7-0-b4'/>
+                                    <note pname='b' oct='4' dur='8' xml:id='103-0-7-1-b4'/>
+                                    <note pname='a' oct='4' dur='8' xml:id='104-0-7-2-a4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='108-0-7-3-g4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='109-0-7-4-a4'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='110-0-7-5-b4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='111-0-7-6-a4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='112-0-7-7-g4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='113-0-7-8-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='114-0-7-9-e4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='115-0-7-10-d4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='4' xml:id='98-1-7-0-d4'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='102-1-7-1-d4'/>
+                                    <note pname='d' oct='4' dur='2' xml:id='107-1-7-2-d4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='b' oct='3' dur='4' xml:id='97-2-7-0-b3'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='101-2-7-1-b3'/>
+                                    <note pname='b' oct='3' dur='2' xml:id='106-2-7-2-b3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='b' oct='2' dur='4' xml:id='96-3-7-0-b2'/>
+                                    <note pname='b' oct='2' dur='4' xml:id='100-3-7-1-b2'/>
+                                    <note pname='b' oct='2' dur='2' xml:id='105-3-7-2-b2'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='8'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='e' oct='4' dur='8' xml:id='119-0-8-0-e4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='120-0-8-1-d4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='121-0-8-2-e4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='122-0-8-3-d4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='123-0-8-4-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='124-0-8-5-f4'/>
+                                    <note pname='e' oct='4' dur='8' xml:id='128-0-8-6-e4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='129-0-8-7-d4'/>
+                                    <note pname='c' oct='4' dur='16' xml:id='130-0-8-8-c4'/>
+                                    <note pname='b' oct='3' accid='n' dur='16' xml:id='131-0-8-9-b3'/>
+                                    <note pname='c' oct='4' dur='16' xml:id='132-0-8-10-c4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='133-0-8-11-d4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='134-0-8-12-e4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='c' oct='4' dur='2' xml:id='118-1-8-0-c4'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='127-1-8-1-c4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='g' oct='3' dur='2' xml:id='117-2-8-0-g3'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='126-2-8-1-g3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='c' oct='3' dur='2' xml:id='116-3-8-0-c3'/>
+                                    <note pname='c' oct='3' dur='2' xml:id='125-3-8-1-c3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='9'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='f' oct='4' dur='16' xml:id='137-0-9-0-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='138-0-9-1-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='139-0-9-2-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='140-0-9-3-g4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='141-0-9-4-f4'/>
+                                    <note pname='e' oct='4' dur='8' xml:id='142-0-9-5-e4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='146-0-9-6-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='150-0-9-7-g4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='151-0-9-8-a4'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='152-0-9-9-b4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='153-0-9-10-g4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='c' oct='4' dur='2' xml:id='136-1-9-0-c4'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='145-1-9-1-d4'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='149-1-9-2-d4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='-1-2-9-0-r'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='144-2-9-1-a3'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='148-2-9-2-b3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='2' xml:id='135-3-9-0-f3'/>
+                                    <note pname='d' oct='3' dur='4' xml:id='143-3-9-1-d3'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='147-3-9-2-g3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='10'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='a' oct='4' dur='8' xml:id='157-0-10-0-a4'/>
+                                    <note pname='g' oct='4' dur='8' xml:id='159-0-10-1-g4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='161-0-10-2-f4'/>
+                                    <note pname='e' oct='4' dur='8' xml:id='163-0-10-3-e4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='167-0-10-4-f4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='168-0-10-5-d4'/>
+                                    <note pname='g' oct='4' dur='8' xml:id='172-0-10-6-g4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='173-0-10-7-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='174-0-10-8-e4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='2' xml:id='156-1-10-0-f4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='166-1-10-1-c4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='171-1-10-2-c4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='c' oct='4' dur='8' xml:id='155-2-10-0-c4'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='158-2-10-1-b3'/>
+                                    <note pname='a' oct='3' dur='8' xml:id='160-2-10-2-a3'/>
+                                    <note pname='g' oct='3' dur='8' xml:id='162-2-10-3-g3'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='165-2-10-4-a3'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='170-2-10-5-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='2' xml:id='154-3-10-0-f3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='164-3-10-1-f3'/>
+                                    <note pname='c' oct='3' dur='4' xml:id='169-3-10-2-c3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='11'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='d' oct='4' dur='16' xml:id='175-0-11-0-d4'/>
+                                    <note pname='c' oct='4' dur='16' xml:id='176-0-11-1-c4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='177-0-11-2-d4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='178-0-11-3-e4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='182-0-11-4-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='186-0-11-5-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='187-0-11-6-e4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='188-0-11-7-d4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='189-0-11-8-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='190-0-11-9-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='191-0-11-10-g4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='192-0-11-11-e4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <rest dur='4' xml:id='-1-1-11-0-r'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='181-1-11-1-b3'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='185-1-11-2-c4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <rest dur='4' xml:id='-1-2-11-0-r'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='180-2-11-1-f3'/>
+                                    <note pname='g' oct='3' dur='2' xml:id='184-2-11-2-g3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <rest dur='4' xml:id='-1-3-11-0-r'/>
+                                    <note pname='d' oct='3' dur='4' xml:id='179-3-11-1-d3'/>
+                                    <note pname='c' oct='3' dur='2' xml:id='183-3-11-2-c3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='12'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='f' oct='4' dur='1' xml:id='196-0-12-0-f4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='c' oct='4' dur='1' xml:id='195-1-12-0-c4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='f' oct='3' dur='1' xml:id='194-2-12-0-f3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='1' xml:id='193-3-12-0-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='13'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='f' oct='4' dur='4' xml:id='199-0-13-0-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='202-0-13-1-f4'/>
+                                    <note pname='g' oct='4' dur='8' xml:id='205-0-13-2-g4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='209-0-13-3-a4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='213-0-13-4-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='4' xml:id='198-1-13-0-d4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='201-1-13-1-d4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='204-1-13-2-d4'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='208-1-13-3-e4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='212-1-13-4-f4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='-1-2-13-0-r'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='207-2-13-1-c4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='211-2-13-2-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='b' oct='3' dur='4' xml:id='197-3-13-0-b3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='200-3-13-1-b3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='203-3-13-2-b3'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='206-3-13-3-a3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='210-3-13-4-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='14'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='f' oct='4' dur='16' xml:id='216-0-14-0-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='217-0-14-1-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='218-0-14-2-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='219-0-14-3-g4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='222-0-14-4-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='223-0-14-5-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='224-0-14-6-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='225-0-14-7-g4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='229-0-14-8-a4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='233-0-14-9-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='-1-1-14-0-r'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='227-1-14-1-c4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='231-1-14-2-c4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='d' oct='4' dur='4' xml:id='215-2-14-0-d4'/>
+                                    <note pname='d' oct='4' dur='4' xml:id='221-2-14-1-d4'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='228-2-14-2-e4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='232-2-14-3-f4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='b' oct='3' dur='4' xml:id='214-3-14-0-b3'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='220-3-14-1-b3'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='226-3-14-2-a3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='230-3-14-3-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='15'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='c' oct='5' dur='4' xml:id='237-0-15-0-c5'/>
+                                    <note pname='c' oct='5' dur='8' xml:id='241-0-15-1-c5'/>
+                                    <note pname='b' oct='4' dur='8' xml:id='245-0-15-2-b4'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='249-0-15-3-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='4' xml:id='236-1-15-0-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='240-1-15-1-f4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='244-1-15-2-d4'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='248-1-15-3-f4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='4' xml:id='235-2-15-0-a3'/>
+                                    <note pname='a' oct='3' dur='8' xml:id='239-2-15-1-a3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='243-2-15-2-b3'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='247-2-15-3-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='4' xml:id='234-3-15-0-f3'/>
+                                    <note pname='f' oct='3' dur='8' xml:id='238-3-15-1-f3'/>
+                                    <note pname='g' oct='3' dur='8' xml:id='242-3-15-2-g3'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='246-3-15-3-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='16'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='c' oct='5' dur='16' xml:id='252-0-16-0-c5'/>
+                                    <note pname='d' oct='5' dur='16' xml:id='253-0-16-1-d5'/>
+                                    <note pname='e' oct='5' accid='f' dur='16' xml:id='254-0-16-2-e5'/>
+                                    <note pname='d' oct='5' dur='16' xml:id='255-0-16-3-d5'/>
+                                    <note pname='c' oct='5' dur='16' xml:id='256-0-16-4-c5'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='257-0-16-5-b4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='258-0-16-6-a4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='259-0-16-7-g4'/>
+                                    <note pname='a' oct='4' dur='2' xml:id='263-0-16-8-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='-1-1-16-0-r'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='262-1-16-1-f4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='2' xml:id='251-2-16-0-a3'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='261-2-16-1-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='2' xml:id='250-3-16-0-f3'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='260-3-16-1-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='17'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='f' oct='4' dur='4' xml:id='266-0-17-0-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='269-0-17-1-f4'/>
+                                    <note pname='g' oct='4' dur='8' xml:id='272-0-17-2-g4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='276-0-17-3-a4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='280-0-17-4-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='4' xml:id='265-1-17-0-d4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='268-1-17-1-d4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='271-1-17-2-d4'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='275-1-17-3-e4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='279-1-17-4-f4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <rest dur='2' xml:id='-1-2-17-0-r'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='274-2-17-1-c4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='278-2-17-2-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='b' oct='3' dur='4' xml:id='264-3-17-0-b3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='267-3-17-1-b3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='270-3-17-2-b3'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='273-3-17-3-a3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='277-3-17-4-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='18'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='f' oct='4' dur='16' xml:id='283-0-18-0-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='284-0-18-1-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='285-0-18-2-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='286-0-18-3-g4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='289-0-18-4-f4'/>
+                                    <note pname='g' oct='4' dur='8' xml:id='292-0-18-5-g4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='296-0-18-6-a4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='300-0-18-7-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <rest dur='2' xml:id='-1-1-18-0-r'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='294-1-18-1-c4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='298-1-18-2-c4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='d' oct='4' dur='4' xml:id='282-2-18-0-d4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='288-2-18-1-d4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='291-2-18-2-d4'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='295-2-18-3-e4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='299-2-18-4-f4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='b' oct='3' dur='4' xml:id='281-3-18-0-b3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='287-3-18-1-b3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='290-3-18-2-b3'/>
+                                    <note pname='a' oct='3' dur='4' xml:id='293-3-18-3-a3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='297-3-18-4-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='19'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='c' oct='5' dur='4' xml:id='304-0-19-0-c5'/>
+                                    <note pname='c' oct='5' dur='8' xml:id='308-0-19-1-c5'/>
+                                    <note pname='b' oct='4' dur='8' xml:id='312-0-19-2-b4'/>
+                                    <note pname='a' oct='4' dur='8' xml:id='316-0-19-3-a4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='317-0-19-4-d4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='318-0-19-5-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='319-0-19-6-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='320-0-19-7-g4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='321-0-19-8-a4'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='322-0-19-9-b4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='4' xml:id='303-1-19-0-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='307-1-19-1-f4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='311-1-19-2-d4'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='315-1-19-3-f4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='4' xml:id='302-2-19-0-a3'/>
+                                    <note pname='a' oct='3' dur='8' xml:id='306-2-19-1-a3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='310-2-19-2-b3'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='314-2-19-3-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='4' xml:id='301-3-19-0-f3'/>
+                                    <note pname='f' oct='3' dur='8' xml:id='305-3-19-1-f3'/>
+                                    <note pname='g' oct='3' dur='8' xml:id='309-3-19-2-g3'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='313-3-19-3-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='20'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='c' oct='5' dur='16' xml:id='326-0-20-0-c5'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='327-0-20-1-b4'/>
+                                    <note pname='c' oct='5' dur='16' xml:id='328-0-20-2-c5'/>
+                                    <note pname='d' oct='5' dur='16' xml:id='329-0-20-3-d5'/>
+                                    <note pname='c' oct='5' dur='8' xml:id='333-0-20-4-c5'/>
+                                    <note pname='b' oct='4' dur='8' xml:id='337-0-20-5-b4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='341-0-20-6-a4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='345-0-20-7-g4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='346-0-20-8-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='347-0-20-9-g4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='348-0-20-10-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='4' xml:id='325-1-20-0-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='332-1-20-1-f4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='336-1-20-2-d4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='340-1-20-3-f4'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='344-1-20-4-e4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='4' xml:id='324-2-20-0-a3'/>
+                                    <note pname='a' oct='3' dur='8' xml:id='331-2-20-1-a3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='335-2-20-2-b3'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='339-2-20-3-c4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='343-2-20-4-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='4' xml:id='323-3-20-0-f3'/>
+                                    <note pname='f' oct='3' dur='8' xml:id='330-3-20-1-f3'/>
+                                    <note pname='g' oct='3' dur='8' xml:id='334-3-20-2-g3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='338-3-20-3-f3'/>
+                                    <note pname='c' oct='3' dur='4' xml:id='342-3-20-4-c3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='21'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='g' oct='4' dur='8' xml:id='352-0-21-0-g4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='353-0-21-1-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='357-0-21-2-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='358-0-21-3-e4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='359-0-21-4-d4'/>
+                                    <note pname='e' oct='4' dur='8' xml:id='363-0-21-5-e4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='364-0-21-6-f4'/>
+                                    <note pname='e' oct='4' dur='8' xml:id='368-0-21-7-e4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='4' xml:id='351-1-21-0-d4'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='356-1-21-1-b3'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='362-1-21-2-c4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='367-1-21-3-c4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='4' xml:id='350-2-21-0-a3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='355-2-21-1-f3'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='361-2-21-2-g3'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='366-2-21-3-g3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='d' oct='3' dur='4' xml:id='349-3-21-0-d3'/>
+                                    <note pname='b' oct='2' dur='4' xml:id='354-3-21-1-b2'/>
+                                    <note pname='c' oct='3' dur='4' xml:id='360-3-21-2-c3'/>
+                                    <note pname='c' oct='3' dur='4' xml:id='365-3-21-3-c3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='22'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='f' oct='4' dur='8' xml:id='372-0-22-0-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='373-0-22-1-e4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='374-0-22-2-d4'/>
+                                    <note pname='c' oct='4' dur='16' xml:id='375-0-22-3-c4'/>
+                                    <note pname='b' oct='3' dur='16' xml:id='376-0-22-4-b3'/>
+                                    <note pname='a' oct='3' dur='16' xml:id='377-0-22-5-a3'/>
+                                    <note pname='g' oct='3' dur='16' xml:id='378-0-22-6-g3'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='379-0-22-7-f3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='c' oct='4' dur='2' xml:id='371-1-22-0-c4'/>
+                                    <rest dur='2' xml:id='-1-1-22-1-r'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='f' oct='3' dur='2' xml:id='370-2-22-0-f3'/>
+                                    <rest dur='2' xml:id='-1-2-22-1-r'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='2' xml:id='369-3-22-0-f3'/>
+                                    <rest dur='2' xml:id='-1-3-22-1-r'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='23'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='c' oct='5' dur='4' xml:id='383-0-23-0-c5'/>
+                                    <note pname='c' oct='5' dur='8' xml:id='387-0-23-1-c5'/>
+                                    <note pname='b' oct='4' dur='8' xml:id='391-0-23-2-b4'/>
+                                    <note pname='a' oct='4' dur='8' xml:id='395-0-23-3-a4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='396-0-23-4-d4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='397-0-23-5-e4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='398-0-23-6-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='399-0-23-7-g4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='400-0-23-8-a4'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='401-0-23-9-b4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='4' xml:id='382-1-23-0-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='386-1-23-1-f4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='390-1-23-2-d4'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='394-1-23-3-f4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='4' xml:id='381-2-23-0-a3'/>
+                                    <note pname='a' oct='3' dur='8' xml:id='385-2-23-1-a3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='389-2-23-2-b3'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='393-2-23-3-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='4' xml:id='380-3-23-0-f3'/>
+                                    <note pname='f' oct='3' dur='8' xml:id='384-3-23-1-f3'/>
+                                    <note pname='g' oct='3' dur='8' xml:id='388-3-23-2-g3'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='392-3-23-3-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='24'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='c' oct='5' dur='16' xml:id='405-0-24-0-c5'/>
+                                    <note pname='b' oct='4' dur='16' xml:id='406-0-24-1-b4'/>
+                                    <note pname='c' oct='5' dur='16' xml:id='407-0-24-2-c5'/>
+                                    <note pname='d' oct='5' dur='16' xml:id='408-0-24-3-d5'/>
+                                    <note pname='c' oct='5' dur='8' xml:id='412-0-24-4-c5'/>
+                                    <note pname='b' oct='4' dur='8' xml:id='416-0-24-5-b4'/>
+                                    <note pname='a' oct='4' dur='4' xml:id='420-0-24-6-a4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='424-0-24-7-g4'/>
+                                    <note pname='f' oct='4' dur='16' xml:id='425-0-24-8-f4'/>
+                                    <note pname='g' oct='4' dur='16' xml:id='426-0-24-9-g4'/>
+                                    <note pname='a' oct='4' dur='16' xml:id='427-0-24-10-a4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='4' dur='4' xml:id='404-1-24-0-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='411-1-24-1-f4'/>
+                                    <note pname='d' oct='4' dur='8' xml:id='415-1-24-2-d4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='419-1-24-3-f4'/>
+                                    <note pname='e' oct='4' dur='4' xml:id='423-1-24-4-e4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='4' xml:id='403-2-24-0-a3'/>
+                                    <note pname='a' oct='3' dur='8' xml:id='410-2-24-1-a3'/>
+                                    <note pname='b' oct='3' dur='8' xml:id='414-2-24-2-b3'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='418-2-24-3-c4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='422-2-24-4-c4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='4' xml:id='402-3-24-0-f3'/>
+                                    <note pname='f' oct='3' dur='8' xml:id='409-3-24-1-f3'/>
+                                    <note pname='g' oct='3' dur='8' xml:id='413-3-24-2-g3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='417-3-24-3-f3'/>
+                                    <note pname='c' oct='3' dur='4' xml:id='421-3-24-4-c3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='25'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='g' oct='4' dur='8' xml:id='431-0-25-0-g4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='432-0-25-1-f4'/>
+                                    <note pname='f' oct='4' dur='8' xml:id='436-0-25-2-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='437-0-25-3-e4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='438-0-25-4-d4'/>
+                                    <note pname='e' oct='4' dur='8' xml:id='442-0-25-5-e4'/>
+                                    <note pname='f' oct='4' dur='4' xml:id='443-0-25-6-f4'/>
+                                    <note pname='e' oct='4' dur='8' xml:id='447-0-25-7-e4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='d' oct='4' dur='4' xml:id='430-1-25-0-d4'/>
+                                    <note pname='b' oct='3' dur='4' xml:id='435-1-25-1-b3'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='441-1-25-2-c4'/>
+                                    <note pname='c' oct='4' dur='4' xml:id='446-1-25-3-c4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='4' xml:id='429-2-25-0-a3'/>
+                                    <note pname='f' oct='3' dur='4' xml:id='434-2-25-1-f3'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='440-2-25-2-g3'/>
+                                    <note pname='g' oct='3' dur='4' xml:id='445-2-25-3-g3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='d' oct='3' dur='4' xml:id='428-3-25-0-d3'/>
+                                    <note pname='b' oct='2' dur='4' xml:id='433-3-25-1-b2'/>
+                                    <note pname='c' oct='3' dur='4' xml:id='439-3-25-2-c3'/>
+                                    <note pname='c' oct='3' dur='4' xml:id='444-3-25-3-c3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='26' right='end'>
+                            <staff n='1'>
+                                <layer n='2'>
+                                    <note pname='f' oct='4' dur='8' xml:id='451-0-26-0-f4'/>
+                                    <note pname='e' oct='4' dur='16' xml:id='452-0-26-1-e4'/>
+                                    <note pname='d' oct='4' dur='16' xml:id='453-0-26-2-d4'/>
+                                    <note pname='c' oct='4' dur='16' xml:id='454-0-26-3-c4'/>
+                                    <note pname='b' oct='3' dur='16' xml:id='455-0-26-4-b3'/>
+                                    <note pname='a' oct='3' dur='16' xml:id='456-0-26-5-a3'/>
+                                    <note pname='g' oct='3' dur='16' xml:id='457-0-26-6-g3'/>
+                                    <note pname='f' oct='4' dur='2' xml:id='461-0-26-7-f4'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='c' oct='4' dur='2' xml:id='450-1-26-0-c4'/>
+                                    <note pname='c' oct='4' dur='2' xml:id='460-1-26-1-c4'/>
+                                </layer>
+                            </staff>
+                            <staff n='2'>
+                                <layer n='2'>
+                                    <note pname='a' oct='3' dur='2' xml:id='449-2-26-0-a3'/>
+                                    <note pname='a' oct='3' dur='2' xml:id='459-2-26-1-a3'/>
+                                </layer>
+                                <layer n='1'>
+                                    <note pname='f' oct='3' dur='2' xml:id='448-3-26-0-f3'/>
+                                    <note pname='f' oct='3' dur='2' xml:id='458-3-26-1-f3'/>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body> 
+    </music>
+</mei> 
